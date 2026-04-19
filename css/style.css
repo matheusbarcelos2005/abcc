@@ -120,6 +120,7 @@ img { max-width: 100%; display: block; }
     align-items: center;
     overflow: hidden;
     background: var(--bg-deep);
+    padding-top: 80px;
 }
 .hero-bg {
     position: absolute;
@@ -1124,6 +1125,7 @@ footer {
 
 /* Responsive */
 @media (max-width: 768px) {
+    .hero-section { padding-top: 90px; }
     .hero-title { font-size: clamp(2.4rem, 10vw, 4rem); }
     .hero-stats { gap: 1.5rem; }
     .hero-stat-num { font-size: 1.8rem; }
