@@ -77,13 +77,68 @@
     </div>
 </div>
 
+<!-- ── MOBILE BAR (search + filtros button) ── -->
+<div class="cat-mobile-bar">
+    <div class="cat-mobile-search">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <input type="search" id="mobileSearchInput" placeholder="Buscar produto...">
+    </div>
+    <button class="btn-filtros" id="btnFiltros">
+        <i class="fa-solid fa-sliders"></i> Filtros
+        <span class="filter-badge" id="filterBadge"></span>
+    </button>
+</div>
+
+<!-- ── FILTER DRAWER ── -->
+<div class="filter-drawer-overlay" id="drawerOverlay"></div>
+<div class="filter-drawer" id="filterDrawer">
+    <div class="drawer-handle"></div>
+    <div class="drawer-header">
+        <h3><i class="fa-solid fa-sliders me-2" style="color:var(--accent)"></i>Filtros</h3>
+        <button class="drawer-close" id="drawerClose"><i class="fa-solid fa-xmark"></i></button>
+    </div>
+    <div class="drawer-body">
+        <!-- Categorias -->
+        <div class="drawer-section">
+            <div class="drawer-section-title"><i class="fa-solid fa-list"></i> Categorias</div>
+            <div class="drawer-cats" id="drawerCats"></div>
+        </div>
+        <!-- Ordenar -->
+        <div class="drawer-section">
+            <div class="drawer-section-title"><i class="fa-solid fa-arrow-down-a-z"></i> Ordenar por</div>
+            <div class="drawer-sort-pills" id="drawerSort">
+                <span class="sort-pill active" data-sort="default">Padrão</span>
+                <span class="sort-pill" data-sort="name-az">Nome A–Z</span>
+                <span class="sort-pill" data-sort="name-za">Nome Z–A</span>
+                <span class="sort-pill" data-sort="price-asc">Menor preço</span>
+                <span class="sort-pill" data-sort="price-desc">Maior preço</span>
+            </div>
+        </div>
+        <!-- Destaque -->
+        <div class="drawer-section">
+            <div class="drawer-section-title"><i class="fa-solid fa-star"></i> Destaques</div>
+            <div class="drawer-toggle-row">
+                <span class="drawer-toggle-label">Apenas produtos em destaque</span>
+                <label class="sidebar-toggle">
+                    <input type="checkbox" id="drawerDestaque">
+                    <span class="toggle-track"></span>
+                </label>
+            </div>
+        </div>
+    </div>
+    <div class="drawer-footer">
+        <button class="btn-drawer-clear" id="drawerClear">Limpar</button>
+        <button class="btn-drawer-apply" id="drawerApply">Ver resultados</button>
+    </div>
+</div>
+
 <!-- ── MAIN CONTENT ── -->
 <main class="cat-main">
     <div class="container-fluid px-4 px-lg-5">
         <div class="row g-4">
 
-            <!-- Sidebar -->
-            <div class="col-lg-2 col-xl-2">
+            <!-- Sidebar desktop -->
+            <div class="col-lg-2 col-xl-2 cat-sidebar-col">
                 <div class="cat-sidebar" id="catSidebar">
                     <div class="sidebar-section">
                         <div class="sidebar-heading">
@@ -121,7 +176,7 @@
             </div>
 
             <!-- Products area -->
-            <div class="col-lg-10 col-xl-10">
+            <div class="col-lg-10 col-xl-10 cat-products-col">
 
                 <!-- Toolbar -->
                 <div class="cat-toolbar">

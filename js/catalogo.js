@@ -277,6 +277,45 @@ function buildWaMessage() {
     return msg;
 }
 
+// ── Render drawer categories ─────────────────────────────────
+function renderDrawerCats() {
+    const container = document.getElementById('drawerCats');
+    if (!container) return;
+    const cats = getCategories();
+    const countMap = {};
+    produtos.forEach(p => { countMap[p.categoria] = (countMap[p.categoria]||0)+1; });
+
+    container.innerHTML = ['Todos', ...cats].map(cat => `
+        <div class="drawer-cat-item${currentCategory === cat ? ' active' : ''}" data-cat="${cat}">
+            <span>${cat}</span>
+            <span class="cat-count">${cat === 'Todos' ? produtos.length : (countMap[cat]||0)}</span>
+        </div>
+    `).join('');
+
+    container.querySelectorAll('.drawer-cat-item').forEach(el => {
+        el.addEventListener('click', () => {
+            currentCategory = el.dataset.cat;
+            container.querySelectorAll('.drawer-cat-item').forEach(x => x.classList.remove('active'));
+            el.classList.add('active');
+        });
+    });
+}
+
+// ── Update filter badge count ────────────────────────────────
+function updateFilterBadge() {
+    const badge = document.getElementById('filterBadge');
+    if (!badge) return;
+    let count = 0;
+    if (currentCategory !== 'Todos') count++;
+    if (searchQuery) count++;
+    if (destaqueOnly) count++;
+    if (sortMode !== 'default') count++;
+    badge.textContent = count || '';
+    badge.classList.toggle('visible', count > 0);
+    const btn = document.getElementById('btnFiltros');
+    btn?.classList.toggle('active', count > 0);
+}
+
 // ── Wire social/WA links ──────────────────────────────────────
 function wireLinks() {
     const wa = `https://wa.me/${appConfig.whatsappNumber}?text=${encodeURIComponent(appConfig.whatsappGreeting)}`;
@@ -304,7 +343,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const nav = document.getElementById('mainNavbar');
     window.addEventListener('scroll', () => nav?.classList.toggle('scrolled', window.scrollY > 60));
 
-    // search
+    // ── Desktop search ──
     const searchInput = document.getElementById('searchInput');
     const searchClear = document.getElementById('searchClear');
     searchInput?.addEventListener('input', () => {
@@ -312,21 +351,78 @@ document.addEventListener('DOMContentLoaded', () => {
         searchClear?.classList.toggle('visible', searchQuery.length > 0);
         renderProducts();
         renderActiveFilters();
+        updateFilterBadge();
     });
     searchClear?.addEventListener('click', () => window.clearSearch());
 
-    // sort
+    // ── Mobile search ──
+    const mobileSearch = document.getElementById('mobileSearchInput');
+    mobileSearch?.addEventListener('input', () => {
+        searchQuery = mobileSearch.value.trim();
+        renderProducts();
+        renderActiveFilters();
+        updateFilterBadge();
+    });
+
+    // ── Desktop sort ──
     document.getElementById('sortSelect')?.addEventListener('change', e => {
         sortMode = e.target.value;
         renderProducts();
     });
 
-    // destaque toggle
+    // ── Desktop destaque ──
     document.getElementById('destaqueFilter')?.addEventListener('change', e => {
         destaqueOnly = e.target.checked;
         renderProducts();
         renderActiveFilters();
+        updateFilterBadge();
     });
+
+    // ── DRAWER logic ──
+    const drawer        = document.getElementById('filterDrawer');
+    const overlay       = document.getElementById('drawerOverlay');
+    const btnFiltros    = document.getElementById('btnFiltros');
+    const drawerClose   = document.getElementById('drawerClose');
+    const drawerApply   = document.getElementById('drawerApply');
+    const drawerClear   = document.getElementById('drawerClear');
+
+    function openDrawer() {
+        renderDrawerCats();
+        drawer?.classList.add('open');
+        overlay?.classList.add('open');
+        document.body.style.overflow = 'hidden';
+    }
+    function closeDrawer() {
+        drawer?.classList.remove('open');
+        overlay?.classList.remove('open');
+        document.body.style.overflow = '';
+    }
+
+    btnFiltros?.addEventListener('click', openDrawer);
+    drawerClose?.addEventListener('click', closeDrawer);
+    overlay?.addEventListener('click', closeDrawer);
+    drawerApply?.addEventListener('click', () => { renderProducts(); renderActiveFilters(); updateFilterBadge(); closeDrawer(); });
+    drawerClear?.addEventListener('click', () => {
+        currentCategory = 'Todos'; sortMode = 'default'; destaqueOnly = false;
+        const ms = document.getElementById('mobileSearchInput'); if (ms) ms.value = '';
+        searchQuery = '';
+        document.getElementById('drawerDestaque') && (document.getElementById('drawerDestaque').checked = false);
+        document.querySelectorAll('.sort-pill').forEach(p => p.classList.toggle('active', p.dataset.sort === 'default'));
+        renderDrawerCats();
+        renderProducts(); renderActiveFilters(); updateFilterBadge();
+    });
+
+    // Drawer sort pills
+    document.getElementById('drawerSort')?.querySelectorAll('.sort-pill').forEach(pill => {
+        pill.addEventListener('click', () => {
+            document.querySelectorAll('.sort-pill').forEach(p => p.classList.remove('active'));
+            pill.classList.add('active');
+            sortMode = pill.dataset.sort;
+        });
+    });
+
+    // Drawer destaque
+    document.getElementById('drawerDestaque')?.addEventListener('change', e => { destaqueOnly = e.target.checked; });
 
     // view toggle
     document.getElementById('viewGrid')?.addEventListener('click', () => {
