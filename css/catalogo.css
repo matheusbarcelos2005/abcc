@@ -1,0 +1,329 @@
+/* =========================================================
+   CATALOG PAGE — específico
+   ========================================================= */
+
+.catalogo-page { padding-top: 76px; }
+
+/* ── Page header ── */
+.cat-page-header {
+    background: var(--bg-card);
+    border-bottom: 1px solid var(--border);
+    padding: 2.5rem 0;
+    position: relative;
+    overflow: hidden;
+}
+.cat-page-header-bg {
+    position: absolute;
+    inset: 0;
+    background:
+        radial-gradient(ellipse 50% 100% at 80% 50%, rgba(255,107,0,0.08) 0%, transparent 60%),
+        radial-gradient(ellipse 30% 80% at 10% 50%, rgba(255,200,0,0.04) 0%, transparent 50%);
+    pointer-events: none;
+}
+.cat-page-breadcrumb {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.78rem;
+    color: var(--text-muted);
+    margin-bottom: 0.8rem;
+}
+.cat-page-breadcrumb a { color: var(--accent); }
+.cat-page-breadcrumb i { font-size: 0.6rem; }
+.cat-page-title {
+    font-family: var(--font-head);
+    font-size: clamp(2rem, 4vw, 3rem);
+    color: #fff;
+    margin-bottom: 0.6rem;
+    line-height: 1;
+}
+.cat-page-title span { color: var(--accent); }
+.cat-page-desc { color: var(--text-muted); font-size: 0.95rem; max-width: 480px; margin: 0; }
+
+.cat-stat { text-align: center; }
+.cat-stat-num {
+    display: block;
+    font-family: var(--font-head);
+    font-size: 2rem;
+    color: #fff;
+    line-height: 1;
+}
+.cat-stat-label {
+    display: block;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--text-muted);
+    margin-top: 0.2rem;
+}
+.cat-stat-divider {
+    width: 1px;
+    height: 40px;
+    background: var(--border);
+}
+
+/* ── Main layout ── */
+.cat-main { padding: 2rem 0 5rem; }
+
+/* ── Sidebar ── */
+.cat-sidebar {
+    position: sticky;
+    top: 96px;
+}
+.sidebar-section { }
+.sidebar-heading {
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    margin-bottom: 0.8rem;
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+}
+.sidebar-heading i { color: var(--accent); }
+.sidebar-cats { display: flex; flex-direction: column; gap: 0.2rem; }
+.sidebar-cat-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.45rem 0.7rem;
+    border-radius: 8px;
+    font-size: 0.83rem;
+    color: var(--text-muted);
+    cursor: pointer;
+    transition: var(--transition);
+    border: 1px solid transparent;
+    user-select: none;
+}
+.sidebar-cat-item:hover {
+    background: rgba(255,107,0,0.06);
+    color: var(--text);
+    border-color: rgba(255,107,0,0.15);
+}
+.sidebar-cat-item.active {
+    background: rgba(255,107,0,0.12);
+    color: var(--accent);
+    border-color: rgba(255,107,0,0.25);
+    font-weight: 600;
+}
+.sidebar-cat-item .cat-count {
+    background: var(--bg-surface);
+    color: var(--text-dim);
+    font-size: 0.68rem;
+    padding: 0.1rem 0.4rem;
+    border-radius: 50px;
+    min-width: 22px;
+    text-align: center;
+}
+.sidebar-cat-item.active .cat-count {
+    background: rgba(255,107,0,0.2);
+    color: var(--accent);
+}
+.sidebar-select {
+    width: 100%;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    color: var(--text);
+    padding: 0.5rem 0.8rem;
+    font-size: 0.83rem;
+    outline: none;
+    transition: var(--transition);
+    cursor: pointer;
+}
+.sidebar-select:focus { border-color: var(--accent); }
+.sidebar-select option { background: var(--bg-card); }
+
+.sidebar-toggle {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    font-size: 0.83rem;
+    color: var(--text-muted);
+    cursor: pointer;
+    user-select: none;
+}
+.sidebar-toggle input { display: none; }
+.toggle-track {
+    width: 36px; height: 20px;
+    background: var(--bg-surface);
+    border: 1px solid var(--border);
+    border-radius: 50px;
+    position: relative;
+    flex-shrink: 0;
+    transition: var(--transition);
+}
+.toggle-track::after {
+    content: '';
+    position: absolute;
+    top: 3px; left: 3px;
+    width: 12px; height: 12px;
+    background: var(--text-dim);
+    border-radius: 50%;
+    transition: var(--transition);
+}
+.sidebar-toggle input:checked + .toggle-track {
+    background: rgba(255,107,0,0.2);
+    border-color: var(--accent);
+}
+.sidebar-toggle input:checked + .toggle-track::after {
+    background: var(--accent);
+    left: 19px;
+}
+
+/* ── Toolbar ── */
+.cat-toolbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    flex-wrap: wrap;
+}
+.toolbar-left { flex: 1; min-width: 240px; }
+.toolbar-right { display: flex; align-items: center; gap: 1rem; }
+.cat-search-wrap {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.cat-search-wrap > i {
+    position: absolute;
+    left: 1rem;
+    color: var(--text-muted);
+    pointer-events: none;
+    font-size: 0.9rem;
+}
+#searchInput {
+    width: 100%;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 50px;
+    color: var(--text);
+    padding: 0.7rem 2.8rem 0.7rem 2.8rem;
+    font-size: 0.9rem;
+    outline: none;
+    transition: var(--transition);
+}
+#searchInput::placeholder { color: var(--text-dim); }
+#searchInput:focus {
+    border-color: var(--accent);
+    box-shadow: 0 0 0 3px var(--accent-glow);
+}
+.search-clear {
+    position: absolute;
+    right: 0.8rem;
+    background: none;
+    border: none;
+    color: var(--text-dim);
+    cursor: pointer;
+    font-size: 0.85rem;
+    padding: 0.2rem 0.4rem;
+    display: none;
+    transition: var(--transition);
+}
+.search-clear:hover { color: var(--text); }
+.search-clear.visible { display: flex; }
+
+.results-count { font-size: 0.8rem; color: var(--text-muted); white-space: nowrap; }
+
+.view-toggle { display: flex; gap: 0.3rem; }
+.view-btn {
+    width: 34px; height: 34px;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    color: var(--text-muted);
+    cursor: pointer;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 0.85rem;
+    transition: var(--transition);
+}
+.view-btn.active, .view-btn:hover {
+    border-color: var(--accent);
+    color: var(--accent);
+    background: rgba(255,107,0,0.08);
+}
+
+/* ── Active filters ── */
+.active-filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 1.2rem;
+    min-height: 0;
+}
+.filter-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    background: rgba(255,107,0,0.1);
+    border: 1px solid rgba(255,107,0,0.25);
+    color: var(--accent);
+    font-size: 0.78rem;
+    font-weight: 600;
+    padding: 0.3rem 0.8rem;
+    border-radius: 50px;
+}
+.filter-chip button {
+    background: none;
+    border: none;
+    color: var(--accent);
+    cursor: pointer;
+    padding: 0;
+    line-height: 1;
+    font-size: 0.8rem;
+    opacity: 0.7;
+}
+.filter-chip button:hover { opacity: 1; }
+
+/* ── Product grid (catalog page overrides) ── */
+.catalogo-page .products-grid {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1.2rem;
+}
+.catalogo-page.list-view .products-grid {
+    grid-template-columns: 1fr;
+    gap: 0.8rem;
+}
+.catalogo-page.list-view .product-card {
+    flex-direction: row;
+    border-radius: var(--radius);
+}
+.catalogo-page.list-view .product-img-wrap {
+    width: 100px;
+    min-width: 100px;
+    height: 100px;
+    border-radius: var(--radius) 0 0 var(--radius);
+}
+.catalogo-page.list-view .product-img-wrap img { width: 80px; height: 80px; }
+.catalogo-page.list-view .product-body { padding: 0.8rem; }
+.catalogo-page.list-view .product-price { font-size: 1.2rem; }
+.catalogo-page.list-view .product-actions {
+    flex-direction: column;
+    padding: 0.8rem;
+    justify-content: center;
+    gap: 0.4rem;
+    border-left: 1px solid var(--border);
+    min-width: 130px;
+}
+.catalogo-page.list-view .btn-wa-quick { width: 100%; border-radius: var(--radius); }
+
+/* ── Footer (mini) ── */
+.cat-footer {
+    background: var(--bg-card);
+    border-top: 1px solid var(--border);
+    padding: 1.2rem 0;
+    margin-top: 3rem;
+}
+
+/* ── No results ── */
+.no-results {
+    text-align: center;
+    padding: 5rem 0;
+    color: var(--text-muted);
+    display: none;
+}
+.no-results i { font-size: 3rem; color: var(--text-dim); display: block; margin-bottom: 1rem; }

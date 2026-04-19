@@ -1,0 +1,2420 @@
+[
+  {
+    "raw": "TS.48.350.32.3A-RODASISALCOMTECALG350X32IMP3A",
+    "simp": "TS 48 350 32 3A RODASISALCOMTECALG350X32IMP3A",
+    "best_site": "Roda Lisa Sisal/Algodão 1A 150x13",
+    "score": 0.41
+  },
+  {
+    "raw": "TS.48.350.32.4-RODASISALCOMTECALG350X32IMP4",
+    "simp": "TS 48 350 32 4 RODASISALCOMTECALG350X32IMP4",
+    "best_site": "Roda Lisa Sisal/Algodão 1A 150x13",
+    "score": 0.421
+  },
+  {
+    "raw": "TS.48.350.45.4-RODASISALCOMTECALG350X45IMP4",
+    "simp": "TS 48 350 45 4 RODASISALCOMTECALG350X45IMP4",
+    "best_site": "Roda Lisa Sisal/Algodão 1A 150x13",
+    "score": 0.395
+  },
+  {
+    "raw": "TS.L1.48.250.50.CH.1D-RODASISALFORROLARANJA250X50CHA",
+    "simp": "TS L1 48 250 50 CH 1D RODASISALFORROLARANJA250X50CHA",
+    "best_site": "Roda Lisa Sisal/Algodão 1A 150x13",
+    "score": 0.353
+  },
+  {
+    "raw": "TS.L1.48.250.52.CH.2-RODASISALCOMFORROLARANJA250X52C",
+    "simp": "TS L1 48 250 52 CH 2 RODASISALCOMFORROLARANJA250X52C",
+    "best_site": "Roda Plissada Algodão Rosa 300x32",
+    "score": 0.376
+  },
+  {
+    "raw": "TS.L1.48.300.32.4-RODASISALFORROLARANJA300X32IMP4",
+    "simp": "TS L1 48 300 32 4 RODASISALFORROLARANJA300X32IMP4",
+    "best_site": "Roda Plissada Algodão Rosa 300x32",
+    "score": 0.439
+  },
+  {
+    "raw": "TS.L1.48.350.32.1D-RODASISALFORROLARANJA350X32IMP1D",
+    "simp": "TS L1 48 350 32 1D RODASISALFORROLARANJA350X32IMP1D",
+    "best_site": "Roda Plissada Algodão Rosa 300x32",
+    "score": 0.405
+  },
+  {
+    "raw": "TS.L1.48.350.32.4-RODASISALFORROLARANJA350X32IMP4",
+    "simp": "TS L1 48 350 32 4 RODASISALFORROLARANJA350X32IMP4",
+    "best_site": "Roda Plissada Algodão Rosa 300x32",
+    "score": 0.415
+  },
+  {
+    "raw": "V.A1.16.150.13-RODAVENTILADATECALGRESAMARELO150X13",
+    "simp": "V A1 16 150 13 RODAVENTILADATECALGRESAMARELO150X13",
+    "best_site": "Roda Ventilada Algodão Amarela 200x13",
+    "score": 0.598
+  },
+  {
+    "raw": "V.A1.16.200.13-RODAVENTILADATECALGRESAMARELO200X13",
+    "simp": "V A1 16 200 13 RODAVENTILADATECALGRESAMARELO200X13",
+    "best_site": "Roda Ventilada Algodão Amarela 200x13",
+    "score": 0.644
+  },
+  {
+    "raw": "V.A1.16.250.13-RODAVENTILADATECALGRESAMARELO250X13",
+    "simp": "V A1 16 250 13 RODAVENTILADATECALGRESAMARELO250X13",
+    "best_site": "Roda Ventilada Algodão Amarela 200x13",
+    "score": 0.621
+  },
+  {
+    "raw": "V.A1.16.250.32-RODAVENTILADATECALGRESAMARELO250X32",
+    "simp": "V A1 16 250 32 RODAVENTILADATECALGRESAMARELO250X32",
+    "best_site": "Roda Ventilada Algodão Amarela 200x13",
+    "score": 0.598
+  },
+  {
+    "raw": "V.A1.16.300.32-RODAVENTILADATECALGRESAMARELO300X32",
+    "simp": "V A1 16 300 32 RODAVENTILADATECALGRESAMARELO300X32",
+    "best_site": "Roda Ventilada Algodão Amarela 200x13",
+    "score": 0.598
+  },
+  {
+    "raw": "V.A1.16.350.32-RODAVENTILADATECALGRESAMARELO350X32",
+    "simp": "V A1 16 350 32 RODAVENTILADATECALGRESAMARELO350X32",
+    "best_site": "Roda Ventilada Algodão Amarela 200x13",
+    "score": 0.575
+  },
+  {
+    "raw": "V.C1.16.250.32-RODAVENTILADATECALGCRU250X32",
+    "simp": "V C1 16 250 32 RODAVENTILADATECALGCRU250X32",
+    "best_site": "Roda Ventilada Algodão Rosa 250x13",
+    "score": 0.571
+  },
+  {
+    "raw": "V.D.16.300.32-RODAVENTILADATECALGRESDURO300X32",
+    "simp": "V D 16 300 32 RODAVENTILADATECALGRESDURO300X32",
+    "best_site": "Roda Ventilada Algodão Rosa 250x13",
+    "score": 0.55
+  },
+  {
+    "raw": "V.F.14.200.13-RODAVENTILADATECALGFLANELA200X13",
+    "simp": "V F 14 200 13 RODAVENTILADATECALGFLANELA200X13",
+    "best_site": "Roda Ventilada Flanela 250x13",
+    "score": 0.667
+  },
+  {
+    "raw": "V.F.14.250.13-RODAVENTILADATECALGFLANELA250X13",
+    "simp": "V F 14 250 13 RODAVENTILADATECALGFLANELA250X13",
+    "best_site": "Roda Ventilada Flanela 250x13",
+    "score": 0.693
+  },
+  {
+    "raw": "V.F.14.300.19-RODAVENTILADATECALGFLANELA300X19",
+    "simp": "V F 14 300 19 RODAVENTILADATECALGFLANELA300X19",
+    "best_site": "Roda Ventilada Flanela 250x13",
+    "score": 0.613
+  },
+  {
+    "raw": "V.F.14.300.32-RODAVENTILADATECALGFLANELA300X32",
+    "simp": "V F 14 300 32 RODAVENTILADATECALGFLANELA300X32",
+    "best_site": "Roda Ventilada Flanela 250x13",
+    "score": 0.613
+  },
+  {
+    "raw": "V.F.14.400.32-RODAVENTILADATECALGFLANELA400X32",
+    "simp": "V F 14 400 32 RODAVENTILADATECALGFLANELA400X32",
+    "best_site": "Roda Ventilada Flanela 250x13",
+    "score": 0.613
+  },
+  {
+    "raw": "V.GB1.14.300.32-RODAVENTILADAGENIALBRANCO300X32",
+    "simp": "V GB1 14 300 32 RODAVENTILADAGENIALBRANCO300X32",
+    "best_site": "Roda Ventilada Algodão Amarela 200x13",
+    "score": 0.5
+  },
+  {
+    "raw": "V.R.16.150.13-RODAVENTTECALGRESROSAEXTDURO150X13",
+    "simp": "V R 16 150 13 RODAVENTTECALGRESROSAEXTDURO150X13",
+    "best_site": "Roda Ventilada Algodão Rosa 250x13",
+    "score": 0.488
+  },
+  {
+    "raw": "V.R.16.200.13-RODAVENTTECALGRESROSAEXTDURO200X13",
+    "simp": "V R 16 200 13 RODAVENTTECALGRESROSAEXTDURO200X13",
+    "best_site": "Roda Ventilada Algodão Rosa 250x13",
+    "score": 0.488
+  },
+  {
+    "raw": "V.R.16.250.13-RODAVENTTEC.ALG.RES.ROSAEXTDURO250X13",
+    "simp": "V R 16 250 13 RODAVENTTEC ALG RES ROSAEXTDURO250X13",
+    "best_site": "Roda Ventilada Algodão Rosa 250x13",
+    "score": 0.541
+  },
+  {
+    "raw": "V.R.16.250.13.AAA-DISCOVENTILADATECALGROSADURA250X13",
+    "simp": "V R 16 250 13 AAA DISCOVENTILADATECALGROSADURA250X13",
+    "best_site": "Roda Ventilada Algodão Rosa 250x13",
+    "score": 0.581
+  },
+  {
+    "raw": "V.R.16.250.32.AAA-RODAVENTTECALGRESROSADURO250X32",
+    "simp": "V R 16 250 32 AAA RODAVENTTECALGRESROSADURO250X32",
+    "best_site": "Roda Ventilada Algodão Amarela 200x13",
+    "score": 0.419
+  },
+  {
+    "raw": "V.R.16.300.25.AAA-RODAVENTILADATECALGROSADURO300X25",
+    "simp": "V R 16 300 25 AAA RODAVENTILADATECALGROSADURO300X25",
+    "best_site": "Roda Ventilada Algodão Rosa 250x13",
+    "score": 0.518
+  },
+  {
+    "raw": "V.R.16.300.32-RODAVENTILADATECALGRESROSAEXTDURO",
+    "simp": "V R 16 300 32 RODAVENTILADATECALGRESROSAEXTDURO",
+    "best_site": "Roda Ventilada Algodão Rosa 250x13",
+    "score": 0.519
+  },
+  {
+    "raw": "V.R.16.350.25.AAA-RODAVENTILADATECALGRESROSAEXDURO",
+    "simp": "V R 16 350 25 AAA RODAVENTILADATECALGRESROSAEXDURO",
+    "best_site": "Roda Ventilada Algodão Rosa 250x13",
+    "score": 0.5
+  },
+  {
+    "raw": "V.R.16.350.32-RODAVENTILADATECALGRESROSADURO350X32",
+    "simp": "V R 16 350 32 RODAVENTILADATECALGRESROSADURO350X32",
+    "best_site": "Roda Ventilada Algodão Rosa 250x13",
+    "score": 0.571
+  },
+  {
+    "raw": "V.R.16.350.32.AAA-RODAVENTILADATECALGRESROSAEXTDURO",
+    "simp": "V R 16 350 32 AAA RODAVENTILADATECALGRESROSAEXTDURO",
+    "best_site": "Roda Ventilada Algodão Rosa 250x13",
+    "score": 0.494
+  },
+  {
+    "raw": "V.R.16.400.32AAA-RODAVENTILADATECALGRESROSA400X32",
+    "simp": "V R 16 400 32AAA RODAVENTILADATECALGRESROSA400X32",
+    "best_site": "Roda Ventilada Algodão Rosa 250x13",
+    "score": 0.554
+  },
+  {
+    "raw": "V.R.16.500.32-RODAVENTILADATECALGRESROSADURO500X32",
+    "simp": "V R 16 500 32 RODAVENTILADATECALGRESROSADURO500X32",
+    "best_site": "Roda Ventilada Algodão Rosa 250x13",
+    "score": 0.571
+  },
+  {
+    "raw": "V.R7.16.250.13.AAA-RODAVENTILADATECROSAEXTDURA250X13",
+    "simp": "V R7 16 250 13 AAA RODAVENTILADATECROSAEXTDURA250X13",
+    "best_site": "Roda Ventilada Algodão Rosa 250x13",
+    "score": 0.535
+  },
+  {
+    "raw": "RODAPGMISTA115X20XM14GR240",
+    "simp": "RODAPGMISTA115X20XM14GR240",
+    "best_site": "Roda PG Mista Berwanger 115x20xM14",
+    "score": 0.7
+  },
+  {
+    "raw": "RODAPGMISTA115X20XM14GR320",
+    "simp": "RODAPGMISTA115X20XM14GR320",
+    "best_site": "Roda PG Mista Berwanger 115x20xM14",
+    "score": 0.7
+  },
+  {
+    "raw": "RODAPGMISTA115X20XM14GR80",
+    "simp": "RODAPGMISTA115X20XM14GR80",
+    "best_site": "Roda PG Mista Berwanger 115x20xM14",
+    "score": 0.712
+  },
+  {
+    "raw": "RODAPGMISTO-RODAPGLIXASCOTHBRITEGR18025X15OX45",
+    "simp": "RODAPGMISTO RODAPGLIXASCOTHBRITEGR18025X15OX45",
+    "best_site": "PG Misto Scoth Brite 25x150",
+    "score": 0.63
+  },
+  {
+    "raw": "RODAPGMISTO-RODAPGLIXASCOTHBRITEGR18050X15OX45",
+    "simp": "RODAPGMISTO RODAPGLIXASCOTHBRITEGR18050X15OX45",
+    "best_site": "PG Misto Scoth Brite 50x150",
+    "score": 0.63
+  },
+  {
+    "raw": "RODAPGMISTO-RODAPGLIXASCOTHBRITEGR8025X15OX45",
+    "simp": "RODAPGMISTO RODAPGLIXASCOTHBRITEGR8025X15OX45",
+    "best_site": "PG Misto Scoth Brite 25x150",
+    "score": 0.639
+  },
+  {
+    "raw": "RODAPGMISTO-RODAPGLIXASCOTHBRITEGR805OX150X45",
+    "simp": "RODAPGMISTO RODAPGLIXASCOTHBRITEGR805OX150X45",
+    "best_site": "PG Misto Scoth Brite 25x150",
+    "score": 0.639
+  },
+  {
+    "raw": "RODAPGRECICLADO",
+    "simp": "RODAPGRECICLADO",
+    "best_site": "Roda Ventilada Flanela 250x13",
+    "score": 0.409
+  },
+  {
+    "raw": "RODASCOTHBRITERECICLADO-RODASCOTHBRITEMACICO25X250",
+    "simp": "RODASCOTHBRITERECICLADO RODASCOTHBRITEMACICO25X250",
+    "best_site": "PG Misto Scoth Brite 25x150",
+    "score": 0.442
+  },
+  {
+    "raw": "RODASCOTHBRITERECICLADO-RODASCOTHBRITEMACICO5OX250",
+    "simp": "RODASCOTHBRITERECICLADO RODASCOTHBRITEMACICO5OX250",
+    "best_site": "Roda Ventilada Flanela 250x13",
+    "score": 0.405
+  },
+  {
+    "raw": "RODASISALRECICLADA",
+    "simp": "RODASISALRECICLADA",
+    "best_site": "Roda Rosa Lisa Sisal/Algodão",
+    "score": 0.522
+  },
+  {
+    "raw": "S.S.8.250.32.4-RODASTANDARDSISAL250X32IMP.4",
+    "simp": "S S 8 250 32 4 RODASTANDARDSISAL250X32IMP 4",
+    "best_site": "Roda Standard Sisal 4 250x32",
+    "score": 0.648
+  },
+  {
+    "raw": "S.S.8.300.32.1A-RODASTANDARDSISAL300X32IMP1A",
+    "simp": "S S 8 300 32 1A RODASTANDARDSISAL300X32IMP1A",
+    "best_site": "Roda Standard Sisal 4 250x32",
+    "score": 0.583
+  },
+  {
+    "raw": "S.S.8.300.32.4-RODASTANDARDSISAL300X32IMP4",
+    "simp": "S S 8 300 32 4 RODASTANDARDSISAL300X32IMP4",
+    "best_site": "Roda Standard Sisal 4 250x32",
+    "score": 0.6
+  },
+  {
+    "raw": "S.S.8.350.32.4-RODASTANDARDSISAL350X32IMP4",
+    "simp": "S S 8 350 32 4 RODASTANDARDSISAL350X32IMP4",
+    "best_site": "Roda Standard Sisal 4 250x32",
+    "score": 0.629
+  },
+  {
+    "raw": "S.S.8.500.32.4-RODASTANDARDSISAL500X32IMP4",
+    "simp": "S S 8 500 32 4 RODASTANDARDSISAL500X32IMP4",
+    "best_site": "Roda Standard Sisal 4 250x32",
+    "score": 0.629
+  },
+  {
+    "raw": "SB-SEBO(BARRA)",
+    "simp": "SB SEBO BARRA",
+    "best_site": "Sebo - barra",
+    "score": 0.87
+  },
+  {
+    "raw": "SB-SEBO(KILOCAIXAFECHADA)",
+    "simp": "SB SEBO KILO",
+    "best_site": "Sebo - kilo",
+    "score": 0.857
+  },
+  {
+    "raw": "TS.24.150.13.8-RODASISALCOMTEALG150X13IMP8",
+    "simp": "TS 24 150 13 8 RODASISALCOMTEALG150X13IMP8",
+    "best_site": "Roda Lisa Sisal/Algodão 1A 150x13",
+    "score": 0.48
+  },
+  {
+    "raw": "TS.24.150.13.8.2C-RODASISALCOMTECALG150X13IMP82C",
+    "simp": "TS 24 150 13 8 2C RODASISALCOMTECALG150X13IMP82C",
+    "best_site": "Roda Lisa Sisal/Algodão 1A 150x13",
+    "score": 0.444
+  },
+  {
+    "raw": "TS.48.150.13CRUA-RODASISALCOMTECALG150X13CRUA",
+    "simp": "TS 48 150 13CRUA RODASISALCOMTECALG150X13CRUA",
+    "best_site": "Roda Lisa Sisal/Algodão 1A 150x13",
+    "score": 0.462
+  },
+  {
+    "raw": "TS.48.150.13.1A-RODASISALCOMTECALG150X13IMP1A",
+    "simp": "TS 48 150 13 1A RODASISALCOMTECALG150X13IMP1A",
+    "best_site": "Roda Lisa Sisal/Algodão 1A 150x13",
+    "score": 0.462
+  },
+  {
+    "raw": "TS.48.150.13.2-RODASISALCOMTECALG150X13IMP2",
+    "simp": "TS 48 150 13 2 RODASISALCOMTECALG150X13IMP2",
+    "best_site": "Roda Lisa Sisal/Algodão 1A 150x13",
+    "score": 0.474
+  },
+  {
+    "raw": "TS.48.150.13.8-RODASISALCOMTECALG150X13IMP8",
+    "simp": "TS 48 150 13 8 RODASISALCOMTECALG150X13IMP8",
+    "best_site": "Roda Lisa Sisal/Algodão 1A 150x13",
+    "score": 0.474
+  },
+  {
+    "raw": "TS.48.150.32.2-RODASISALCOMTECALG150X321IMP2",
+    "simp": "TS 48 150 32 2 RODASISALCOMTECALG150X321IMP2",
+    "best_site": "Roda Lisa Sisal/Algodão 1A 150x13",
+    "score": 0.442
+  },
+  {
+    "raw": "TS.48.180.32.4-RODASISALCOMTECALG180X32IMP4",
+    "simp": "TS 48 180 32 4 RODASISALCOMTECALG180X32IMP4",
+    "best_site": "Roda Lisa Sisal/Algodão 1A 150x13",
+    "score": 0.421
+  },
+  {
+    "raw": "TS.48.200.13.1A-RODASISALCOMTEALG200X13IMP1A",
+    "simp": "TS 48 200 13 1A RODASISALCOMTEALG200X13IMP1A",
+    "best_site": "Roda Tela Sisal/Algodão 1A 200x13",
+    "score": 0.468
+  },
+  {
+    "raw": "TS.48.200.13.2-RODASISALCOMTECALG200X13IMP2",
+    "simp": "TS 48 200 13 2 RODASISALCOMTECALG200X13IMP2",
+    "best_site": "Roda Tela Sisal/Algodão 1A 200x13",
+    "score": 0.474
+  },
+  {
+    "raw": "TS.48.200.13.8-RODASISALTECALG200X13IMP.8",
+    "simp": "TS 48 200 13 8 RODASISALTECALG200X13IMP 8",
+    "best_site": "Roda Tela Sisal/Algodão 1A 200x13",
+    "score": 0.486
+  },
+  {
+    "raw": "TS.48.200.32.4-RODASISALCOMTEC200X32IMP4",
+    "simp": "TS 48 200 32 4 RODASISALCOMTEC200X32IMP4",
+    "best_site": "Roda Standard Sisal 4 250x32",
+    "score": 0.412
+  },
+  {
+    "raw": "TS.48.250.32.1A-RODASISALCOMTECALG250X32IMP1A",
+    "simp": "TS 48 250 32 1A RODASISALCOMTECALG250X32IMP1A",
+    "best_site": "Roda Standard Sisal 4 250x32",
+    "score": 0.411
+  },
+  {
+    "raw": "TS.48.250.32.2-RODASISALCOMTECALG250X32IMP2",
+    "simp": "TS 48 250 32 2 RODASISALCOMTECALG250X32IMP2",
+    "best_site": "Roda Standard Sisal 4 250x32",
+    "score": 0.423
+  },
+  {
+    "raw": "TS.48.250.32.3A-RODASISALCOMTECALG250X32IMP3A",
+    "simp": "TS 48 250 32 3A RODASISALCOMTECALG250X32IMP3A",
+    "best_site": "Roda Standard Sisal 4 250x32",
+    "score": 0.411
+  },
+  {
+    "raw": "TS.48.250.32.4-RODASISALCOMTECALG250X32IMP4",
+    "simp": "TS 48 250 32 4 RODASISALCOMTECALG250X32IMP4",
+    "best_site": "Roda Standard Sisal 4 250x32",
+    "score": 0.423
+  },
+  {
+    "raw": "TS.48.250.32.8-RODASISALCOMTECALG250X32IMP8",
+    "simp": "TS 48 250 32 8 RODASISALCOMTECALG250X32IMP8",
+    "best_site": "Roda Standard Sisal 4 250x32",
+    "score": 0.423
+  },
+  {
+    "raw": "TS.48.250.50.CH.2-RODASISALCOMTECALG250X50CHAVIMP2",
+    "simp": "TS 48 250 50 CH 2 RODASISALCOMTECALG250X50CHAVIMP2",
+    "best_site": "Roda Lisa Sisal/Algodão 1A 150x13",
+    "score": 0.361
+  },
+  {
+    "raw": "TS.48.250.51.CH.2-RODASISALCOMTECALG250X51CHAVIMP2",
+    "simp": "TS 48 250 51 CH 2 RODASISALCOMTECALG250X51CHAVIMP2",
+    "best_site": "Roda Lisa Sisal/Algodão 1A 150x13",
+    "score": 0.386
+  },
+  {
+    "raw": "TS.48.300.32.1A-RODASISALCOMTECALG300X21IMP1A",
+    "simp": "TS 48 300 32 1A RODASISALCOMTECALG300X21IMP1A",
+    "best_site": "Roda Tela Sisal/Algodão 1A 200x13",
+    "score": 0.41
+  },
+  {
+    "raw": "TS.48.300.32.2-RODASISALCOMTECALG300X32IMP2",
+    "simp": "TS 48 300 32 2 RODASISALCOMTECALG300X32IMP2",
+    "best_site": "Roda Tela Sisal/Algodão 1A 200x13",
+    "score": 0.421
+  },
+  {
+    "raw": "TS.48.300.32.4-RODASISALCOMTECALG300X32IMP4",
+    "simp": "TS 48 300 32 4 RODASISALCOMTECALG300X32IMP4",
+    "best_site": "Roda Tela Sisal/Algodão 1A 200x13",
+    "score": 0.421
+  },
+  {
+    "raw": "TS.48.350.32.2-RODASISALCOMTECALG350X32IMP2",
+    "simp": "TS 48 350 32 2 RODASISALCOMTECALG350X32IMP2",
+    "best_site": "Roda Lisa Sisal/Algodão 1A 150x13",
+    "score": 0.421
+  },
+  {
+    "raw": "RODAPGGR32040X250X85",
+    "simp": "RODAPGGR32040X250X85",
+    "best_site": "Rodas PGS 30x150x25",
+    "score": 0.615
+  },
+  {
+    "raw": "RODAPGGR32050X150X45",
+    "simp": "RODAPGGR32050X150X45",
+    "best_site": "Rodas PGS 30x150x25",
+    "score": 0.718
+  },
+  {
+    "raw": "RODAPGGR32050X250X85",
+    "simp": "RODAPGGR32050X250X85",
+    "best_site": "Rodas PGS 30x150x25",
+    "score": 0.667
+  },
+  {
+    "raw": "RODAPGGR32050X300X110",
+    "simp": "RODAPGGR32050X300X110",
+    "best_site": "Rodas PGS 30x150x25",
+    "score": 0.55
+  },
+  {
+    "raw": "RODAPGGR3650X150X45",
+    "simp": "RODAPGGR3650X150X45",
+    "best_site": "Rodas PGS 30x150x25",
+    "score": 0.737
+  },
+  {
+    "raw": "RODAPGGR3625X150X45",
+    "simp": "RODAPGGR3625X150X45",
+    "best_site": "Rodas PGS 30x150x25",
+    "score": 0.684
+  },
+  {
+    "raw": "RODAPGGR3650X250X85",
+    "simp": "RODAPGGR3650X250X85",
+    "best_site": "Rodas PGS 30x150x25",
+    "score": 0.632
+  },
+  {
+    "raw": "RODAPGGR3650X300X110",
+    "simp": "RODAPGGR3650X300X110",
+    "best_site": "Rodas PGS 30x150x25",
+    "score": 0.513
+  },
+  {
+    "raw": "RODAPGGR40025X150X45",
+    "simp": "RODAPGGR40025X150X45",
+    "best_site": "Rodas PGS 30x150x25",
+    "score": 0.667
+  },
+  {
+    "raw": "RODAPGGR40025X250X85",
+    "simp": "RODAPGGR40025X250X85",
+    "best_site": "Rodas PGS 25x250x85 - qualquer grão",
+    "score": 0.566
+  },
+  {
+    "raw": "RODAPGGR40040X250X85",
+    "simp": "RODAPGGR40040X250X85",
+    "best_site": "Rodas PGS 30x150x25",
+    "score": 0.564
+  },
+  {
+    "raw": "RODAPGGR40050X150X45",
+    "simp": "RODAPGGR40050X150X45",
+    "best_site": "Rodas PGS 30x150x25",
+    "score": 0.667
+  },
+  {
+    "raw": "RODAPGGR40050X250X85",
+    "simp": "RODAPGGR40050X250X85",
+    "best_site": "Rodas PGS 30x150x25",
+    "score": 0.615
+  },
+  {
+    "raw": "RODAPGGR5025X250X85",
+    "simp": "RODAPGGR5025X250X85",
+    "best_site": "Roda PGS 50x250x85 - qualquer grão",
+    "score": 0.588
+  },
+  {
+    "raw": "RODAPGGR5050X250X85",
+    "simp": "RODAPGGR5050X250X85",
+    "best_site": "Rodas PGS 30x150x25",
+    "score": 0.632
+  },
+  {
+    "raw": "RODAPGGR6025X150X45",
+    "simp": "RODAPGGR6025X150X45",
+    "best_site": "Rodas PGS 30x150x25",
+    "score": 0.684
+  },
+  {
+    "raw": "RODAPGGR6030X150X45",
+    "simp": "RODAPGGR6030X150X45",
+    "best_site": "Rodas PGS 30x150x25",
+    "score": 0.737
+  },
+  {
+    "raw": "RODAPGGR6050X150X45",
+    "simp": "RODAPGGR6050X150X45",
+    "best_site": "Rodas PGS 30x150x25",
+    "score": 0.684
+  },
+  {
+    "raw": "RODAPGGR6050X250X85",
+    "simp": "RODAPGGR6050X250X85",
+    "best_site": "Rodas PGS 30x150x25",
+    "score": 0.632
+  },
+  {
+    "raw": "RODAPGGR6050X300X110",
+    "simp": "RODAPGGR6050X300X110",
+    "best_site": "Rodas PGS 30x150x25",
+    "score": 0.513
+  },
+  {
+    "raw": "RODAPGGR60025X150X45",
+    "simp": "RODAPGGR60025X150X45",
+    "best_site": "Rodas PGS 30x150x25",
+    "score": 0.667
+  },
+  {
+    "raw": "RODAPGGR60025X250X85",
+    "simp": "RODAPGGR60025X250X85",
+    "best_site": "Rodas PGS 25x250x85 - qualquer grão",
+    "score": 0.566
+  },
+  {
+    "raw": "RODAPGGR60040X250X85",
+    "simp": "RODAPGGR60040X250X85",
+    "best_site": "Rodas PGS 30x150x25",
+    "score": 0.564
+  },
+  {
+    "raw": "RODAPGGR60050X150X45",
+    "simp": "RODAPGGR60050X150X45",
+    "best_site": "Rodas PGS 30x150x25",
+    "score": 0.667
+  },
+  {
+    "raw": "RODAPGGR60050X250X85",
+    "simp": "RODAPGGR60050X250X85",
+    "best_site": "Rodas PGS 30x150x25",
+    "score": 0.615
+  },
+  {
+    "raw": "RODAPGGR60050X300X110",
+    "simp": "RODAPGGR60050X300X110",
+    "best_site": "Roda PG Mista Berwanger 100x50xM14",
+    "score": 0.509
+  },
+  {
+    "raw": "RODAPGGR8025X150X45",
+    "simp": "RODAPGGR8025X150X45",
+    "best_site": "Rodas PGS 30x150x25",
+    "score": 0.684
+  },
+  {
+    "raw": "RODAPGGR8025X250X85",
+    "simp": "RODAPGGR8025X250X85",
+    "best_site": "Rodas PGS 30x150x25",
+    "score": 0.579
+  },
+  {
+    "raw": "RODAPGGR8030X150X25",
+    "simp": "RODAPGGR8030X150X25",
+    "best_site": "Rodas PGS 30x150x25",
+    "score": 0.789
+  },
+  {
+    "raw": "RODAPGGR8040X250X85",
+    "simp": "RODAPGGR8040X250X85",
+    "best_site": "Rodas PGS 30x150x25",
+    "score": 0.579
+  },
+  {
+    "raw": "RODAPGGR8050X150X45",
+    "simp": "RODAPGGR8050X150X45",
+    "best_site": "Rodas PGS 30x150x25",
+    "score": 0.684
+  },
+  {
+    "raw": "RODAPGGR8050X250X85",
+    "simp": "RODAPGGR8050X250X85",
+    "best_site": "Rodas PGS 30x150x25",
+    "score": 0.632
+  },
+  {
+    "raw": "RODAPGGR8050X300X110",
+    "simp": "RODAPGGR8050X300X110",
+    "best_site": "Rodas PGS 30x150x25",
+    "score": 0.513
+  },
+  {
+    "raw": "RODAPGGR80025X150X45",
+    "simp": "RODAPGGR80025X150X45",
+    "best_site": "Rodas PGS 30x150x25",
+    "score": 0.667
+  },
+  {
+    "raw": "RODAPGGR80050X150X45",
+    "simp": "RODAPGGR80050X150X45",
+    "best_site": "Rodas PGS 30x150x25",
+    "score": 0.667
+  },
+  {
+    "raw": "RODAPGMISTA100X50XM14GR120",
+    "simp": "RODAPGMISTA100X50XM14GR120",
+    "best_site": "Roda PG Mista Berwanger 100x50xM14",
+    "score": 0.7
+  },
+  {
+    "raw": "RODAPGMISTA100X50XM14GR180",
+    "simp": "RODAPGMISTA100X50XM14GR180",
+    "best_site": "Roda PG Mista Berwanger 100x50xM14",
+    "score": 0.7
+  },
+  {
+    "raw": "RODAPGMISTA100X50XM14GR240",
+    "simp": "RODAPGMISTA100X50XM14GR240",
+    "best_site": "Roda PG Mista Berwanger 100x50xM14",
+    "score": 0.7
+  },
+  {
+    "raw": "RODAPGMISTA100X50XM14GR320",
+    "simp": "RODAPGMISTA100X50XM14GR320",
+    "best_site": "Roda PG Mista Berwanger 100x50xM14",
+    "score": 0.7
+  },
+  {
+    "raw": "RODAPGMISTA100X50XM14GR80",
+    "simp": "RODAPGMISTA100X50XM14GR80",
+    "best_site": "Roda PG Mista Berwanger 100x50xM14",
+    "score": 0.712
+  },
+  {
+    "raw": "RODAPGMISTA115X20XM14GR180",
+    "simp": "RODAPGMISTA115X20XM14GR180",
+    "best_site": "Roda PG Mista Berwanger 115x20xM14",
+    "score": 0.7
+  },
+  {
+    "raw": "RODAPGGR10025X150X25",
+    "simp": "RODAPGGR10025X150X25",
+    "best_site": "Rodas PGS 30x150x25",
+    "score": 0.718
+  },
+  {
+    "raw": "RODAPGGR10025X150X45",
+    "simp": "RODAPGGR10025X150X45",
+    "best_site": "Rodas PGS 30x150x25",
+    "score": 0.667
+  },
+  {
+    "raw": "RODAPGGR10025X250X85",
+    "simp": "RODAPGGR10025X250X85",
+    "best_site": "Rodas PGS 25x250x85 - qualquer grão",
+    "score": 0.566
+  },
+  {
+    "raw": "RODAPGGR10030X150X45",
+    "simp": "RODAPGGR10030X150X45",
+    "best_site": "Rodas PGS 30x150x25",
+    "score": 0.718
+  },
+  {
+    "raw": "RODAPGGR10050X150X45",
+    "simp": "RODAPGGR10050X150X45",
+    "best_site": "Rodas PGS 30x150x25",
+    "score": 0.667
+  },
+  {
+    "raw": "RODAPGGR10050X250X85",
+    "simp": "RODAPGGR10050X250X85",
+    "best_site": "Rodas PGS 30x150x25",
+    "score": 0.615
+  },
+  {
+    "raw": "RODAPGGR12025X150X45",
+    "simp": "RODAPGGR12025X150X45",
+    "best_site": "Rodas PGS 30x150x25",
+    "score": 0.667
+  },
+  {
+    "raw": "RODAPGGR12025X250X85",
+    "simp": "RODAPGGR12025X250X85",
+    "best_site": "Rodas PGS 25x250x85 - qualquer grão",
+    "score": 0.566
+  },
+  {
+    "raw": "RODAPGGR12040X250X85",
+    "simp": "RODAPGGR12040X250X85",
+    "best_site": "Rodas PGS 30x150x25",
+    "score": 0.564
+  },
+  {
+    "raw": "RODAPGGR12050X150X45",
+    "simp": "RODAPGGR12050X150X45",
+    "best_site": "Rodas PGS 30x150x25",
+    "score": 0.667
+  },
+  {
+    "raw": "RODAPGGR12050X250X85",
+    "simp": "RODAPGGR12050X250X85",
+    "best_site": "Rodas PGS 30x150x25",
+    "score": 0.615
+  },
+  {
+    "raw": "RODAPGGR12050X300X110",
+    "simp": "RODAPGGR12050X300X110",
+    "best_site": "Roda Brim 150x13",
+    "score": 0.541
+  },
+  {
+    "raw": "RODAPGGR15025X150X25",
+    "simp": "RODAPGGR15025X150X25",
+    "best_site": "Rodas PGS 30x150x25",
+    "score": 0.718
+  },
+  {
+    "raw": "RODAPGGR15025X150X45",
+    "simp": "RODAPGGR15025X150X45",
+    "best_site": "Rodas PGS 30x150x25",
+    "score": 0.667
+  },
+  {
+    "raw": "RODAPGGR15025X250X85",
+    "simp": "RODAPGGR15025X250X85",
+    "best_site": "Rodas PGS 30x150x25",
+    "score": 0.615
+  },
+  {
+    "raw": "RODAPGGR15030X150X25",
+    "simp": "RODAPGGR15030X150X25",
+    "best_site": "Rodas PGS 30x150x25",
+    "score": 0.769
+  },
+  {
+    "raw": "RODAPGGR15050X150X45",
+    "simp": "RODAPGGR15050X150X45",
+    "best_site": "Rodas PGS 30x150x25",
+    "score": 0.667
+  },
+  {
+    "raw": "RODAPGGR15050X250X85",
+    "simp": "RODAPGGR15050X250X85",
+    "best_site": "Rodas PGS 30x150x25",
+    "score": 0.615
+  },
+  {
+    "raw": "RODAPGGR15050X300X110",
+    "simp": "RODAPGGR15050X300X110",
+    "best_site": "Roda Brim 150x13",
+    "score": 0.541
+  },
+  {
+    "raw": "RODAPGGR18025X150X45",
+    "simp": "RODAPGGR18025X150X45",
+    "best_site": "Rodas PGS 30x150x25",
+    "score": 0.667
+  },
+  {
+    "raw": "RODAPGGR18050X150X45",
+    "simp": "RODAPGGR18050X150X45",
+    "best_site": "Rodas PGS 30x150x25",
+    "score": 0.667
+  },
+  {
+    "raw": "RODAPGGR18050X250X85",
+    "simp": "RODAPGGR18050X250X85",
+    "best_site": "Rodas PGS 30x150x25",
+    "score": 0.615
+  },
+  {
+    "raw": "RODAPGGR22025X150X45",
+    "simp": "RODAPGGR22025X150X45",
+    "best_site": "Rodas PGS 30x150x25",
+    "score": 0.667
+  },
+  {
+    "raw": "RODAPGGR22025X250X85",
+    "simp": "RODAPGGR22025X250X85",
+    "best_site": "Rodas PGS 25x250x85 - qualquer grão",
+    "score": 0.566
+  },
+  {
+    "raw": "RODAPGGR22030X150X45",
+    "simp": "RODAPGGR22030X150X45",
+    "best_site": "Rodas PGS 30x150x25",
+    "score": 0.718
+  },
+  {
+    "raw": "RODAPGGR22040X250X85",
+    "simp": "RODAPGGR22040X250X85",
+    "best_site": "Rodas PGS 30x150x25",
+    "score": 0.564
+  },
+  {
+    "raw": "RODAPGGR22050X150X45",
+    "simp": "RODAPGGR22050X150X45",
+    "best_site": "Rodas PGS 30x150x25",
+    "score": 0.667
+  },
+  {
+    "raw": "RODAPGGR22050X250X85",
+    "simp": "RODAPGGR22050X250X85",
+    "best_site": "Rodas PGS 30x150x25",
+    "score": 0.615
+  },
+  {
+    "raw": "RODAPGGR22050X300X110",
+    "simp": "RODAPGGR22050X300X110",
+    "best_site": "Rodas PGS 30x150x25",
+    "score": 0.5
+  },
+  {
+    "raw": "RODAPGGR24025X150X45",
+    "simp": "RODAPGGR24025X150X45",
+    "best_site": "Rodas PGS 30x150x25",
+    "score": 0.667
+  },
+  {
+    "raw": "RODAPGGR24025X250X85",
+    "simp": "RODAPGGR24025X250X85",
+    "best_site": "Rodas PGS 25x250x85 - qualquer grão",
+    "score": 0.566
+  },
+  {
+    "raw": "RODAPGGR24050X150X45",
+    "simp": "RODAPGGR24050X150X45",
+    "best_site": "Rodas PGS 30x150x25",
+    "score": 0.667
+  },
+  {
+    "raw": "RODAPGGR24050X250X85",
+    "simp": "RODAPGGR24050X250X85",
+    "best_site": "Rodas PGS 30x150x25",
+    "score": 0.615
+  },
+  {
+    "raw": "RODAPGGR28025X150X45",
+    "simp": "RODAPGGR28025X150X45",
+    "best_site": "Rodas PGS 30x150x25",
+    "score": 0.667
+  },
+  {
+    "raw": "RODAPGGR28025X250X85",
+    "simp": "RODAPGGR28025X250X85",
+    "best_site": "Rodas PGS 25x250x85 - qualquer grão",
+    "score": 0.566
+  },
+  {
+    "raw": "RODAPGGR28050X150X45",
+    "simp": "RODAPGGR28050X150X45",
+    "best_site": "Rodas PGS 30x150x25",
+    "score": 0.667
+  },
+  {
+    "raw": "RODAPGGR28050X250X85",
+    "simp": "RODAPGGR28050X250X85",
+    "best_site": "Rodas PGS 30x150x25",
+    "score": 0.615
+  },
+  {
+    "raw": "RODAPGGR32025X150X25",
+    "simp": "RODAPGGR32025X150X25",
+    "best_site": "Rodas PGS 30x150x25",
+    "score": 0.769
+  },
+  {
+    "raw": "RODAPGGR32025X150X45",
+    "simp": "RODAPGGR32025X150X45",
+    "best_site": "Rodas PGS 30x150x25",
+    "score": 0.718
+  },
+  {
+    "raw": "RODAPGGR32025X250X85",
+    "simp": "RODAPGGR32025X250X85",
+    "best_site": "Rodas PGS 30x150x25",
+    "score": 0.615
+  },
+  {
+    "raw": "RODAPGGR32030X150X25",
+    "simp": "RODAPGGR32030X150X25",
+    "best_site": "Rodas PGS 30x150x25",
+    "score": 0.769
+  },
+  {
+    "raw": "P.A1.16.350.32.4X4-RODAPLISSADATECALGRESAMARELO350X",
+    "simp": "P A1 16 350 32 4X4 RODAPLISSADATECALGRESAMARELO350X",
+    "best_site": "Roda Plissada Algodão Rosa 300x32",
+    "score": 0.5
+  },
+  {
+    "raw": "P.C1.16.250.13.4X4-RODAPLISSADATECALGCRU250X13",
+    "simp": "P C1 16 250 13 4X4 RODAPLISSADATECALGCRU250X13",
+    "best_site": "Roda Plissada Algodão Rosa 300x32",
+    "score": 0.481
+  },
+  {
+    "raw": "P.C1.16.250.32.4X4-RODAPLISSADATECALGCRU250X32",
+    "simp": "P C1 16 250 32 4X4 RODAPLISSADATECALGCRU250X32",
+    "best_site": "Roda Plissada Algodão Rosa 300x32",
+    "score": 0.506
+  },
+  {
+    "raw": "P.D.16.400.32.4X4-RODAPLISSADATECALGRESDURO400X32",
+    "simp": "P D 16 400 32 4X4 RODAPLISSADATECALGRESDURO400X32",
+    "best_site": "Roda Plissada Algodão Rosa 300x32",
+    "score": 0.561
+  },
+  {
+    "raw": "P.R.16.120.60.8-RODALISATECALGROSAEXDURO60HASTE",
+    "simp": "P R 16 120 60 8 RODALISATECALGROSAEXDURO60HASTE",
+    "best_site": "Roda Plissada Algodão Rosa 300x32",
+    "score": 0.4
+  },
+  {
+    "raw": "P.R.16.250.13.4X4-RODAPLISSADAROSAEXTRADURO250X13",
+    "simp": "P R 16 250 13 4X4 RODAPLISSADAROSAEXTRADURO250X13",
+    "best_site": "Roda Plissada Algodão Rosa 300x32",
+    "score": 0.463
+  },
+  {
+    "raw": "P.R.16.250.32.4X4-RODAPLISSADAROSAEXTRADURO250X32",
+    "simp": "P R 16 250 32 4X4 RODAPLISSADAROSAEXTRADURO250X32",
+    "best_site": "Roda Plissada Algodão Rosa 300x32",
+    "score": 0.488
+  },
+  {
+    "raw": "P.R.16.300.32.4X4-RODAPLISSADAROSAEXTRADURO300X32",
+    "simp": "P R 16 300 32 4X4 RODAPLISSADAROSAEXTRADURO300X32",
+    "best_site": "Roda Plissada Algodão Rosa 300x32",
+    "score": 0.537
+  },
+  {
+    "raw": "P.R.16.350.32.4X4-RODAPLISSADAROSAEXTRADURO350X32",
+    "simp": "P R 16 350 32 4X4 RODAPLISSADAROSAEXTRADURO350X32",
+    "best_site": "Roda Plissada Algodão Rosa 300x32",
+    "score": 0.512
+  },
+  {
+    "raw": "P.R.16.400.32.4X4-RODAPLISSADAROSAEXTRADURO400X32",
+    "simp": "P R 16 400 32 4X4 RODAPLISSADAROSAEXTRADURO400X32",
+    "best_site": "Roda Plissada Algodão Rosa 300x32",
+    "score": 0.512
+  },
+  {
+    "raw": "PANO RECICLADO",
+    "simp": "PANO RECICLADO",
+    "best_site": "Sebo - kilo",
+    "score": 0.435
+  },
+  {
+    "raw": "PGCOMROSCA-PGM14115X20MMGR100",
+    "simp": "PGCOMROSCA PGM14115X20MMGR100",
+    "best_site": "Roda PG com Rosca M14 115x20mm",
+    "score": 0.746
+  },
+  {
+    "raw": "PGCOMROSCA-PGM14115X20MMGR120",
+    "simp": "PGCOMROSCA PGM14115X20MMGR120",
+    "best_site": "Roda PG com Rosca M14 115x20mm",
+    "score": 0.746
+  },
+  {
+    "raw": "PGCOMROSCA-PGM14115X20MMGR150",
+    "simp": "PGCOMROSCA PGM14115X20MMGR150",
+    "best_site": "Roda PG com Rosca M14 115x20mm",
+    "score": 0.746
+  },
+  {
+    "raw": "PGCOMROSCA-PGM14115X20MMGR180",
+    "simp": "PGCOMROSCA PGM14115X20MMGR180",
+    "best_site": "Roda PG com Rosca M14 115x20mm",
+    "score": 0.746
+  },
+  {
+    "raw": "PGCOMROSCA-PGM14115X20MMGR220",
+    "simp": "PGCOMROSCA PGM14115X20MMGR220",
+    "best_site": "Roda PG com Rosca M14 115x20mm",
+    "score": 0.746
+  },
+  {
+    "raw": "PGCOMROSCA-PGM14115X20MMGR240",
+    "simp": "PGCOMROSCA PGM14115X20MMGR240",
+    "best_site": "Roda PG com Rosca M14 115x20mm",
+    "score": 0.746
+  },
+  {
+    "raw": "PGCOMROSCA-PGM14115X20MMGR320",
+    "simp": "PGCOMROSCA PGM14115X20MMGR320",
+    "best_site": "Roda PG com Rosca M14 115x20mm",
+    "score": 0.746
+  },
+  {
+    "raw": "PGCOMROSCA-PGM14115X20MMGR60",
+    "simp": "PGCOMROSCA PGM14115X20MMGR60",
+    "best_site": "Roda PG com Rosca M14 115x20mm",
+    "score": 0.759
+  },
+  {
+    "raw": "PGCOMROSCA-PGM14115X20MMGR80",
+    "simp": "PGCOMROSCA PGM14115X20MMGR80",
+    "best_site": "Roda PG com Rosca M14 115x20mm",
+    "score": 0.759
+  },
+  {
+    "raw": "PGCOMROSCAMISTO-PGLIXASCOTHBRITEM14115X2OMM80,180",
+    "simp": "PGCOMROSCAMISTO PGLIXASCOTHBRITEM14115X2OMM80 180",
+    "best_site": "PG Misto Scoth Brite 25x150",
+    "score": 0.553
+  },
+  {
+    "raw": "PGCOMROSCAMISTO-PGLIXASCOTHBRITEM14115X5OMM80,180",
+    "simp": "PGCOMROSCAMISTO PGLIXASCOTHBRITEM14115X5OMM80 180",
+    "best_site": "PG Misto Scoth Brite 25x150",
+    "score": 0.553
+  },
+  {
+    "raw": "POLIAALGODAO-POLIAALGODAO15OX13",
+    "simp": "POLIAALGODAO POLIAALGODAO15OX13",
+    "best_site": "Roda Lisa Sisal/Algodão 1A 150x13",
+    "score": 0.562
+  },
+  {
+    "raw": "POLIAALGODAO-POLIAALGODAO20OX13",
+    "simp": "POLIAALGODAO POLIAALGODAO20OX13",
+    "best_site": "Roda Tela Sisal/Algodão 1A 200x13",
+    "score": 0.562
+  },
+  {
+    "raw": "POLIAALGODAO-POLIAALGODAO25OX13",
+    "simp": "POLIAALGODAO POLIAALGODAO25OX13",
+    "best_site": "Roda Ventilada Algodão Rosa 250x13",
+    "score": 0.554
+  },
+  {
+    "raw": "POLIAALGODAO-POLIAALGODAO25OX32",
+    "simp": "POLIAALGODAO POLIAALGODAO25OX32",
+    "best_site": "Roda Plissada Algodão Rosa 300x32",
+    "score": 0.531
+  },
+  {
+    "raw": "POLIAALGODAO-POLIAALGODAO30OX25",
+    "simp": "POLIAALGODAO POLIAALGODAO30OX25",
+    "best_site": "Roda Plissada Algodão Rosa 300x32",
+    "score": 0.562
+  },
+  {
+    "raw": "POLIAALGODAO-POLIAALGODAO30OX32",
+    "simp": "POLIAALGODAO POLIAALGODAO30OX32",
+    "best_site": "Roda Plissada Algodão Rosa 300x32",
+    "score": 0.594
+  },
+  {
+    "raw": "POLIADEBRIM110X13",
+    "simp": "POLIADEBRIM110X13",
+    "best_site": "Roda Brim 150x13",
+    "score": 0.667
+  },
+  {
+    "raw": "POLIADEBRIM150X13",
+    "simp": "POLIADEBRIM150X13",
+    "best_site": "Roda Brim 150x13",
+    "score": 0.727
+  },
+  {
+    "raw": "POLIADEBRIM200X13",
+    "simp": "POLIADEBRIM200X13",
+    "best_site": "Roda Brim 150x13",
+    "score": 0.606
+  },
+  {
+    "raw": "POLIADEBRIM250X13",
+    "simp": "POLIADEBRIM250X13",
+    "best_site": "Roda Brim 150x13",
+    "score": 0.667
+  },
+  {
+    "raw": "POLIADEBRIM250X32",
+    "simp": "POLIADEBRIM250X32",
+    "best_site": "Escova de Fibra 250x32",
+    "score": 0.615
+  },
+  {
+    "raw": "POLIADEBRIM300X32",
+    "simp": "POLIADEBRIM300X32",
+    "best_site": "Escova de Fibra 350x32",
+    "score": 0.564
+  },
+  {
+    "raw": "RODAPG115X20XM14GR120",
+    "simp": "RODAPG115X20XM14GR120",
+    "best_site": "Roda PG Mista Berwanger 115x20xM14",
+    "score": 0.582
+  },
+  {
+    "raw": "RODAPG115X20XM14GR150",
+    "simp": "RODAPG115X20XM14GR150",
+    "best_site": "Roda PG Mista Berwanger 115x20xM14",
+    "score": 0.582
+  },
+  {
+    "raw": "RODAPG115X20XM14GR240",
+    "simp": "RODAPG115X20XM14GR240",
+    "best_site": "Roda PG Mista Berwanger 115x20xM14",
+    "score": 0.582
+  },
+  {
+    "raw": "RODAPG115X20XM14GR320",
+    "simp": "RODAPG115X20XM14GR320",
+    "best_site": "Rodas PGS 25x150x45 - grãos 36 a 280",
+    "score": 0.582
+  },
+  {
+    "raw": "RODAPG115X20XM14GR60",
+    "simp": "RODAPG115X20XM14GR60",
+    "best_site": "Roda PG Mista Berwanger 115x20xM14",
+    "score": 0.593
+  },
+  {
+    "raw": "RODAPG115X20XM14GR80",
+    "simp": "RODAPG115X20XM14GR80",
+    "best_site": "Roda PG Mista Berwanger 115x20xM14",
+    "score": 0.593
+  },
+  {
+    "raw": "RODAPGG36AOG60025X300X110",
+    "simp": "RODAPGG36AOG60025X300X110",
+    "best_site": "Rodas PGS 30x150x25",
+    "score": 0.5
+  },
+  {
+    "raw": "LIXAVERMELHA-CINTADELIXALS309XG22075X2300",
+    "simp": "LIXAVERMELHA CINTADELIXALS309XG22075X2300",
+    "best_site": "Lixa CS922Y 50x1200",
+    "score": 0.5
+  },
+  {
+    "raw": "LIXAVERMELHA-CINTADELIXALS309XHG10075X2300",
+    "simp": "LIXAVERMELHA CINTADELIXALS309XHG10075X2300",
+    "best_site": "Lixa Amarela LS312JF 50x1200",
+    "score": 0.486
+  },
+  {
+    "raw": "LIXAVERMELHA-CINTADELIXALS309XHG15075X2300",
+    "simp": "LIXAVERMELHA CINTADELIXALS309XHG15075X2300",
+    "best_site": "Lixa Amarela LS312JF 50x1200",
+    "score": 0.543
+  },
+  {
+    "raw": "LIXAVERMELHA-CINTADELIXALS309XHG8075X2300",
+    "simp": "LIXAVERMELHA CINTADELIXALS309XHG8075X2300",
+    "best_site": "Lixa Amarela LS312JF 50x1200",
+    "score": 0.493
+  },
+  {
+    "raw": "LS.23.200.13.2.0,5-RODALISASISALCOMTEC200X13IMP2",
+    "simp": "LS 23 200 13 2 0 5 RODALISASISALCOMTEC200X13IMP2",
+    "best_site": "Roda Lisa Sisal/Algodão 1A 150x13",
+    "score": 0.444
+  },
+  {
+    "raw": "LS.23.200.13.6.0,5-RODALISASISALCOMTEC200X13IMP6",
+    "simp": "LS 23 200 13 6 0 5 RODALISASISALCOMTEC200X13IMP6",
+    "best_site": "Roda Lisa Sisal/Algodão 1A 150x13",
+    "score": 0.444
+  },
+  {
+    "raw": "LS.23.200.13.8.0,5-RODALISASISALCOMTECALG200X13IMP",
+    "simp": "LS 23 200 13 8 0 5 RODALISASISALCOMTECALG200X13IMP",
+    "best_site": "Roda Lisa Sisal/Algodão 1A 150x13",
+    "score": 0.482
+  },
+  {
+    "raw": "LS.78.200.13.4-RODALISASISALCOMTECALG200X13IMP4",
+    "simp": "LS 78 200 13 4 RODALISASISALCOMTECALG200X13IMP4",
+    "best_site": "Roda Lisa Sisal/Algodão 1A 150x13",
+    "score": 0.5
+  },
+  {
+    "raw": "LS.89.110.13.4-RODALISASISALCOMTECALG110X13IMP4",
+    "simp": "LS 89 110 13 4 RODALISASISALCOMTECALG110X13IMP4",
+    "best_site": "Roda Lisa Sisal/Algodão 1A 150x13",
+    "score": 0.55
+  },
+  {
+    "raw": "LS.89.150.13.1A-RODALISASISALCOMTECALG150X13IMP1",
+    "simp": "LS 89 150 13 1A RODALISASISALCOMTECALG150X13IMP1",
+    "best_site": "Roda Lisa Sisal/Algodão 1A 150x13",
+    "score": 0.543
+  },
+  {
+    "raw": "LS.89.150.13.4-RODALISASISALCOMTECALG150X13IMP.4",
+    "simp": "LS 89 150 13 4 RODALISASISALCOMTECALG150X13IMP 4",
+    "best_site": "Roda Lisa Sisal/Algodão 1A 150x13",
+    "score": 0.543
+  },
+  {
+    "raw": "LS.89.200.13.1A-RODALISASISALCOMTECALG200X13IMP.1A",
+    "simp": "LS 89 200 13 1A RODALISASISALCOMTECALG200X13IMP 1A",
+    "best_site": "Roda Lisa Sisal/Algodão 1A 150x13",
+    "score": 0.482
+  },
+  {
+    "raw": "LUVAPANO",
+    "simp": "LUVAPANO",
+    "best_site": "Luva de Pano",
+    "score": 0.8
+  },
+  {
+    "raw": "LUVARASPALONGAP.20",
+    "simp": "LUVARASPALONGAP 20",
+    "best_site": "Luva de Raspa Longa",
+    "score": 0.757
+  },
+  {
+    "raw": "LUVARASPAP7",
+    "simp": "LUVARASPAP7",
+    "best_site": "Luva Raspa Curta",
+    "score": 0.667
+  },
+  {
+    "raw": "LUVAVAQUETAMISTAP7",
+    "simp": "LUVAVAQUETAMISTAP7",
+    "best_site": "Luva Vaqueta Mista",
+    "score": 0.889
+  },
+  {
+    "raw": "LUVAVAQUETAP7",
+    "simp": "LUVAVAQUETAP7",
+    "best_site": "Luva Vaqueta Mista",
+    "score": 0.71
+  },
+  {
+    "raw": "MANGOTECOMFIVELA",
+    "simp": "MANGOTECOMFIVELA",
+    "best_site": "Mangote de Raspa",
+    "score": 0.562
+  },
+  {
+    "raw": "MANTAABRASIVA125X24OMMMARROMFINA",
+    "simp": "MANTAABRASIVA125X24OMMMARROMFINA",
+    "best_site": "Massa Marrom",
+    "score": 0.409
+  },
+  {
+    "raw": "MANTAABRASIVA125X24OMMMARRONMEDIA",
+    "simp": "MANTAABRASIVA125X24OMMMARRONMEDIA",
+    "best_site": "Massa Marrom",
+    "score": 0.4
+  },
+  {
+    "raw": "MASSAOLGAO2-MASSASOLIDALUSTROMAX(BARRA)",
+    "simp": "MASSAOLGAO2 MASSASOLIDALUSTROMAX BARRA",
+    "best_site": "Massa Marrom",
+    "score": 0.44
+  },
+  {
+    "raw": "MASSAOLGAO2-MASSASOLIDALUSTROMAX(KILOCAIXAFECHADA)",
+    "simp": "MASSAOLGAO2 MASSASOLIDALUSTROMAX KILO",
+    "best_site": "Massa Olga 02 - kilo",
+    "score": 0.545
+  },
+  {
+    "raw": "MASSAOLGA04-MASSASOLIDALUSTROMAX(BARRA)",
+    "simp": "MASSAOLGA04 MASSASOLIDALUSTROMAX BARRA",
+    "best_site": "Massa Marrom",
+    "score": 0.44
+  },
+  {
+    "raw": "MASSAOLGA04-MASSASOLIDALUSTROMAX(KILOCAIXAFECHADA)",
+    "simp": "MASSAOLGA04 MASSASOLIDALUSTROMAX KILO",
+    "best_site": "Massa Olga 02 - kilo",
+    "score": 0.545
+  },
+  {
+    "raw": "MS.AZ.P1.G4-MASSASOLIDAAZUL(BARRA)",
+    "simp": "MS AZ P1 G4 MASSASOLIDAAZUL BARRA",
+    "best_site": "Massa Azul",
+    "score": 0.419
+  },
+  {
+    "raw": "MS.AZ.P1.G4-MASSASOLIDAAZUL(KILOCAIXAFECHADA)",
+    "simp": "MS AZ P1 G4 MASSASOLIDAAZUL KILO",
+    "best_site": "Massa Olga 02 - kilo",
+    "score": 0.52
+  },
+  {
+    "raw": "MS.B.P6.G12-MASSASOLIDABRANCA(BARRA)",
+    "simp": "MS B P6 G12 MASSASOLIDABRANCA BARRA",
+    "best_site": "Massa Branca",
+    "score": 0.468
+  },
+  {
+    "raw": "MS.B.P6.G12-MASSASOLIDABRANCA(KILOCAIXAFECHADA)",
+    "simp": "MS B P6 G12 MASSASOLIDABRANCA KILO",
+    "best_site": "Massa Olga 02 - kilo",
+    "score": 0.5
+  },
+  {
+    "raw": "MS.CZ.AAA-MASSASOLIDACINZA(BARRA)",
+    "simp": "MS CZ AAA MASSASOLIDACINZA BARRA",
+    "best_site": "Massa Branca",
+    "score": 0.409
+  },
+  {
+    "raw": "MS.LL.P1O-MASSASOLIDALILAS(KILOCAIXAFECHADA)(MADEIRA)",
+    "simp": "MS LL P1O MASSASOLIDALILAS KILO MADEIRA",
+    "best_site": "Massa Olga 02 - kilo",
+    "score": 0.456
+  },
+  {
+    "raw": "MS.LL.P1O-MASSASOLIDALILASEMBARRA(BARRA)(MADEIRA)",
+    "simp": "MS LL P1O MASSASOLIDALILASEMBARRA BARRA MADEIRA",
+    "best_site": "Massa Marrom",
+    "score": 0.339
+  },
+  {
+    "raw": "MS.LL.P5.BRE-MASSASOLIDALILAS(BARRA）(INOX)",
+    "simp": "MS LL P5 BRE MASSASOLIDALILAS BARRA INOX",
+    "best_site": "Massa Branca",
+    "score": 0.385
+  },
+  {
+    "raw": "MS.LL.P5.BRE-MASSASOLIDALILAS(KILOCAIXAFECHADA)(INOX)",
+    "simp": "MS LL P5 BRE MASSASOLIDALILAS KILO INOX",
+    "best_site": "Massa Olga 02 - kilo",
+    "score": 0.456
+  },
+  {
+    "raw": "MS.M.P4-MASSASOLIDAMARROM",
+    "simp": "MS M P4 MASSASOLIDAMARROM",
+    "best_site": "Massa Marrom",
+    "score": 0.595
+  },
+  {
+    "raw": "MS.R.P1.G6-MASSASOLIDAROSA(BARRA)",
+    "simp": "MS R P1 G6 MASSASOLIDAROSA BARRA",
+    "best_site": "Massa Rosa",
+    "score": 0.429
+  },
+  {
+    "raw": "MS.R.P1.G6-MASSASOLIDAROSA(KILOCAIXAFECHADA)",
+    "simp": "MS R P1 G6 MASSASOLIDAROSA KILO",
+    "best_site": "Massa Olga 02 - kilo",
+    "score": 0.531
+  },
+  {
+    "raw": "P.A1.16.250.13.4X4-RODAPLISSADATECALGAMARELA250X13",
+    "simp": "P A1 16 250 13 4X4 RODAPLISSADATECALGAMARELA250X13",
+    "best_site": "Roda Ventilada Algodão Amarela 200x13",
+    "score": 0.529
+  },
+  {
+    "raw": "P.A1.16.250.32.4X4-RODAPLISSADATECALGAMARELO250X32",
+    "simp": "P A1 16 250 32 4X4 RODAPLISSADATECALGAMARELO250X32",
+    "best_site": "Roda Plissada Algodão Rosa 300x32",
+    "score": 0.506
+  },
+  {
+    "raw": "P.A1.16.300.32.4X4-RODAPLISSADATECALGRESAMARELO300X3",
+    "simp": "P A1 16 300 32 4X4 RODAPLISSADATECALGRESAMARELO300X3",
+    "best_site": "Roda Plissada Algodão Rosa 300x32",
+    "score": 0.541
+  },
+  {
+    "raw": "P.A1.16.300.45.4X4-RODAPLISSADATECALGRESAMARELO300X4",
+    "simp": "P A1 16 300 45 4X4 RODAPLISSADATECALGRESAMARELO300X4",
+    "best_site": "Roda Plissada Algodão Rosa 300x32",
+    "score": 0.518
+  },
+  {
+    "raw": "P.A1.16.300.51.CH.4X4-RODAPLISSADATECAMARELO300X51CHA",
+    "simp": "P A1 16 300 51 CH 4X4 RODAPLISSADATECAMARELO300X51CHA",
+    "best_site": "Roda Plissada Algodão Rosa 300x32",
+    "score": 0.465
+  },
+  {
+    "raw": "LIXAMARRON-CINTADELIXAKA169G15050X2000",
+    "simp": "LIXAMARRON CINTADELIXAKA169G15050X2000",
+    "best_site": "Lixa Marrom Deerfos KA169 50x2000",
+    "score": 0.676
+  },
+  {
+    "raw": "LIXAMARRON-CINTADELIXAKA169G15050X2700",
+    "simp": "LIXAMARRON CINTADELIXAKA169G15050X2700",
+    "best_site": "Lixa Marrom Deerfos KA169 50x2000",
+    "score": 0.648
+  },
+  {
+    "raw": "LIXAMARRON-CINTADELIXAKA169G15070X2300",
+    "simp": "LIXAMARRON CINTADELIXAKA169G15070X2300",
+    "best_site": "Lixa Marrom Deerfos KA169 50x2000",
+    "score": 0.648
+  },
+  {
+    "raw": "LIXAMARRON-CINTADELIXAKA169G22050X2000",
+    "simp": "LIXAMARRON CINTADELIXAKA169G22050X2000",
+    "best_site": "Lixa Marrom Deerfos KA169 50x2000",
+    "score": 0.676
+  },
+  {
+    "raw": "LIXAMARRON-CINTADELIXAKA169G22050X2700",
+    "simp": "LIXAMARRON CINTADELIXAKA169G22050X2700",
+    "best_site": "Lixa Marrom Deerfos KA169 50x2000",
+    "score": 0.648
+  },
+  {
+    "raw": "LIXAMARRON-CINTADELIXAKA169G22070X2300",
+    "simp": "LIXAMARRON CINTADELIXAKA169G22070X2300",
+    "best_site": "Lixa Marrom Deerfos KA169 50x2000",
+    "score": 0.62
+  },
+  {
+    "raw": "LIXAMARRON-CINTADELIXAKA169G32050X2000",
+    "simp": "LIXAMARRON CINTADELIXAKA169G32050X2000",
+    "best_site": "Lixa Marrom Deerfos KA169 50x2000",
+    "score": 0.676
+  },
+  {
+    "raw": "LIXAMARRON-CINTADELIXAKA169G32050X2700",
+    "simp": "LIXAMARRON CINTADELIXAKA169G32050X2700",
+    "best_site": "Lixa Marrom Deerfos KA169 50x2000",
+    "score": 0.648
+  },
+  {
+    "raw": "LIXAMARRON-CINTADELIXAKA169G32070X2300",
+    "simp": "LIXAMARRON CINTADELIXAKA169G32070X2300",
+    "best_site": "Lixa Marrom Deerfos KA169 50x2000",
+    "score": 0.62
+  },
+  {
+    "raw": "LIXAMARRON-CINTADELIXAKA169G3650X2000",
+    "simp": "LIXAMARRON CINTADELIXAKA169G3650X2000",
+    "best_site": "Lixa Marrom Deerfos KA169 50x2000",
+    "score": 0.686
+  },
+  {
+    "raw": "LIXAMARRON-CINTADELIXAKA169G3650X2700",
+    "simp": "LIXAMARRON CINTADELIXAKA169G3650X2700",
+    "best_site": "Lixa Marrom Deerfos KA169 50x2000",
+    "score": 0.657
+  },
+  {
+    "raw": "LIXAMARRON-CINTADELIXAKA169G40050X2000",
+    "simp": "LIXAMARRON CINTADELIXAKA169G40050X2000",
+    "best_site": "Lixa Marrom Deerfos KA169 50x2000",
+    "score": 0.676
+  },
+  {
+    "raw": "LIXAMARRON-CINTADELIXAKA169G40050X2700",
+    "simp": "LIXAMARRON CINTADELIXAKA169G40050X2700",
+    "best_site": "Lixa Marrom Deerfos KA169 50x2000",
+    "score": 0.648
+  },
+  {
+    "raw": "LIXAMARRON-CINTADELIXAKA169G40070X2300",
+    "simp": "LIXAMARRON CINTADELIXAKA169G40070X2300",
+    "best_site": "Lixa Marrom Deerfos KA169 50x2000",
+    "score": 0.62
+  },
+  {
+    "raw": "LIXAMARRON-CINTADELIXAKA169G6050X2000",
+    "simp": "LIXAMARRON CINTADELIXAKA169G6050X2000",
+    "best_site": "Lixa Marrom Deerfos KA169 50x2000",
+    "score": 0.686
+  },
+  {
+    "raw": "LIXAMARRON-CINTADELIXAKA169G6050X2700",
+    "simp": "LIXAMARRON CINTADELIXAKA169G6050X2700",
+    "best_site": "Lixa Marrom Deerfos KA169 50x2000",
+    "score": 0.657
+  },
+  {
+    "raw": "LIXAMARRON-CINTADELIXAKA169G60050X2000",
+    "simp": "LIXAMARRON CINTADELIXAKA169G60050X2000",
+    "best_site": "Lixa Marrom Deerfos KA169 50x2000",
+    "score": 0.676
+  },
+  {
+    "raw": "LIXAMARRON-CINTADELIXAKA169G60050X2700",
+    "simp": "LIXAMARRON CINTADELIXAKA169G60050X2700",
+    "best_site": "Lixa Marrom Deerfos KA169 50x2000",
+    "score": 0.648
+  },
+  {
+    "raw": "LIXAMARRON-CINTADELIXAKA169G8050X2000",
+    "simp": "LIXAMARRON CINTADELIXAKA169G8050X2000",
+    "best_site": "Lixa Marrom Deerfos KA169 50x2000",
+    "score": 0.686
+  },
+  {
+    "raw": "LIXAMARRON-CINTADELIXAKA169G8050X2700",
+    "simp": "LIXAMARRON CINTADELIXAKA169G8050X2700",
+    "best_site": "Lixa Marrom Deerfos KA169 50x2000",
+    "score": 0.657
+  },
+  {
+    "raw": "LIXAMARRON-CINTADELIXAKA169G8070X2300",
+    "simp": "LIXAMARRON CINTADELIXAKA169G8070X2300",
+    "best_site": "Lixa Marrom Deerfos KA169 50x2000",
+    "score": 0.629
+  },
+  {
+    "raw": "LIXARECICLADA100X3000",
+    "simp": "LIXARECICLADA100X3000",
+    "best_site": "Lixa Bora 7 LS990S 50x2000",
+    "score": 0.511
+  },
+  {
+    "raw": "LIXARECICLADA50X1200",
+    "simp": "LIXARECICLADA50X1200",
+    "best_site": "Lixa Amarela LS312JF 50x1200",
+    "score": 0.625
+  },
+  {
+    "raw": "LIXARECICLADA50X2000",
+    "simp": "LIXARECICLADA50X2000",
+    "best_site": "Lixa Amarela LS312JF 50x1200",
+    "score": 0.583
+  },
+  {
+    "raw": "LIXARECICLADA50X2700",
+    "simp": "LIXARECICLADA50X2700",
+    "best_site": "Lixa Amarela LS312JF 50x1200",
+    "score": 0.583
+  },
+  {
+    "raw": "LIXAVERDE-CINTADELIXAG12050X1200",
+    "simp": "LIXAVERDE CINTADELIXAG12050X1200",
+    "best_site": "Lixa Amarela LS312JF 50x1200",
+    "score": 0.567
+  },
+  {
+    "raw": "LIXAVERDE-CINTADELIXAG12050X2000",
+    "simp": "LIXAVERDE CINTADELIXAG12050X2000",
+    "best_site": "Lixa Bora 7 LS990S 50x2000",
+    "score": 0.517
+  },
+  {
+    "raw": "LIXAVERMELHA-CINTADELIXACS310XG22050X2000",
+    "simp": "LIXAVERMELHA CINTADELIXACS310XG22050X2000",
+    "best_site": "Lixa Amarela LS312JF 50x1200",
+    "score": 0.58
+  },
+  {
+    "raw": "LIXAVERMELHA-CINTADELIXACS310XG40050X2000",
+    "simp": "LIXAVERMELHA CINTADELIXACS310XG40050X2000",
+    "best_site": "Lixa Amarela LS312JF 50x1200",
+    "score": 0.551
+  },
+  {
+    "raw": "LIXAVERMELHA-CINTADELIXACS310XG40075X2300",
+    "simp": "LIXAVERMELHA CINTADELIXACS310XG40075X2300",
+    "best_site": "Lixa Amarela LS312JF 50x1200",
+    "score": 0.493
+  },
+  {
+    "raw": "LIXAVERMELHA-CINTADELIXACS922YG10050X2000",
+    "simp": "LIXAVERMELHA CINTADELIXACS922YG10050X2000",
+    "best_site": "Lixa CS922Y 50x1200",
+    "score": 0.567
+  },
+  {
+    "raw": "LIXAVERMELHA-CINTADELIXACS922YG12050X1200",
+    "simp": "LIXAVERMELHA CINTADELIXACS922YG12050X1200",
+    "best_site": "Lixa CS922Y 50x1200",
+    "score": 0.6
+  },
+  {
+    "raw": "LIXAVERMELHA-CINTADELIXACS922YG12050X1500",
+    "simp": "LIXAVERMELHA CINTADELIXACS922YG12050X1500",
+    "best_site": "Lixa CS922Y 50x1200",
+    "score": 0.567
+  },
+  {
+    "raw": "LIXAVERMELHA-CINTADELIXACS922YG12050X2000",
+    "simp": "LIXAVERMELHA CINTADELIXACS922YG12050X2000",
+    "best_site": "Lixa Bora 7 LS990S 50x2000",
+    "score": 0.537
+  },
+  {
+    "raw": "LIXAVERMELHA-CINTADELIXACS922YG15050X2000",
+    "simp": "LIXAVERMELHA CINTADELIXACS922YG15050X2000",
+    "best_site": "Lixa CS922Y 50x1200",
+    "score": 0.567
+  },
+  {
+    "raw": "LIXAVERMELHA-CINTADELIXACS922YG18050X2000",
+    "simp": "LIXAVERMELHA CINTADELIXACS922YG18050X2000",
+    "best_site": "Lixa CS922Y 50x1200",
+    "score": 0.567
+  },
+  {
+    "raw": "LIXAVERMELHA-CINTADELIXACS922YG3650X2000",
+    "simp": "LIXAVERMELHA CINTADELIXACS922YG3650X2000",
+    "best_site": "Lixa CS922Y 50x1200",
+    "score": 0.576
+  },
+  {
+    "raw": "LIXAVERMELHA-CINTADELIXACS922YG5050X2000",
+    "simp": "LIXAVERMELHA CINTADELIXACS922YG5050X2000",
+    "best_site": "Lixa CS922Y 50x1200",
+    "score": 0.576
+  },
+  {
+    "raw": "LIXAVERMELHA-CINTADELIXACS922YG6050X2000",
+    "simp": "LIXAVERMELHA CINTADELIXACS922YG6050X2000",
+    "best_site": "Lixa CS922Y 50x1200",
+    "score": 0.576
+  },
+  {
+    "raw": "LIXAVERMELHA-CINTADELIXACS922YG8050X1200",
+    "simp": "LIXAVERMELHA CINTADELIXACS922YG8050X1200",
+    "best_site": "Lixa CS922Y 50x1200",
+    "score": 0.61
+  },
+  {
+    "raw": "LIXAVERMELHA-CINTADELIXACS922YG8050X2000",
+    "simp": "LIXAVERMELHA CINTADELIXACS922YG8050X2000",
+    "best_site": "Lixa CS922Y 50x1200",
+    "score": 0.576
+  },
+  {
+    "raw": "LIXAAMARELA-CINTADELIXALS312JFG15050X2700",
+    "simp": "LIXAAMARELA CINTADELIXALS312JFG15050X2700",
+    "best_site": "Lixa Amarela LS312JF 50x1200",
+    "score": 0.725
+  },
+  {
+    "raw": "LIXAAMARELA-CINTADELIXALS312JFG15075X2300",
+    "simp": "LIXAAMARELA CINTADELIXALS312JFG15075X2300",
+    "best_site": "Lixa Amarela LS312JF 50x1200",
+    "score": 0.725
+  },
+  {
+    "raw": "LIXAAMARELA-CINTADELIXALS312JFG18050X2000",
+    "simp": "LIXAAMARELA CINTADELIXALS312JFG18050X2000",
+    "best_site": "Lixa Amarela LS312JF 50x1200",
+    "score": 0.725
+  },
+  {
+    "raw": "LIXAAMARELA-CINTADELIXALS312JFG22050X1200",
+    "simp": "LIXAAMARELA CINTADELIXALS312JFG22050X1200",
+    "best_site": "Lixa Amarela LS312JF 50x1200",
+    "score": 0.754
+  },
+  {
+    "raw": "LIXAAMARELA-CINTADELIXALS312JFG22050X1400",
+    "simp": "LIXAAMARELA CINTADELIXALS312JFG22050X1400",
+    "best_site": "Lixa Amarela LS312JF 50x1200",
+    "score": 0.725
+  },
+  {
+    "raw": "LIXAAMARELA-CINTADELIXALS312JFG22050X2000",
+    "simp": "LIXAAMARELA CINTADELIXALS312JFG22050X2000",
+    "best_site": "Lixa Amarela LS312JF 50x1200",
+    "score": 0.725
+  },
+  {
+    "raw": "LIXAAMARELA-CINTADELIXALS312JFG22075X2300",
+    "simp": "LIXAAMARELA CINTADELIXALS312JFG22075X2300",
+    "best_site": "Lixa Amarela LS312JF 50x1200",
+    "score": 0.638
+  },
+  {
+    "raw": "LIXAAMARELA-CINTADELIXALS312JFG32050X1400",
+    "simp": "LIXAAMARELA CINTADELIXALS312JFG32050X1400",
+    "best_site": "Lixa Amarela LS312JF 50x1200",
+    "score": 0.725
+  },
+  {
+    "raw": "LIXAAMARELA-CINTADELIXALS312JFG32050X2000",
+    "simp": "LIXAAMARELA CINTADELIXALS312JFG32050X2000",
+    "best_site": "Lixa Amarela LS312JF 50x1200",
+    "score": 0.725
+  },
+  {
+    "raw": "LIXAAMARELA-CINTADELIXALS312JFG32075X2300",
+    "simp": "LIXAAMARELA CINTADELIXALS312JFG32075X2300",
+    "best_site": "Lixa Amarela LS312JF 50x1200",
+    "score": 0.638
+  },
+  {
+    "raw": "LIXAAMARELA-CINTADELIXALS312JFG40050X1400",
+    "simp": "LIXAAMARELA CINTADELIXALS312JFG40050X1400",
+    "best_site": "Lixa Amarela LS312JF 50x1200",
+    "score": 0.725
+  },
+  {
+    "raw": "LIXAAMARELA-CINTADELIXALS312JFG40050X2000",
+    "simp": "LIXAAMARELA CINTADELIXALS312JFG40050X2000",
+    "best_site": "Lixa Amarela LS312JF 50x1200",
+    "score": 0.725
+  },
+  {
+    "raw": "LIXAAMARELA-CINTADELIXALS312JFG40075X2300",
+    "simp": "LIXAAMARELA CINTADELIXALS312JFG40075X2300",
+    "best_site": "Lixa Amarela LS312JF 50x1200",
+    "score": 0.609
+  },
+  {
+    "raw": "LIXAAMARELA-CINTADELIXALS312JFG6050X2000",
+    "simp": "LIXAAMARELA CINTADELIXALS312JFG6050X2000",
+    "best_site": "Lixa Amarela LS312JF 50x1200",
+    "score": 0.735
+  },
+  {
+    "raw": "LIXAAMARELA-CINTADELIXALS312JFG8050X2000",
+    "simp": "LIXAAMARELA CINTADELIXALS312JFG8050X2000",
+    "best_site": "Lixa Amarela LS312JF 50x1200",
+    "score": 0.735
+  },
+  {
+    "raw": "LIXAAMARELA-CINTADELIXALS312JFG8075X2300",
+    "simp": "LIXAAMARELA CINTADELIXALS312JFG8075X2300",
+    "best_site": "Lixa Amarela LS312JF 50x1200",
+    "score": 0.706
+  },
+  {
+    "raw": "LIXAAZUL-CINTADELIXAJS997G22050X2700",
+    "simp": "LIXAAZUL CINTADELIXAJS997G22050X2700",
+    "best_site": "Lixa CS922Y 50x1200",
+    "score": 0.582
+  },
+  {
+    "raw": "LIXAAZUL-CINTADELIXAJS997G6050X2000",
+    "simp": "LIXAAZUL CINTADELIXAJS997G6050X2000",
+    "best_site": "Lixa Bora 7 LS990S 50x2000",
+    "score": 0.557
+  },
+  {
+    "raw": "LIXAAZUL-CINTADELIXAXZ677G2450X2000",
+    "simp": "LIXAAZUL CINTADELIXAXZ677G2450X2000",
+    "best_site": "Cinta Zircônia Deerfos XZ677 50x2000",
+    "score": 0.535
+  },
+  {
+    "raw": "LIXAAZUL-CINTADELIXAXZ677G3650X1200",
+    "simp": "LIXAAZUL CINTADELIXAXZ677G3650X1200",
+    "best_site": "Lixa Amarela LS312JF 50x1200",
+    "score": 0.54
+  },
+  {
+    "raw": "LIXAAZUL-CINTADELIXAXZ677G3650X2000",
+    "simp": "LIXAAZUL CINTADELIXAXZ677G3650X2000",
+    "best_site": "Cinta Zircônia Deerfos XZ677 50x2000",
+    "score": 0.535
+  },
+  {
+    "raw": "LIXABORA7-CINTADELIXAPS990SG3650X1000",
+    "simp": "LIXABORA7 CINTADELIXAPS990SG3650X1000",
+    "best_site": "Lixa Bora 7 LS990S 50x1000",
+    "score": 0.73
+  },
+  {
+    "raw": "LIXABORA7-CINTADELIXAPS990SG3650X1200",
+    "simp": "LIXABORA7 CINTADELIXAPS990SG3650X1200",
+    "best_site": "Lixa Bora 7 LS990S 50x1000",
+    "score": 0.698
+  },
+  {
+    "raw": "LIXABORA7-CINTADELIXAPS990SG3650X1500",
+    "simp": "LIXABORA7 CINTADELIXAPS990SG3650X1500",
+    "best_site": "Lixa Bora 7 LS990S 50x1500",
+    "score": 0.73
+  },
+  {
+    "raw": "LIXABORA7-CINTADELIXAPS990SG3650X2000",
+    "simp": "LIXABORA7 CINTADELIXAPS990SG3650X2000",
+    "best_site": "Lixa Bora 7 LS990S 50x2000",
+    "score": 0.73
+  },
+  {
+    "raw": "LIXABORA7-CINTADELIXAPS990SG3650X2700",
+    "simp": "LIXABORA7 CINTADELIXAPS990SG3650X2700",
+    "best_site": "Lixa Bora 7 LS990S 50x2000",
+    "score": 0.698
+  },
+  {
+    "raw": "LIXABORA7-CINTADELIXAPS990SG3650X3000",
+    "simp": "LIXABORA7 CINTADELIXAPS990SG3650X3000",
+    "best_site": "Lixa Bora 7 LS990S 50x1000",
+    "score": 0.698
+  },
+  {
+    "raw": "LIXABORA7-CINTADELIXAPS990SG5050X1000",
+    "simp": "LIXABORA7 CINTADELIXAPS990SG5050X1000",
+    "best_site": "Lixa Bora 7 LS990S 50x1000",
+    "score": 0.73
+  },
+  {
+    "raw": "LIXABORA7-CINTADELIXAPS990SG5050X1200",
+    "simp": "LIXABORA7 CINTADELIXAPS990SG5050X1200",
+    "best_site": "Lixa Bora 7 LS990S 50x1000",
+    "score": 0.698
+  },
+  {
+    "raw": "LIXABORA7-CINTADELIXAPS990SG5050X1500",
+    "simp": "LIXABORA7 CINTADELIXAPS990SG5050X1500",
+    "best_site": "Lixa Bora 7 LS990S 50x1500",
+    "score": 0.73
+  },
+  {
+    "raw": "LIXABORA7-CINTADELIXAPS990SG5050X2000",
+    "simp": "LIXABORA7 CINTADELIXAPS990SG5050X2000",
+    "best_site": "Lixa Bora 7 LS990S 50x2000",
+    "score": 0.73
+  },
+  {
+    "raw": "LIXABORA7-CINTADELIXAPS990SG6060X1860",
+    "simp": "LIXABORA7 CINTADELIXAPS990SG6060X1860",
+    "best_site": "Lixa Bora 7 LS990S 50x1000",
+    "score": 0.635
+  },
+  {
+    "raw": "LIXABORA7-CINTADELIXAPS990SG8060X1860",
+    "simp": "LIXABORA7 CINTADELIXAPS990SG8060X1860",
+    "best_site": "Lixa Bora 7 LS990S 50x1000",
+    "score": 0.635
+  },
+  {
+    "raw": "LIXAMARROM-CINTADELIXAKA169G60150X6000",
+    "simp": "LIXAMARROM CINTADELIXAKA169G60150X6000",
+    "best_site": "Lixa Marrom Deerfos KA169 50x2000",
+    "score": 0.676
+  },
+  {
+    "raw": "LIXAMARRON-CINTADELIXAKA169G10050X2000",
+    "simp": "LIXAMARRON CINTADELIXAKA169G10050X2000",
+    "best_site": "Lixa Marrom Deerfos KA169 50x2000",
+    "score": 0.676
+  },
+  {
+    "raw": "LIXAMARRON-CINTADELIXAKA169G10050X2700",
+    "simp": "LIXAMARRON CINTADELIXAKA169G10050X2700",
+    "best_site": "Lixa Marrom Deerfos KA169 50x2000",
+    "score": 0.648
+  },
+  {
+    "raw": "LIXAMARRON-CINTADELIXAKA169G10050X3000",
+    "simp": "LIXAMARRON CINTADELIXAKA169G10050X3000",
+    "best_site": "Lixa Marrom Deerfos KA169 50x2000",
+    "score": 0.648
+  },
+  {
+    "raw": "LIXAMARRON-CINTADELIXAKA169G10070X2300",
+    "simp": "LIXAMARRON CINTADELIXAKA169G10070X2300",
+    "best_site": "Lixa Marrom Deerfos KA169 50x2000",
+    "score": 0.62
+  },
+  {
+    "raw": "LIXAMARRON-CINTADELIXAKA169G12050X2000",
+    "simp": "LIXAMARRON CINTADELIXAKA169G12050X2000",
+    "best_site": "Lixa Marrom Deerfos KA169 50x2000",
+    "score": 0.676
+  },
+  {
+    "raw": "LIXAMARRON-CINTADELIXAKA169G12050X2700",
+    "simp": "LIXAMARRON CINTADELIXAKA169G12050X2700",
+    "best_site": "Lixa Marrom Deerfos KA169 50x2000",
+    "score": 0.648
+  },
+  {
+    "raw": "LIXAMARRON-CINTADELIXAKA169G12070X2300",
+    "simp": "LIXAMARRON CINTADELIXAKA169G12070X2300",
+    "best_site": "Lixa Marrom Deerfos KA169 50x2000",
+    "score": 0.62
+  },
+  {
+    "raw": "L.A1.40.150.13-RODALISATECALGRESAMARELO150X13",
+    "simp": "L A1 40 150 13 RODALISATECALGRESAMARELO150X13",
+    "best_site": "Roda Lisa Sisal/Algodão 1A 150x13",
+    "score": 0.487
+  },
+  {
+    "raw": "L.A1.40.200.13-RODALISATECALGRESAMARELO200X13",
+    "simp": "L A1 40 200 13 RODALISATECALGRESAMARELO200X13",
+    "best_site": "Roda Ventilada Algodão Amarela 200x13",
+    "score": 0.512
+  },
+  {
+    "raw": "L.AZ3.40.200.13-RODALISATECALGRESAZUL200X13",
+    "simp": "L AZ3 40 200 13 RODALISATECALGRESAZUL200X13",
+    "best_site": "Roda Tela Sisal/Algodão 1A 200x13",
+    "score": 0.474
+  },
+  {
+    "raw": "L.C1.50.250.324C-RODALISATECALGCRU250X324COSTURA",
+    "simp": "L C1 50 250 324C RODALISATECALGCRU250X324COSTURA",
+    "best_site": "Roda Plissada Algodão Rosa 300x32",
+    "score": 0.395
+  },
+  {
+    "raw": "LAMINADEINOX",
+    "simp": "LAMINADEINOX",
+    "best_site": "Luva de Pano",
+    "score": 0.5
+  },
+  {
+    "raw": "LI.KA169GR400.50.444-CINTADELIXAKA169GR40050X444",
+    "simp": "LI KA169GR400 50 444 CINTADELIXAKA169GR40050X444",
+    "best_site": "Cinta de Lixa KA169 50x444",
+    "score": 0.405
+  },
+  {
+    "raw": "LI.KA169.GR100.50.444-CINTADELIXAKA169GR10050X444",
+    "simp": "LI KA169 50 444 CINTADELIXAKA169GR10050X444",
+    "best_site": "Cinta de Lixa KA169 50x444",
+    "score": 0.435
+  },
+  {
+    "raw": "LI.KA169.GR120.50.444-CINTADELIXAKA169GR12050X444",
+    "simp": "LI KA169 50 444 CINTADELIXAKA169GR12050X444",
+    "best_site": "Cinta de Lixa KA169 50x444",
+    "score": 0.435
+  },
+  {
+    "raw": "LI.KA169.GR150.50.444-CINTADELIXAKA169GR15050X444",
+    "simp": "LI KA169 50 444 CINTADELIXAKA169GR15050X444",
+    "best_site": "Cinta de Lixa KA169 50x444",
+    "score": 0.435
+  },
+  {
+    "raw": "LI.KA169.GR220.50.444-CINTADELIXAKA169GR22050X444",
+    "simp": "LI KA169 50 444 CINTADELIXAKA169GR22050X444",
+    "best_site": "Cinta de Lixa KA169 50x444",
+    "score": 0.435
+  },
+  {
+    "raw": "LI.KA169.GR320.50.444-CINTADELIXAKA169GR32050X444",
+    "simp": "LI KA169 50 444 CINTADELIXAKA169GR32050X444",
+    "best_site": "Cinta de Lixa KA169 50x444",
+    "score": 0.435
+  },
+  {
+    "raw": "LI.KA169.GR50.50.444-CINTADELIXAKA169GR5050X444",
+    "simp": "LI KA169 50 444 CINTADELIXAKA169GR5050X444",
+    "best_site": "Cinta de Lixa KA169 50x444",
+    "score": 0.441
+  },
+  {
+    "raw": "LI.KA169.GR600.50.444-CINTADELIXAKA169GR60050X444",
+    "simp": "LI KA169 50 444 CINTADELIXAKA169GR60050X444",
+    "best_site": "Cinta de Lixa KA169 50x444",
+    "score": 0.435
+  },
+  {
+    "raw": "LI.KA169.GR80.50.444-CINTADELIXAKA169GR8050X444",
+    "simp": "LI KA169 50 444 CINTADELIXAKA169GR8050X444",
+    "best_site": "Cinta de Lixa KA169 50x444",
+    "score": 0.441
+  },
+  {
+    "raw": "LI.PZ528.G36.50.2000-CINTALIXAPZ528GR3650X2000",
+    "simp": "LI PZ528 G36 50 2000 CINTALIXAPZ528GR3650X2000",
+    "best_site": "Cinta Zircônia Deerfos XZ677 50x2000",
+    "score": 0.39
+  },
+  {
+    "raw": "LI.XA167.G150.50.2000-CINTALIXAXA167GR15050X2000",
+    "simp": "LI XA167 G150 50 2000 CINTALIXAXA167GR15050X2000",
+    "best_site": "Cinta de Lixa KA169 50x444",
+    "score": 0.405
+  },
+  {
+    "raw": "LI.XZ677.G24.300-DISCOLIXAREDDEERFOSXZ677GR24",
+    "simp": "LI XZ677 G24 300 DISCOLIXAREDDEERFOSXZ677GR24",
+    "best_site": "Disco de Lixa Red Deerfos 300",
+    "score": 0.514
+  },
+  {
+    "raw": "LI.XZ677.G36.300-DISCOLIXAREDDEERFOS.XZ677GR36",
+    "simp": "LI XZ677 G36 300 DISCOLIXAREDDEERFOS XZ677GR36",
+    "best_site": "Disco de Lixa Red Deerfos 300",
+    "score": 0.56
+  },
+  {
+    "raw": "LIXA50X1200GR100",
+    "simp": "LIXA50X1200GR100",
+    "best_site": "Lixa CS922Y 50x1200",
+    "score": 0.629
+  },
+  {
+    "raw": "LIXA50X1200GR120",
+    "simp": "LIXA50X1200GR120",
+    "best_site": "Lixa CS922Y 50x1200",
+    "score": 0.629
+  },
+  {
+    "raw": "LIXA50X1200GR150",
+    "simp": "LIXA50X1200GR150",
+    "best_site": "Lixa CS922Y 50x1200",
+    "score": 0.629
+  },
+  {
+    "raw": "LIXA50X1200GR220",
+    "simp": "LIXA50X1200GR220",
+    "best_site": "Lixa CS922Y 50x1200",
+    "score": 0.629
+  },
+  {
+    "raw": "LIXA50X1200GR320",
+    "simp": "LIXA50X1200GR320",
+    "best_site": "Lixa CS922Y 50x1200",
+    "score": 0.629
+  },
+  {
+    "raw": "LIXA50X1200GR36",
+    "simp": "LIXA50X1200GR36",
+    "best_site": "Lixa CS922Y 50x1200",
+    "score": 0.647
+  },
+  {
+    "raw": "LIXA50X1200GR400",
+    "simp": "LIXA50X1200GR400",
+    "best_site": "Lixa CS922Y 50x1200",
+    "score": 0.629
+  },
+  {
+    "raw": "LIXA50X1200GR50",
+    "simp": "LIXA50X1200GR50",
+    "best_site": "Lixa CS922Y 50x1200",
+    "score": 0.647
+  },
+  {
+    "raw": "LIXA50X1200GR600",
+    "simp": "LIXA50X1200GR600",
+    "best_site": "Lixa CS922Y 50x1200",
+    "score": 0.629
+  },
+  {
+    "raw": "LIXA50X1200GR80",
+    "simp": "LIXA50X1200GR80",
+    "best_site": "Lixa CS922Y 50x1200",
+    "score": 0.647
+  },
+  {
+    "raw": "LIXA50X1400GR120",
+    "simp": "LIXA50X1400GR120",
+    "best_site": "Lixa CS922Y 50x1200",
+    "score": 0.571
+  },
+  {
+    "raw": "LIXA50X1400GR150",
+    "simp": "LIXA50X1400GR150",
+    "best_site": "Lixa CS922Y 50x1200",
+    "score": 0.571
+  },
+  {
+    "raw": "LIXA50X1400GR220",
+    "simp": "LIXA50X1400GR220",
+    "best_site": "Lixa CS922Y 50x1200",
+    "score": 0.571
+  },
+  {
+    "raw": "LIXA50X1400GR320",
+    "simp": "LIXA50X1400GR320",
+    "best_site": "Lixa CS922Y 50x1200",
+    "score": 0.571
+  },
+  {
+    "raw": "LIXA50X1400GR400",
+    "simp": "LIXA50X1400GR400",
+    "best_site": "Lixa CS922Y 50x1200",
+    "score": 0.571
+  },
+  {
+    "raw": "LIXA50X1400GR600",
+    "simp": "LIXA50X1400GR600",
+    "best_site": "Lixa CS922Y 50x1200",
+    "score": 0.571
+  },
+  {
+    "raw": "LIXAAMARELA-CINTADELIXALS312JFG10050X1200",
+    "simp": "LIXAAMARELA CINTADELIXALS312JFG10050X1200",
+    "best_site": "Lixa Amarela LS312JF 50x1200",
+    "score": 0.754
+  },
+  {
+    "raw": "LIXAAMARELA-CINTADELIXALS312JFG10050X2000",
+    "simp": "LIXAAMARELA CINTADELIXALS312JFG10050X2000",
+    "best_site": "Lixa Amarela LS312JF 50x1200",
+    "score": 0.725
+  },
+  {
+    "raw": "LIXAAMARELA-CINTADELIXALS312JFG10050X2700",
+    "simp": "LIXAAMARELA CINTADELIXALS312JFG10050X2700",
+    "best_site": "Lixa Amarela LS312JF 50x1200",
+    "score": 0.725
+  },
+  {
+    "raw": "LIXAAMARELA-CINTADELIXALS312JFG10070X2300",
+    "simp": "LIXAAMARELA CINTADELIXALS312JFG10070X2300",
+    "best_site": "Lixa Amarela LS312JF 50x1200",
+    "score": 0.638
+  },
+  {
+    "raw": "LIXAAMARELA-CINTADELIXALS312JFG10075X2300",
+    "simp": "LIXAAMARELA CINTADELIXALS312JFG10075X2300",
+    "best_site": "Lixa Amarela LS312JF 50x1200",
+    "score": 0.638
+  },
+  {
+    "raw": "LIXAAMARELA-CINTADELIXALS312JFG12050X2000",
+    "simp": "LIXAAMARELA CINTADELIXALS312JFG12050X2000",
+    "best_site": "Lixa Amarela LS312JF 50x1200",
+    "score": 0.667
+  },
+  {
+    "raw": "LIXAAMARELA-CINTADELIXALS312JFG15050X2000",
+    "simp": "LIXAAMARELA CINTADELIXALS312JFG15050X2000",
+    "best_site": "Lixa Amarela LS312JF 50x1200",
+    "score": 0.725
+  },
+  {
+    "raw": "ADAPTADORFLANGE25X150X13",
+    "simp": "ADAPTADORFLANGE25X150X13",
+    "best_site": "Roda Ventilada Flanela 250x13",
+    "score": 0.528
+  },
+  {
+    "raw": "ADAPTADORFLANGE50X150X13",
+    "simp": "ADAPTADORFLANGE50X150X13",
+    "best_site": "Roda Ventilada Flanela 250x13",
+    "score": 0.491
+  },
+  {
+    "raw": "ADAPTADORFLANGE50X250X25",
+    "simp": "ADAPTADORFLANGE50X250X25",
+    "best_site": "Disco Flap Feltro Berwanger 115x22mm",
+    "score": 0.467
+  },
+  {
+    "raw": "ADAPTADORFLANGE50X250X32",
+    "simp": "ADAPTADORFLANGE50X250X32",
+    "best_site": "Roda Standard Sisal 4 250x32",
+    "score": 0.5
+  },
+  {
+    "raw": "AVENTALBARBEIRO",
+    "simp": "AVENTALBARBEIRO",
+    "best_site": "Avental Barbeiro Raspa",
+    "score": 0.811
+  },
+  {
+    "raw": "AVENTALSOLDADOR",
+    "simp": "AVENTALSOLDADOR",
+    "best_site": "Avental Soldador Raspa",
+    "score": 0.811
+  },
+  {
+    "raw": "CABODEOSSOEMADEIRA",
+    "simp": "CABODEOSSOEMADEIRA",
+    "best_site": "Disco Flap Acabamento Grosso Marrom",
+    "score": 0.415
+  },
+  {
+    "raw": "CASACORASPA",
+    "simp": "CASACORASPA",
+    "best_site": "Avental Soldador Raspa",
+    "score": 0.545
+  },
+  {
+    "raw": "CINTASCOTHBRITEAZULG18050X2000-KLINGSPOR",
+    "simp": "CINTASCOTHBRITEAZULG18050X2000 KLINGSPOR",
+    "best_site": "PG Misto Scoth Brite 50x150",
+    "score": 0.478
+  },
+  {
+    "raw": "CINTASCOTHBRITECINZAG6050X2000-KLINGSPOR",
+    "simp": "CINTASCOTHBRITECINZAG6050X2000 KLINGSPOR",
+    "best_site": "PG Misto Scoth Brite 50x150",
+    "score": 0.478
+  },
+  {
+    "raw": "CINTASCOTHBRITEROXAG12050X2000-KLINGSPOR",
+    "simp": "CINTASCOTHBRITEROXAG12050X2000 KLINGSPOR",
+    "best_site": "Cinta Zircônia Deerfos XZ677 50x2000",
+    "score": 0.5
+  },
+  {
+    "raw": "CINTASCOTHBRITEVERDEG15050X2000-KLINGSPOR",
+    "simp": "CINTASCOTHBRITEVERDEG15050X2000 KLINGSPOR",
+    "best_site": "Cinta Zircônia Deerfos XZ677 50x2000",
+    "score": 0.468
+  },
+  {
+    "raw": "DISCODECORTENORTON7POLX16",
+    "simp": "DISCODECORTENORTON7POLX16",
+    "best_site": "Disco de Corte Berwanger 115x22,2mm",
+    "score": 0.5
+  },
+  {
+    "raw": "DISCODECORTEBERWANGER-DISCODCI10115X22,2MM",
+    "simp": "DISCODECORTEBERWANGER DISCODCI10115X22 2MM",
+    "best_site": "Disco de Corte Berwanger 115x22,2mm",
+    "score": 0.831
+  },
+  {
+    "raw": "DISCODECORTEKLINGSPOR-115X1X22,23",
+    "simp": "DISCODECORTEKLINGSPOR 115X1X22 23",
+    "best_site": "Disco de Corte Berwanger 115x22,2mm",
+    "score": 0.706
+  },
+  {
+    "raw": "DISCODEESPONJAACABAMENTOPRO-115X22MM",
+    "simp": "DISCODEESPONJAACABAMENTOPRO 115X22MM",
+    "best_site": "Disco Esponja Acabamento Berwanger",
+    "score": 0.657
+  },
+  {
+    "raw": "DISCODEFLAPBERWANGER115X22MMGR120",
+    "simp": "DISCODEFLAPBERWANGER115X22MMGR120",
+    "best_site": "Disco Flap Berwanger 115x22mm",
+    "score": 0.839
+  },
+  {
+    "raw": "DISCODEFLAPBERWANGER115X22MMGR40",
+    "simp": "DISCODEFLAPBERWANGER115X22MMGR40",
+    "best_site": "Disco Flap Berwanger 115x22mm",
+    "score": 0.852
+  },
+  {
+    "raw": "DISCODEFLAPBERWANGER115X22MMGR60",
+    "simp": "DISCODEFLAPBERWANGER115X22MMGR60",
+    "best_site": "Disco Flap Berwanger 115x22mm",
+    "score": 0.852
+  },
+  {
+    "raw": "DISCODEFLAPBERWANGER115X22MMGR80",
+    "simp": "DISCODEFLAPBERWANGER115X22MMGR80",
+    "best_site": "Disco Flap Berwanger 115x22mm",
+    "score": 0.852
+  },
+  {
+    "raw": "DISCODEFLAPFELTRO115X22MM",
+    "simp": "DISCODEFLAPFELTRO115X22MM",
+    "best_site": "Disco Flap Feltro Berwanger 115x22mm",
+    "score": 0.754
+  },
+  {
+    "raw": "DISCODEFLAPKLINGSPOR115X22,23GR40",
+    "simp": "DISCODEFLAPKLINGSPOR115X22 23GR40",
+    "best_site": "Disco Flap Berwanger 115x22mm",
+    "score": 0.581
+  },
+  {
+    "raw": "DISCODEFLAPKLINGSPOR115X22,23GR60",
+    "simp": "DISCODEFLAPKLINGSPOR115X22 23GR60",
+    "best_site": "Disco Flap Berwanger 115x22mm",
+    "score": 0.581
+  },
+  {
+    "raw": "DISCODELIXAGR5050X180",
+    "simp": "DISCODELIXAGR5050X180",
+    "best_site": "Disco de Lixa Red Deerfos 300",
+    "score": 0.56
+  },
+  {
+    "raw": "DISCOFLAPACABAMENTO115X22MMFINOAZUL",
+    "simp": "DISCOFLAPACABAMENTO115X22MMFINOAZUL",
+    "best_site": "Disco Flap Acabamento Médio Vermelho",
+    "score": 0.62
+  },
+  {
+    "raw": "DISCOFLAPACABAMENTO115X22MMGROSSOMARRON",
+    "simp": "DISCOFLAPACABAMENTO115X22MMGROSSOMARRON",
+    "best_site": "Disco Flap Acabamento Grosso Marrom",
+    "score": 0.811
+  },
+  {
+    "raw": "DISCOFLAPACABAMENTO115X22MMMEDIOVERMELHO",
+    "simp": "DISCOFLAPACABAMENTO115X22MMMEDIOVERMELHO",
+    "best_site": "Disco Flap Acabamento Médio Vermelho",
+    "score": 0.842
+  },
+  {
+    "raw": "DISCOLIXA3MGR120",
+    "simp": "DISCOLIXA3MGR120",
+    "best_site": "Disco de Lixa 3M 178x22,3",
+    "score": 0.634
+  },
+  {
+    "raw": "DISCOLIXA3MGR24",
+    "simp": "DISCOLIXA3MGR24",
+    "best_site": "Disco de Lixa 3M 178x22,3",
+    "score": 0.6
+  },
+  {
+    "raw": "DISCOLIXA3MGR36",
+    "simp": "DISCOLIXA3MGR36",
+    "best_site": "Disco de Lixa 3M 178x22,3",
+    "score": 0.6
+  },
+  {
+    "raw": "DISCOLIXA3MGR80",
+    "simp": "DISCOLIXA3MGR80",
+    "best_site": "Disco de Lixa 3M 178x22,3",
+    "score": 0.6
+  },
+  {
+    "raw": "DISCOREMOVEDOR115X22MM",
+    "simp": "DISCOREMOVEDOR115X22MM",
+    "best_site": "Disco Removedor Berwanger 115x22mm",
+    "score": 0.786
+  },
+  {
+    "raw": "ES.C.30O.75.5AR-ESCOVADECORDATORCIDA5ARGOLAS",
+    "simp": "ES C 30O 75 5AR ESCOVADECORDATORCIDA5ARGOLAS",
+    "best_site": "Escova de Corda Torcida 5 argolas",
+    "score": 0.727
+  },
+  {
+    "raw": "ES.CT.4O0.32.2AR.4-ESCOVADECORDATRANCADA2ARGOLAS",
+    "simp": "ES CT 4O0 32 2AR 4 ESCOVADECORDATRANCADA2ARGOLAS",
+    "best_site": "Escova de Corda Trançada 2 argolas",
+    "score": 0.707
+  },
+  {
+    "raw": "ESCOVADEFIBRA250X32",
+    "simp": "ESCOVADEFIBRA250X32",
+    "best_site": "Escova de Fibra 250x32",
+    "score": 0.927
+  },
+  {
+    "raw": "ESCOVADEFIBRA300X32",
+    "simp": "ESCOVADEFIBRA300X32",
+    "best_site": "Escova de Fibra 350x32",
+    "score": 0.878
+  },
+  {
+    "raw": "ESCOVADELIXA70X300",
+    "simp": "ESCOVADELIXA70X300",
+    "best_site": "Escova de Fibra 250x32",
+    "score": 0.65
+  },
+  {
+    "raw": "FELTRORECICLADO",
+    "simp": "FELTRORECICLADO",
+    "best_site": "Avental Soldador Raspa",
+    "score": 0.378
+  },
+  {
+    "raw": "FOLHASCOTCHBRITE-240MMX130MM",
+    "simp": "FOLHASCOTCHBRITE 240MMX130MM",
+    "best_site": "PG Misto Scoth Brite 25x150",
+    "score": 0.582
+  },
+  {
+    "raw": "DISCO FLAP BERVANGER 18OX22MM GR40",
+    "simp": "DISCO FLAP BERVANGER 18OX22MM",
+    "best_site": "Disco Flap Berwanger 115x22mm",
+    "score": 0.897
+  }
+]

@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo — ABC Abrasivos</title>
+    <meta name="description" content="Catálogo completo de abrasivos industriais: discos, lixas, rodas de polimento, escovas, EPIs e mais. Solicite orçamento pelo WhatsApp.">
+    <link rel="icon" href="assets/images/logo_favicon.png" type="image/png">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/catalogo.css">
+</head>
+<body class="catalogo-page">
+
+<!-- ── NAVBAR ── -->
+<nav class="navbar navbar-expand-lg fixed-top" id="mainNavbar">
+    <div class="container">
+        <a class="navbar-brand" href="index.html">
+            <img src="assets/images/logo.jpeg" alt="ABC Abrasivos" class="rounded">
+        </a>
+        <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-label="Menu">
+            <i class="fa-solid fa-bars" style="color:#fff;font-size:1.2rem;"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto gap-1">
+                <li class="nav-item"><a class="nav-link" href="index.html">Início</a></li>
+                <li class="nav-item"><a class="nav-link active" href="catalogo.html">Catálogo</a></li>
+                <li class="nav-item"><a class="nav-link" href="index.html#features">Diferenciais</a></li>
+                <li class="nav-item"><a class="nav-link" href="index.html#sobre">Sobre</a></li>
+                <li class="nav-item"><a class="nav-link" href="index.html#contato">Contato</a></li>
+            </ul>
+            <button class="nav-cart-btn" data-bs-toggle="modal" data-bs-target="#budgetModal" id="headerBudgetBtn" type="button">
+                <i class="fa-solid fa-cart-shopping"></i>
+                Orçamento
+                <span class="cart-count" id="cartCount">0</span>
+            </button>
+        </div>
+    </div>
+</nav>
+
+<!-- ── PAGE HEADER ── -->
+<div class="cat-page-header">
+    <div class="cat-page-header-bg"></div>
+    <div class="container position-relative">
+        <div class="row align-items-center">
+            <div class="col-lg-6">
+                <div class="cat-page-breadcrumb">
+                    <a href="index.html">Início</a>
+                    <i class="fa-solid fa-chevron-right"></i>
+                    <span>Catálogo</span>
+                </div>
+                <h1 class="cat-page-title">Catálogo <span>Completo</span></h1>
+                <p class="cat-page-desc">
+                    Encontre o abrasivo certo para cada aplicação. Adicione ao orçamento e envie pelo WhatsApp em segundos.
+                </p>
+            </div>
+            <div class="col-lg-6 d-none d-lg-flex justify-content-end align-items-center gap-4">
+                <div class="cat-stat">
+                    <span class="cat-stat-num" id="totalProducts">391</span>
+                    <span class="cat-stat-label">Produtos</span>
+                </div>
+                <div class="cat-stat-divider"></div>
+                <div class="cat-stat">
+                    <span class="cat-stat-num" id="totalCategories">—</span>
+                    <span class="cat-stat-label">Categorias</span>
+                </div>
+                <div class="cat-stat-divider"></div>
+                <div class="cat-stat">
+                    <span class="cat-stat-num">24h</span>
+                    <span class="cat-stat-label">Entrega</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ── MAIN CONTENT ── -->
+<main class="cat-main">
+    <div class="container-fluid px-4 px-lg-5">
+        <div class="row g-4">
+
+            <!-- Sidebar -->
+            <div class="col-lg-2 col-xl-2">
+                <div class="cat-sidebar" id="catSidebar">
+                    <div class="sidebar-section">
+                        <div class="sidebar-heading">
+                            <i class="fa-solid fa-list"></i> Categorias
+                        </div>
+                        <div class="sidebar-cats" id="sidebarCats">
+                            <!-- populated by JS -->
+                        </div>
+                    </div>
+
+                    <div class="sidebar-section mt-3">
+                        <div class="sidebar-heading">
+                            <i class="fa-solid fa-sliders"></i> Ordenar
+                        </div>
+                        <select class="sidebar-select" id="sortSelect">
+                            <option value="default">Padrão</option>
+                            <option value="name-az">Nome A–Z</option>
+                            <option value="name-za">Nome Z–A</option>
+                            <option value="price-asc">Menor preço</option>
+                            <option value="price-desc">Maior preço</option>
+                        </select>
+                    </div>
+
+                    <div class="sidebar-section mt-3">
+                        <div class="sidebar-heading">
+                            <i class="fa-solid fa-tag"></i> Destaque
+                        </div>
+                        <label class="sidebar-toggle">
+                            <input type="checkbox" id="destaqueFilter">
+                            <span class="toggle-track"></span>
+                            Apenas destaques
+                        </label>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Products area -->
+            <div class="col-lg-10 col-xl-10">
+
+                <!-- Toolbar -->
+                <div class="cat-toolbar">
+                    <div class="toolbar-left">
+                        <div class="cat-search-wrap">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <input type="search" id="searchInput" placeholder="Buscar produto, categoria...">
+                            <button class="search-clear" id="searchClear" title="Limpar">
+                                <i class="fa-solid fa-xmark"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="toolbar-right">
+                        <span class="results-count" id="resultsInfo"></span>
+                        <div class="view-toggle">
+                            <button class="view-btn active" id="viewGrid" title="Grid">
+                                <i class="fa-solid fa-grip"></i>
+                            </button>
+                            <button class="view-btn" id="viewList" title="Lista">
+                                <i class="fa-solid fa-list"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Active filters chips -->
+                <div class="active-filters" id="activeFilters"></div>
+
+                <!-- Grid -->
+                <div class="products-grid" id="productsGrid"></div>
+
+                <!-- No results -->
+                <div class="no-results" id="noResults">
+                    <i class="fa-solid fa-circle-exclamation"></i>
+                    <p>Nenhum produto encontrado para "<strong id="noResultsTerm"></strong>"</p>
+                    <button class="btn-ghost" onclick="clearAllFilters()">Limpar filtros</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</main>
+
+<!-- ── FOOTER (mini) ── -->
+<footer class="cat-footer">
+    <div class="container">
+        <div class="d-flex flex-wrap align-items-center justify-content-between gap-3">
+            <div class="d-flex align-items-center gap-3">
+                <img src="assets/images/logo.jpeg" alt="ABC Abrasivos" style="height:40px;border-radius:6px;">
+                <span style="color:var(--text-muted);font-size:0.82rem;">© 2025 ABC Abrasivos · Gravataí/RS</span>
+            </div>
+            <div class="d-flex align-items-center gap-2">
+                <a href="index.html#contato" class="social-btn instagram" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                <a href="index.html#contato" class="social-btn facebook" title="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="index.html#contato" class="social-btn whatsapp" id="footerWa" title="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- ── BUDGET MODAL ── -->
+<div class="modal fade" id="budgetModal" tabindex="-1" aria-labelledby="budgetModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-scrollable">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="budgetModalLabel">
+                    <i class="fa-solid fa-cart-shopping text-accent me-2"></i> Meu Orçamento
+                </h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+            </div>
+            <div class="modal-body">
+                <div class="customer-form mb-4">
+                    <div class="row g-3">
+                        <div class="col-md-6">
+                            <label class="form-label">Seu nome</label>
+                            <input type="text" class="form-control" id="customerName" placeholder="Nome completo">
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label">Empresa (opcional)</label>
+                            <input type="text" class="form-control" id="customerCompany" placeholder="Empresa">
+                        </div>
+                        <div class="col-12">
+                            <label class="form-label">Observações</label>
+                            <textarea class="form-control" id="customerObs" rows="2" placeholder="Prazo, quantidade especial, dúvidas..."></textarea>
+                        </div>
+                    </div>
+                </div>
+                <div id="cartItemsList">
+                    <p class="text-center" style="color:var(--text-muted);padding:2rem 0;">
+                        <i class="fa-solid fa-cart-shopping d-block mb-2" style="font-size:2rem;color:var(--text-dim);"></i>
+                        Seu orçamento está vazio.<br>Adicione produtos do catálogo.
+                    </p>
+                </div>
+            </div>
+            <div class="modal-footer flex-column gap-3">
+                <div class="d-flex justify-content-between align-items-center w-100">
+                    <button type="button" class="btn-ghost" id="clearCartBtn" style="font-size:0.8rem;padding:0.4rem 1rem;">
+                        <i class="fa-solid fa-trash-can me-1"></i> Limpar tudo
+                    </button>
+                    <div class="budget-total" id="budgetTotal">Total: <span>R$ 0,00</span></div>
+                </div>
+                <button class="btn-wa-send" id="sendWaBtn">
+                    <i class="fa-brands fa-whatsapp" style="font-size:1.2rem;"></i>
+                    Enviar Orçamento pelo WhatsApp
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Floating WA -->
+<div class="floating-actions">
+    <a href="#" class="fab fab-wa" id="fabWa" title="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+    <button class="fab fab-up visible" id="fabUp" title="Topo" onclick="window.scrollTo({top:0,behavior:'smooth'})">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+</div>
+
+<div id="toast-container"></div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/config.js"></script>
+<script src="js/data.js"></script>
+<script src="js/catalogo.js"></script>
+</body>
+</html>
