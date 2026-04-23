@@ -35,8 +35,8 @@ const TOKEN_SYNONYMS = {
     escova: ['escovas'], escovas: ['escova'],
     massa: ['massas','polir'], massas: ['massa','polir'],
     sebo: ['lubrificante'], epi: ['epis','protecao'], epis: ['epi','protecao'],
-    luva: ['luvas','raspa'], luvas: ['luva','raspa'],
-    avental: ['raspa'], mangote: ['raspa'],
+    luva: ['luvas'], luvas: ['luva'],
+    avental: ['aventais'], mangote: ['mangotes'],
 };
 
 // ── State ─────────────────────────────────────────────────────
@@ -50,7 +50,7 @@ const normalize = str => str.toLowerCase()
     .replace(/[^a-z0-9\s]/g,' ').trim();
 
 function tokenize(str) {
-    return normalize(str).split(/\s+/).filter(Boolean);
+    return normalize(str).split(/\s+/).filter(t => t.length >= 3);
 }
 
 function matchTokens(productTokens, queryTokens) {
