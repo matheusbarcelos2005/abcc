@@ -293,8 +293,9 @@ function initParticles() {
     let W, H, particles = [];
 
     function resize() {
-        W = canvas.width = canvas.offsetWidth;
-        H = canvas.height = canvas.offsetHeight;
+        const hero = canvas.closest('.hero-section') || canvas.parentElement;
+        W = canvas.width = hero.offsetWidth || window.innerWidth;
+        H = canvas.height = hero.offsetHeight || window.innerHeight;
     }
 
     class Particle {
@@ -411,7 +412,33 @@ function wireLinks() {
         set('footerEmail', cfg.contact.emailHref);
         const addr = document.getElementById('addressContact');
         if (addr && cfg.contact.addressHtml) addr.innerHTML = cfg.contact.addressHtml;
+
+        const mapIframe = document.getElementById('contactMapIframe');
+        if (mapIframe && cfg.contact.mapEmbedUrl) mapIframe.src = cfg.contact.mapEmbedUrl;
     }
+}
+
+// ── Customer data persistence ─────────────────────────────────
+function saveCustomer() {
+    const data = {
+        name: document.getElementById('customerName')?.value || '',
+        company: document.getElementById('customerCompany')?.value || '',
+        obs: document.getElementById('customerObs')?.value || '',
+    };
+    localStorage.setItem(appConfig.customerStorageKey, JSON.stringify(data));
+}
+
+function loadCustomer() {
+    try {
+        const saved = JSON.parse(localStorage.getItem(appConfig.customerStorageKey));
+        if (!saved) return;
+        const name = document.getElementById('customerName');
+        const company = document.getElementById('customerCompany');
+        const obs = document.getElementById('customerObs');
+        if (name) name.value = saved.name || '';
+        if (company) company.value = saved.company || '';
+        if (obs) obs.value = saved.obs || '';
+    } catch { /* ignore */ }
 }
 
 // ── Init ──────────────────────────────────────────────────────
@@ -431,8 +458,16 @@ document.addEventListener('DOMContentLoaded', () => {
         renderProducts();
     });
 
+    // Customer fields — save on change
+    ['customerName', 'customerCompany', 'customerObs'].forEach(id => {
+        document.getElementById(id)?.addEventListener('input', saveCustomer);
+    });
+
     // Modal opens
-    document.getElementById('budgetModal')?.addEventListener('show.bs.modal', renderCart);
+    document.getElementById('budgetModal')?.addEventListener('show.bs.modal', () => {
+        renderCart();
+        loadCustomer();
+    });
 
     // Send WhatsApp
     document.getElementById('sendWaBtn')?.addEventListener('click', () => {
