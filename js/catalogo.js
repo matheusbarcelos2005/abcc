@@ -3,9 +3,9 @@
 const DEFAULT_APP_CONFIG = Object.freeze({
     storageKey: 'abc-abrasivos-cart',
     customerStorageKey: 'abc-abrasivos-customer',
-    whatsappNumber: '5551981860929',
+    whatsappNumber: '5551999280515',
     whatsappGreeting: 'Olá ABC Abrasivos! Vim pelo site e gostaria de mais informações.',
-    contact: { phoneDisplay: '(51) 98186-0929', phoneHref: 'tel:+5551981860929', email: 'contato@abcabrasivos.com.br', emailHref: 'mailto:contato@abcabrasivos.com.br' },
+    contact: { phoneDisplay: '(51) 99928-0515', phoneHref: 'tel:+5551999280515', email: 'abcabrasivos2015@hotmail.com', emailHref: 'mailto:abcabrasivos2015@hotmail.com' },
     socialLinks: { instagram: '#', facebook: '#', linkedin: '#', youtube: '#' }
 });
 const appConfig = typeof APP_CONFIG !== 'undefined' ? APP_CONFIG : DEFAULT_APP_CONFIG;
