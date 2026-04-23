@@ -405,7 +405,7 @@ const produtos = [
 
   // EPIs e Proteção
   { id: 262, nome: "Luva Vaqueta P 7", preco: 22.50, categoria: "EPIs e Proteção", imagem: "assets/images/Luva de vaqueta P7.jpeg" },
-  { id: 414, nome: "Casaco Raspa", preco: 75.00, categoria: "EPIs e Proteção", imagem: "assets/images/avental.jpeg.png" },
+  { id: 414, nome: "Casaco Raspa", preco: 75.00, categoria: "EPIs e Proteção", imagem: "assets/images/casaco raspa.jpeg" },
 
   // Acessórios
 ];
