@@ -24,8 +24,8 @@ const produtos = [
   { id: 54, nome: "Luva Raspa Curta", preco: 12.50, categoria: "EPIs e Proteção", imagem: "assets/images/Luva de raspa  P7.jpeg" },
   { id: 55, nome: "Luva Vaqueta Mista", preco: 18.50, categoria: "EPIs e Proteção", imagem: "assets/images/Luva Mista P7.jpeg" },
   { id: 56, nome: "Luva de Pano", preco: 3.00, categoria: "EPIs e Proteção", imagem: "assets/images/luva de pano.jpeg" },
-  { id: 57, nome: "Avental Soldador Raspa", preco: 45.00, categoria: "EPIs e Proteção", imagem: "assets/images/avental.jpeg.png" },
-  { id: 58, nome: "Avental Barbeiro Raspa", preco: 95.00, categoria: "EPIs e Proteção", imagem: "assets/images/avental.jpeg.png" },
+  { id: 57, nome: "Avental Soldador Raspa", preco: 45.00, categoria: "EPIs e Proteção", imagem: "assets/images/avental soldador.png" },
+  { id: 58, nome: "Avental Barbeiro Raspa", preco: 95.00, categoria: "EPIs e Proteção", imagem: "assets/images/avental barbeiro.png" },
   { id: 59, nome: "Mangote de Raspa", preco: 25.00, categoria: "EPIs e Proteção", imagem: "assets/images/mangote.jpeg.png" },
 
   // Rodas PGS

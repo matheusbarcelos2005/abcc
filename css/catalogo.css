@@ -2,7 +2,7 @@
    CATALOG PAGE — mobile-first + drawer de filtros
    ========================================================= */
 
-.catalogo-page { padding-top: 76px; }
+.catalogo-page { padding-top: 90px; }
 
 /* ── Page header ── */
 .cat-page-header {
@@ -50,7 +50,7 @@
     background: var(--bg-card);
     border-bottom: 1px solid var(--border);
     position: sticky;
-    top: 76px;
+    top: 90px;
     z-index: 100;
 }
 .cat-mobile-search {
@@ -224,7 +224,7 @@
 
 /* ── Desktop sidebar ── */
 .cat-sidebar {
-    position: sticky; top: 96px;
+    position: sticky; top: 112px;
 }
 .sidebar-section { margin-bottom: 1.2rem; }
 .sidebar-heading {
