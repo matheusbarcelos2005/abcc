@@ -127,7 +127,7 @@ const produtos = [
   { id: 249, nome: "Roda PG G 36 AOG 60025x300x110", preco: 120.00, categoria: "Rodas PGS", imagem: "assets/images/rodas pgs.png" },
 
   // Discos
-  { id: 82, nome: "V.r.16.250.13.aaa - Disco Ventilado Tecalgrosadura 250x13", preco: 32.50, categoria: "Discos", imagem: "assets/images/disco flap acabamento.jpeg.png" },
+  { id: 82, nome: "V.r.16.250.13.aaa - Disco Ventilado Tecalgrosadura 250x13", preco: 32.50, categoria: "Rodas de Algodão e Sisal", imagem: "assets/images/roda ventilada algodao resina rosa extra duro.png" },
   { id: 384, nome: "Disco de Lixa Red Deerfos XZ 677 GR 24 300mm", preco: 27.50, categoria: "Discos", imagem: "assets/images/disco de lixa red deerfos.png" },
   { id: 385, nome: "Disco de Lixa Red Deerfos XZ 677 GR 36 300mm", preco: 27.50, categoria: "Discos", imagem: "assets/images/disco de lixa red deerfos.png" },
   { id: 419, nome: "Disco de Corte Norton 7 POL X 16", preco: 7.00, categoria: "Discos", imagem: "assets/images/disco de corte.jpeg.png" },
@@ -146,7 +146,7 @@ const produtos = [
   { id: 432, nome: "Disco de Lixa 3M GR 80", preco: 12.50, categoria: "Discos", imagem: "assets/images/disco de lixa 3m.png" },
   { id: 435, nome: "Feltro Reciclado", preco: 75.00, categoria: "Discos", imagem: "assets/images/disco flap acabamento.jpeg.png" },
   { id: 436, nome: "Folha Scotch Brite 240x130mm", preco: 7.50, categoria: "Lixas e Cintas", imagem: "assets/images/Folha Scotch Brite 240mmx130mmm Fina Média Grossa.jpeg" },
-  { id: 437, nome: "Disco Flap Bervanger 18 OX 22MM GR 40", preco: 15.50, categoria: "Discos", imagem: "assets/images/disco flap acabamento.jpeg.png" },
+  { id: 437, nome: "Disco Flap Berwanger 180x22MM GR 40", preco: 15.50, categoria: "Discos", imagem: "assets/images/disco flap acabamento.jpeg.png" },
 
   // Lixas e Cintas
   { id: 95, nome: "Roda PG Misto Scotch Brite 25x150x45 GR 180", preco: 55.00, categoria: "Lixas e Cintas", imagem: "assets/images/pg misto scoth brite.png" },
