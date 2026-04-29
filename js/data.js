@@ -139,7 +139,9 @@ const produtos = [
   { id: 431, nome: "Disco de Lixa 3M GR 36", preco: 12.50, categoria: "Discos", imagem: "assets/images/disco de lixa 3m.png" },
   { id: 432, nome: "Disco de Lixa 3M GR 80", preco: 12.50, categoria: "Discos", imagem: "assets/images/disco de lixa 3m.png" },
   { id: 435, nome: "Feltro Reciclado", preco: 75.00, categoria: "Discos", imagem: "assets/images/disco flap acabamento.jpeg.png" },
-  { id: 436, nome: "Folha Scotch Brite 240x130mm", preco: 7.50, categoria: "Lixas e Cintas", imagem: "assets/images/Folha Scotch Brite 240mmx130mmm Fina Média Grossa.jpeg" },
+  { id: 436, nome: "Folha Scotch Brite 240x130mm Fina", preco: 7.50, categoria: "Lixas e Cintas", imagem: "assets/images/Folha Scotch Brite 240mmx130mmm Fina Média Grossa.jpeg" },
+  { id: 438, nome: "Folha Scotch Brite 240x130mm Média", preco: 7.50, categoria: "Lixas e Cintas", imagem: "assets/images/Folha Scotch Brite 240mmx130mmm Fina Média Grossa.jpeg" },
+  { id: 439, nome: "Folha Scotch Brite 240x130mm Grossa", preco: 7.50, categoria: "Lixas e Cintas", imagem: "assets/images/Folha Scotch Brite 240mmx130mmm Fina Média Grossa.jpeg" },
   { id: 437, nome: "Disco Flap Berwanger 180x22MM GR 40", preco: 15.50, categoria: "Discos", imagem: "assets/images/disco flap acabamento.jpeg.png" },
 
   // Lixas e Cintas
@@ -155,8 +157,6 @@ const produtos = [
   { id: 251, nome: "Lixa Vermelha - Cinta de Lixa LS 309 XHG 100 75x2300", preco: 27.50, categoria: "Lixas e Cintas", imagem: "assets/images/lixa vermelha.jpeg.png" },
   { id: 252, nome: "Lixa Vermelha - Cinta de Lixa LS 309 XHG 150 75x2300", preco: 27.50, categoria: "Lixas e Cintas", imagem: "assets/images/lixa vermelha.jpeg.png" },
   { id: 253, nome: "Lixa Vermelha - Cinta de Lixa LS 309 XHG 80 75x2300", preco: 27.50, categoria: "Lixas e Cintas", imagem: "assets/images/lixa vermelha.jpeg.png" },
-  { id: 263, nome: "Manta Abrasiva 125x240mm Marrom Fina", preco: 7.50, categoria: "Lixas e Cintas", imagem: "assets/images/lixa bora.jpeg.png" },
-  { id: 264, nome: "Manta Abrasiva 125x240mm Marrom Média", preco: 7.50, categoria: "Lixas e Cintas", imagem: "assets/images/lixa bora.jpeg.png" },
   { id: 286, nome: "Lixa Marrom - Cinta de Lixa KA 169 G 150 50x2000", preco: 20.00, categoria: "Lixas e Cintas", imagem: "assets/images/lixa marrom.jpeg.png" },
   { id: 287, nome: "Lixa Marrom - Cinta de Lixa KA 169 G 150 50x2700", preco: 25.00, categoria: "Lixas e Cintas", imagem: "assets/images/lixa marrom.jpeg.png" },
   { id: 288, nome: "Lixa Marrom - Cinta de Lixa KA 169 G 150 70x2300", preco: 22.50, categoria: "Lixas e Cintas", imagem: "assets/images/lixa marrom.jpeg.png" },
