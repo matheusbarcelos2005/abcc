@@ -1,23 +1,23 @@
 // Catalogo automatico extraido do PDF
 const produtos = [
   // Discos
-  { id: 11, nome: "Disco Esponja Acabamento Berwanger", preco: 25.00, categoria: "Discos", imagem: "assets/images/disco esponja acabamento berwanger.png" },
+  { id: 11, nome: "Disco Esponja Acabamento Berwanger 115x22mm", preco: 25.00, categoria: "Discos", imagem: "assets/images/disco esponja acabamento berwanger.png" },
   { id: 12, nome: "Disco Feltro Berwanger 115X22mm", preco: 25.00, categoria: "Discos", imagem: "assets/images/disco feltro berwanger.png" },
   { id: 13, nome: "Disco Removedor Berwanger 115X22mm", preco: 35.00, categoria: "Discos", imagem: "assets/images/disco flap removedor berwanger.png" },
   { id: 14, nome: "Disco Flap Feltro Berwanger 115X22mm", preco: 25.00, categoria: "Discos", imagem: "assets/images/disco flap feltro berwanger.png" },
-  { id: 15, nome: "Disco Flap Acabamento Médio Vermelho", preco: 30.00, categoria: "Discos", imagem: "assets/images/disco flap acabamento medio vermelho berwanger.png" },
-  { id: 16, nome: "Disco Flap Acabamento Grosso Marrom", preco: 30.00, categoria: "Discos", imagem: "assets/images/disco flap acabamento grosso marrom berwanger.png", destaque: true },
+  { id: 15, nome: "Disco Flap Acabamento Médio Vermelho 115x22mm", preco: 30.00, categoria: "Discos", imagem: "assets/images/disco flap acabamento medio vermelho berwanger.png" },
+  { id: 16, nome: "Disco Flap Acabamento Grosso Marrom 115x22mm", preco: 30.00, categoria: "Discos", imagem: "assets/images/disco flap acabamento grosso marrom berwanger.png", destaque: true },
   // Lixas e Cintas
 
   // Escovas
   { id: 41, nome: "Escova de Corda Torcida 5 argolas", preco: 105.00, categoria: "Escovas", imagem: "assets/images/escova de corda.jpeg.png" },
   { id: 42, nome: "Escova de Corda Trançada 2 argolas", preco: 125.00, categoria: "Escovas", imagem: "assets/images/escova de corda.jpeg.png" },
   { id: 43, nome: "Escova de Fibra 250X32", preco: 75.00, categoria: "Escovas", imagem: "assets/images/escova de fibra.jpeg.png", destaque: true },
-  { id: 44, nome: "Escova de Fibra 350X32", preco: 85.00, categoria: "Escovas", imagem: "assets/images/escova de fibra.jpeg.png" },
+  { id: 44, nome: "Escova de Fibra 300x32", preco: 85.00, categoria: "Escovas", imagem: "assets/images/escova de fibra.jpeg.png" },
 
-  // Massas de Polir e Sebo
-  { id: 45, nome: "Sebo - barra", preco: 17.50, categoria: "Massas de Polir e Sebo", imagem: "assets/images/sebo.jpeg.png" },
-  { id: 46, nome: "Sebo - kilo", preco: 23.50, categoria: "Massas de Polir e Sebo", imagem: "assets/images/sebo.jpeg.png" },
+  // Sebo
+  { id: 45, nome: "Sebo - barra", preco: 17.50, categoria: "Sebo", imagem: "assets/images/sebo.jpeg.png" },
+  { id: 46, nome: "Sebo - kilo", preco: 24.50, categoria: "Sebo", imagem: "assets/images/sebo.jpeg.png" },
 
   // EPIs e Proteção
   { id: 53, nome: "Luva de Raspa Longa", preco: 17.50, categoria: "EPIs e Proteção", imagem: "assets/images/Luva de raspa  P20.jpeg" },
@@ -381,27 +381,25 @@ const produtos = [
   { id: 370, nome: "L.az 3.40.200.13 - Roda Lisa Tecalgresazul 200x13", preco: 37.50, categoria: "Rodas de Algodão e Sisal", imagem: "assets/images/roda lisa.jpeg.png" },
   { id: 371, nome: "L.c 1.50.250.324 C - Roda Lisa Tecalgcru 250x324 Costura", preco: 55.00, categoria: "Rodas de Algodão e Sisal", imagem: "assets/images/roda lisa.jpeg.png" },
 
-  // Escovas
-  { id: 433, nome: "Escova de Fibra 300x32", preco: 85.00, categoria: "Escovas", imagem: "assets/images/escova de fibra.jpeg.png" },
-  { id: 434, nome: "Escova de Lixa 70x300", preco: 80.00, categoria: "Escovas", imagem: "" },
+  // Escovas  { id: 434, nome: "Escova de Lixa 70x300", preco: 80.00, categoria: "Escovas", imagem: "" },
 
-  // Massas de Polir e Sebo
-  { id: 265, nome: "MASSA OLGA o 2 - MASSA SOLIDA Lustromax(barra)", preco: 50.00, categoria: "Massas de Polir e Sebo", imagem: "assets/images/massa olga 02 e 04.png", destaque: true },
-  { id: 266, nome: "MASSA OLGA o 2 - MASSA SOLIDA Lustromax(kilocaixafechada)", preco: 33.50, categoria: "Massas de Polir e Sebo", imagem: "assets/images/massa olga 02 e 04.png" },
-  { id: 267, nome: "MASSA OLGA 04 - MASSA SOLIDA Lustromax(barra)", preco: 30.00, categoria: "Massas de Polir e Sebo", imagem: "assets/images/massa olga 02 e 04.png" },
-  { id: 268, nome: "MASSA OLGA 04 - MASSA SOLIDA Lustromax(kilocaixafechada)", preco: 23.50, categoria: "Massas de Polir e Sebo", imagem: "assets/images/massa olga 02 e 04.png" },
-  { id: 269, nome: "Ms.az.p 1.G 4 - MASSA SOLIDA Azul(barra)", preco: 30.00, categoria: "Massas de Polir e Sebo", imagem: "assets/images/massa.jpeg.png" },
-  { id: 270, nome: "Ms.az.p 1.G 4 - MASSA SOLIDA Azul(kilocaixafechada)", preco: 27.50, categoria: "Massas de Polir e Sebo", imagem: "assets/images/massa.jpeg.png" },
-  { id: 271, nome: "Ms.b.p 6.G 12 - MASSA SOLIDA Branca(barra)", preco: 25.00, categoria: "Massas de Polir e Sebo", imagem: "assets/images/massa.jpeg.png" },
-  { id: 272, nome: "Ms.b.p 6.G 12 - MASSA SOLIDA Branca(kilocaixafechada)", preco: 22.50, categoria: "Massas de Polir e Sebo", imagem: "assets/images/massa.jpeg.png" },
-  { id: 273, nome: "Ms.cz.aaa - MASSA SOLIDA Cinza(barra)", preco: 15.00, categoria: "Massas de Polir e Sebo", imagem: "assets/images/massa.jpeg.png" },
-  { id: 274, nome: "Ms.ll.p 1 o - MASSA SOLIDA Lilas(kilocaixafechada)(madeira)", preco: 33.50, categoria: "Massas de Polir e Sebo", imagem: "assets/images/massa.jpeg.png" },
-  { id: 275, nome: "Ms.ll.p 1 o - MASSA SOLIDA Lilasembarra(barra)(madeira)", preco: 40.00, categoria: "Massas de Polir e Sebo", imagem: "assets/images/massa.jpeg.png" },
-  { id: 276, nome: "Ms.ll.p 5.BRE - MASSA SOLIDA Lilas(barra）(inox)", preco: 40.00, categoria: "Massas de Polir e Sebo", imagem: "assets/images/massa.jpeg.png" },
-  { id: 277, nome: "Ms.ll.p 5.BRE - MASSA SOLIDA Lilas(kilocaixafechada)(inox)", preco: 35.00, categoria: "Massas de Polir e Sebo", imagem: "assets/images/massa.jpeg.png" },
-  { id: 278, nome: "Ms.m.p 4 - Massa Solida Marrom", preco: 15.00, categoria: "Massas de Polir e Sebo", imagem: "assets/images/massa.jpeg.png" },
-  { id: 279, nome: "Ms.r.p 1.G 6 - MASSA SOLIDA Rosa(barra)", preco: 30.00, categoria: "Massas de Polir e Sebo", imagem: "assets/images/massa.jpeg.png" },
-  { id: 280, nome: "Ms.r.p 1.G 6 - MASSA SOLIDA Rosa(kilocaixafechada)", preco: 27.50, categoria: "Massas de Polir e Sebo", imagem: "assets/images/massa.jpeg.png" },
+  // Massa de Polir
+  { id: 265, nome: "MASSA OLGA o 2 - MASSA SOLIDA Lustromax(barra)", preco: 50.00, categoria: "Massa de Polir", imagem: "assets/images/massa olga 02 e 04.png", destaque: true },
+  { id: 266, nome: "MASSA OLGA o 2 - MASSA SOLIDA Lustromax(kilocaixafechada)", preco: 33.50, categoria: "Massa de Polir", imagem: "assets/images/massa olga 02 e 04.png" },
+  { id: 267, nome: "MASSA OLGA 04 - MASSA SOLIDA Lustromax(barra)", preco: 30.00, categoria: "Massa de Polir", imagem: "assets/images/massa olga 02 e 04.png" },
+  { id: 268, nome: "MASSA OLGA 04 - MASSA SOLIDA Lustromax(kilocaixafechada)", preco: 23.50, categoria: "Massa de Polir", imagem: "assets/images/massa olga 02 e 04.png" },
+  { id: 269, nome: "Ms.az.p 1.G 4 - MASSA SOLIDA Azul(barra)", preco: 30.00, categoria: "Massa de Polir", imagem: "assets/images/massa.jpeg.png" },
+  { id: 270, nome: "Ms.az.p 1.G 4 - MASSA SOLIDA Azul(kilocaixafechada)", preco: 27.50, categoria: "Massa de Polir", imagem: "assets/images/massa.jpeg.png" },
+  { id: 271, nome: "Ms.b.p 6.G 12 - MASSA SOLIDA Branca(barra)", preco: 25.00, categoria: "Massa de Polir", imagem: "assets/images/massa.jpeg.png" },
+  { id: 272, nome: "Ms.b.p 6.G 12 - MASSA SOLIDA Branca(kilocaixafechada)", preco: 22.50, categoria: "Massa de Polir", imagem: "assets/images/massa.jpeg.png" },
+  { id: 273, nome: "Ms.cz.aaa - MASSA SOLIDA Cinza(barra)", preco: 15.00, categoria: "Massa de Polir", imagem: "assets/images/massa.jpeg.png" },
+  { id: 274, nome: "Ms.ll.p 1 o - MASSA SOLIDA Lilas(kilocaixafechada)(madeira)", preco: 33.50, categoria: "Massa de Polir", imagem: "assets/images/massa.jpeg.png" },
+  { id: 275, nome: "Ms.ll.p 1 o - MASSA SOLIDA Lilasembarra(barra)(madeira)", preco: 40.00, categoria: "Massa de Polir", imagem: "assets/images/massa.jpeg.png" },
+  { id: 276, nome: "Ms.ll.p 5.BRE - MASSA SOLIDA Lilas(barra）(inox)", preco: 40.00, categoria: "Massa de Polir", imagem: "assets/images/massa.jpeg.png" },
+  { id: 277, nome: "Ms.ll.p 5.BRE - MASSA SOLIDA Lilas(kilocaixafechada)(inox)", preco: 35.00, categoria: "Massa de Polir", imagem: "assets/images/massa.jpeg.png" },
+  { id: 278, nome: "Ms.m.p 4 - Massa Solida Marrom", preco: 15.00, categoria: "Massa de Polir", imagem: "assets/images/massa.jpeg.png" },
+  { id: 279, nome: "Ms.r.p 1.G 6 - MASSA SOLIDA Rosa(barra)", preco: 30.00, categoria: "Massa de Polir", imagem: "assets/images/massa.jpeg.png" },
+  { id: 280, nome: "Ms.r.p 1.G 6 - MASSA SOLIDA Rosa(kilocaixafechada)", preco: 27.50, categoria: "Massa de Polir", imagem: "assets/images/massa.jpeg.png" },
 
   // EPIs e Proteção
   { id: 262, nome: "Luva Vaqueta P 7", preco: 22.50, categoria: "EPIs e Proteção", imagem: "assets/images/Luva de vaqueta P7.jpeg" },
