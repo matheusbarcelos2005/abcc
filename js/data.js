@@ -145,12 +145,12 @@ const produtos = [
   { id: 437, nome: "Disco Flap Berwanger 180x22MM GR 40", preco: 15.50, categoria: "Discos", imagem: "assets/images/disco flap acabamento.jpeg.png" },
 
   // Lixas e Cintas
-  { id: 95, nome: "Roda PG Misto Scotch Brite 25x150x45 GR 180", preco: 55.00, categoria: "Lixas e Cintas", imagem: "assets/images/pg misto scoth brite.png" },
-  { id: 96, nome: "Roda PG Misto Scotch Brite 50x150x45 GR 180", preco: 75.00, categoria: "Lixas e Cintas", imagem: "assets/images/pg misto scoth brite.png", destaque: true },
-  { id: 97, nome: "Roda PG Misto Scotch Brite 25x150x45 GR 80", preco: 55.00, categoria: "Lixas e Cintas", imagem: "assets/images/pg misto scoth brite.png" },
-  { id: 98, nome: "Roda PG Misto Scotch Brite 50x150x45 GR 80", preco: 75.00, categoria: "Lixas e Cintas", imagem: "assets/images/pg misto scoth brite.png" },
-  { id: 100, nome: "Roda Scotch Brite Reciclada Maciça 25x250", preco: 60.00, categoria: "Lixas e Cintas", imagem: "assets/images/pg misto scoth brite.png" },
-  { id: 101, nome: "Roda Scotch Brite Reciclada Maciça 50x250", preco: 90.00, categoria: "Lixas e Cintas", imagem: "assets/images/pg misto scoth brite.png" },
+  { id: 95, nome: "Roda PG Misto Scotch Brite 25x150x45 GR 180", preco: 55.00, categoria: "Rodas PGS", imagem: "assets/images/pg misto scoth brite.png" },
+  { id: 96, nome: "Roda PG Misto Scotch Brite 50x150x45 GR 180", preco: 75.00, categoria: "Rodas PGS", imagem: "assets/images/pg misto scoth brite.png", destaque: true },
+  { id: 97, nome: "Roda PG Misto Scotch Brite 25x150x45 GR 80", preco: 55.00, categoria: "Rodas PGS", imagem: "assets/images/pg misto scoth brite.png" },
+  { id: 98, nome: "Roda PG Misto Scotch Brite 50x150x45 GR 80", preco: 75.00, categoria: "Rodas PGS", imagem: "assets/images/pg misto scoth brite.png" },
+  { id: 100, nome: "Roda Scotch Brite Reciclada Maciça 25x250", preco: 60.00, categoria: "Rodas PGS", imagem: "assets/images/pg misto scoth brite.png" },
+  { id: 101, nome: "Roda Scotch Brite Reciclada Maciça 50x250", preco: 90.00, categoria: "Rodas PGS", imagem: "assets/images/pg misto scoth brite.png" },
   { id: 229, nome: "PG com Rosca Misto Scotch Brite M14 115x20mm GR 80/180", preco: 55.00, categoria: "Lixas e Cintas", imagem: "assets/images/pg misto scoth brite.png" },
   { id: 230, nome: "PG com Rosca Misto Scotch Brite M14 115x50mm GR 80/180", preco: 70.00, categoria: "Lixas e Cintas", imagem: "assets/images/pg misto scoth brite.png" },
   { id: 250, nome: "Lixa Vermelha - Cinta de Lixa LS 309 XG 220 75x2300", preco: 27.50, categoria: "Lixas e Cintas", imagem: "assets/images/lixa vermelha.jpeg.png" },
