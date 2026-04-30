@@ -90,7 +90,7 @@ function saveCart() {
 
 function updateCartCount() {
     const total = cart.reduce((s, i) => s + i.qty, 0);
-    document.querySelectorAll('#cartCount').forEach(el => {
+    document.querySelectorAll('#cartCount, #fabCartCount').forEach(el => {
         el.textContent = total;
         el.style.display = total > 0 ? '' : 'none';
     });
@@ -387,7 +387,6 @@ function wireLinks() {
     const set = (id, href) => { const el = document.getElementById(id); if (el) el.href = href; };
 
     set('heroWaBtn', wa);
-    set('fabWa', wa);
     set('waContactLink', wa);
     set('footerWaBtn', wa);
     set('footerWaLink', wa);

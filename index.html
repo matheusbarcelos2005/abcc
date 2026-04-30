@@ -16,7 +16,7 @@
     <!-- AOS -->
 
     <!-- Custom -->
-    <link rel="stylesheet" href="css/style.css?v=20260430-fixed-product-images">
+    <link rel="stylesheet" href="css/style.css?v=20260430-floating-cart">
 </head>
 <body>
 
@@ -504,9 +504,10 @@
      FLOATING BUTTONS
      ============================================================ -->
 <div class="floating-actions">
-    <a href="#" class="fab fab-wa" id="fabWa" title="WhatsApp">
-        <i class="fa-brands fa-whatsapp"></i>
-    </a>
+    <button class="fab fab-wa fab-budget" id="fabBudget" type="button" data-bs-toggle="modal" data-bs-target="#budgetModal" title="Meu orçamento">
+        <i class="fa-solid fa-cart-shopping"></i>
+        <span class="cart-count fab-cart-count" id="fabCartCount">0</span>
+    </button>
     <button class="fab fab-up" id="fabUp" title="Voltar ao topo" onclick="window.scrollTo({top:0,behavior:'smooth'})">
         <i class="fa-solid fa-arrow-up"></i>
     </button>
@@ -529,6 +530,6 @@
 
 <script src="js/config.js"></script>
 <script src="js/data.js?v=20260430-product-numbers"></script>
-<script src="js/app.js?v=20260430-product-numbers"></script>
+<script src="js/app.js?v=20260430-floating-cart"></script>
 </body>
 </html>

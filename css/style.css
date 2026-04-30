@@ -1056,8 +1056,27 @@ img { max-width: 100%; display: block; }
 .fab-wa {
     background: #25d366;
     color: #fff;
+    border: none;
 }
 .fab-wa:hover { transform: scale(1.1); box-shadow: 0 6px 28px rgba(37,211,102,0.45); color: #fff; }
+.fab-budget {
+    position: relative;
+}
+.fab-cart-count {
+    position: absolute;
+    top: -0.35rem;
+    right: -0.35rem;
+    min-width: 1.25rem;
+    height: 1.25rem;
+    padding: 0 0.3rem;
+    border: 2px solid var(--bg-deep);
+    border-radius: 999px;
+    background: var(--accent);
+    color: #000;
+    font-size: 0.68rem;
+    font-weight: 800;
+    line-height: 1.05rem;
+}
 .fab-up {
     background: var(--bg-card);
     border: 1px solid var(--border);
