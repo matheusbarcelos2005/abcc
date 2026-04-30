@@ -283,6 +283,11 @@
 .cat-toolbar {
     display: flex; align-items: center; justify-content: space-between;
     gap: 1rem; margin-bottom: 1rem; flex-wrap: wrap;
+    position: sticky;
+    top: 90px;
+    z-index: 90;
+    background: var(--bg-deep);
+    padding: 0.75rem 0;
 }
 .toolbar-left { flex: 1; min-width: 240px; }
 .toolbar-right { display: flex; align-items: center; gap: 1rem; }
