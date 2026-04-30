@@ -118,7 +118,6 @@ const produtos = [
   { id: 226, nome: "PG com Rosca - PGM14 115x20MM GR 320", preco: 52.50, categoria: "Rodas PGS", imagem: "assets/images/pg misto.jpeg.png" },
   { id: 227, nome: "PG com Rosca - PGM14 115x20MM GR 60", preco: 52.50, categoria: "Rodas PGS", imagem: "assets/images/pg misto.jpeg.png" },
   { id: 228, nome: "PG com Rosca - PGM14 115x20MM GR 80", preco: 52.50, categoria: "Rodas PGS", imagem: "assets/images/pg misto.jpeg.png" },
-  { id: 249, nome: "Roda PG G 36 AOG 60025x300x110", preco: 120.00, categoria: "Rodas PGS", imagem: "assets/images/rodas pgs.png" },
 
   // Discos
   { id: 82, nome: "V.r.16.250.13.aaa - Disco Ventilado Tecalgrosadura 250x13", preco: 32.50, categoria: "Rodas de Algodão e Sisal", imagem: "assets/images/roda ventilada algodao resina rosa extra duro.png" },

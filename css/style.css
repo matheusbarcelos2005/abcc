@@ -693,10 +693,8 @@ img { max-width: 100%; display: block; }
 .product-img-wrap img {
     width: 130px; height: 130px;
     object-fit: contain;
-    transition: transform 0.4s cubic-bezier(0.4,0,0.2,1);
     filter: drop-shadow(0 4px 10px rgba(0,0,0,0.4));
 }
-.product-card:hover .product-img-wrap img { transform: scale(1.1) rotate(2deg); }
 
 .product-body {
     padding: 1.1rem;
