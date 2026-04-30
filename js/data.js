@@ -401,3 +401,7 @@ const produtos = [
 
   // Acessórios
 ];
+
+produtos.forEach((produto, index) => {
+  produto.numero = index + 1;
+});

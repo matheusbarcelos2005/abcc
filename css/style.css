@@ -641,6 +641,25 @@ img { max-width: 100%; display: block; }
 }
 .product-card:hover::before { opacity: 1; }
 
+.product-number {
+    position: absolute;
+    top: 0.65rem;
+    left: 0.65rem;
+    z-index: 3;
+    min-width: 1.7rem;
+    height: 1.35rem;
+    padding: 0 0.45rem;
+    border: 1px solid rgba(255,255,255,0.08);
+    border-radius: 999px;
+    background: rgba(17,17,22,0.74);
+    color: rgba(255,255,255,0.52);
+    font-size: 0.68rem;
+    font-weight: 700;
+    line-height: 1.3rem;
+    text-align: center;
+    pointer-events: none;
+}
+
 .product-card.destaque::after {
     content: 'DESTAQUE';
     position: absolute;

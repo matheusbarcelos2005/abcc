@@ -171,6 +171,7 @@ function renderProducts() {
 
     grid.innerHTML = filtered.map(p => `
         <div class="product-card${p.destaque ? ' destaque' : ''}" data-id="${p.id}">
+            <div class="product-number" aria-label="Produto ${p.numero} de ${produtos.length}">${p.numero}</div>
             <div class="product-img-wrap">
                 <img src="${p.imagem}" alt="${p.nome}" loading="lazy"
                      onerror="this.src='assets/images/logo_favicon.png'">
