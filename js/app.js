@@ -8,11 +8,11 @@
 const DEFAULT_APP_CONFIG = Object.freeze({
     storageKey: 'abc-abrasivos-cart',
     customerStorageKey: 'abc-abrasivos-customer',
-    whatsappNumber: '5551999280515',
+    whatsappNumber: '51981860929',
     whatsappGreeting: 'Olá ABC Abrasivos! Vim pelo site e gostaria de mais informações.',
     contact: {
-        phoneDisplay: '(51) 99928-0515',
-        phoneHref: 'tel:+5551999280515',
+        phoneDisplay: '(51) 98186-0929',
+        phoneHref: 'tel:+5551981860929',
         email: 'abcabrasivos2015@hotmail.com',
         emailHref: 'mailto:abcabrasivos2015@hotmail.com',
         addressHtml: 'R. Aracaju, 475 - Passo dos Ferreiros,<br>Gravataí - RS',
