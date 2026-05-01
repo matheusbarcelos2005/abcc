@@ -8,7 +8,7 @@
 const DEFAULT_APP_CONFIG = Object.freeze({
     storageKey: 'abc-abrasivos-cart',
     customerStorageKey: 'abc-abrasivos-customer',
-    whatsappNumber: '51981860929',
+    whatsappNumber: '5551981860929',
     whatsappGreeting: 'Olá ABC Abrasivos! Vim pelo site e gostaria de mais informações.',
     contact: {
         phoneDisplay: '(51) 98186-0929',
