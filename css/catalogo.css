@@ -302,6 +302,8 @@
     padding: 0.7rem 2.8rem; font-size: 0.9rem; outline: none; transition: var(--transition);
 }
 #searchInput::placeholder { color: var(--text-dim); }
+#searchInput::-webkit-search-cancel-button,
+#mobileSearchInput::-webkit-search-cancel-button { -webkit-appearance: none; display: none; }
 #searchInput:focus { border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-glow); }
 .search-clear {
     position: absolute; right: 0.8rem; background: none; border: none;
