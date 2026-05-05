@@ -124,7 +124,7 @@ const produtos = [
   { id: 384, nome: "Disco de Lixa Red Deerfos XZ 677 GR 24 300mm", preco: 27.50, categoria: "Discos", imagem: "assets/images/disco de lixa red deerfos.png" },
   { id: 385, nome: "Disco de Lixa Red Deerfos XZ 677 GR 36 300mm", preco: 27.50, categoria: "Discos", imagem: "assets/images/disco de lixa red deerfos.png" },
   { id: 419, nome: "Disco de Corte 7 POL X 16 BERWANGER", preco: 7.00, categoria: "Discos", imagem: "assets/images/Disco de Corte Norton 7x1,6.png" },
-  { id: 420, nome: "Disco de Corte 115x1x22,23 BERWANGER", preco: 4.00, categoria: "Discos", imagem: "assets/images/disco de corte.jpeg.png" },
+  { id: 420, nome: "Disco de Corte Klingspor 115x1x22,23", preco: 4.00, categoria: "Discos", imagem: "assets/images/Disco de Corte Klingspor 115x1x22,23.jpeg" },
   { id: 421, nome: "Disco de Flap 115x22MM GR 120 BERWANGER", preco: 7.50, categoria: "Discos", imagem: "assets/images/disco flap acabamento.jpeg.png" },
   { id: 422, nome: "Disco de Flap 115x22MM GR 40 BERWANGER", preco: 7.50, categoria: "Discos", imagem: "assets/images/disco flap acabamento.jpeg.png" },
   { id: 423, nome: "Disco de Flap 115x22MM GR 60 BERWANGER", preco: 7.50, categoria: "Discos", imagem: "assets/images/disco flap acabamento.jpeg.png" },
