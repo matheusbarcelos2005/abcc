@@ -132,16 +132,16 @@ const produtos = [
   { id: 425, nome: "Disco de Flap 115x22,23 GR 40 BERWANGER", preco: 8.50, categoria: "Discos", imagem: "assets/images/disco de Flap 11x22,23MM KLINGSPOR.JPEG" },
   { id: 426, nome: "Disco de Flap 115x22,23 GR 60 BERWANGER", preco: 8.50, categoria: "Discos", imagem: "assets/images/disco de Flap 11x22,23MM KLINGSPOR.JPEG" },
   { id: 427, nome: "Disco de Lixa 50x180 GR 50 BERWANGER", preco: 5.00, categoria: "Discos", imagem: "assets/images/Disco de Lixa 50x180 GR 50.jpeg" },
-  { id: 428, nome: "Disco Flap Acabamento 115x22 Mmfinoazul BERWANGER", preco: 30.00, categoria: "Discos", imagem: "assets/images/disco flap acabamento.jpeg.png" },
+  { id: 428, nome: "Disco de Flap Acabamento Fino 115x22mm BERWANGER", preco: 30.00, categoria: "Discos", imagem: "assets/images/Disco de Flap Acabamento Fino 115x22mm.jpeg" },
   { id: 429, nome: "Disco de Lixa 3M GR 120", preco: 12.50, categoria: "Discos", imagem: "assets/images/disco de lixa 3m.png" },
   { id: 430, nome: "Disco de Lixa 3M GR 24", preco: 12.50, categoria: "Discos", imagem: "assets/images/disco de lixa 3m.png" },
   { id: 431, nome: "Disco de Lixa 3M GR 36", preco: 12.50, categoria: "Discos", imagem: "assets/images/disco de lixa 3m.png" },
   { id: 432, nome: "Disco de Lixa 3M GR 80", preco: 12.50, categoria: "Discos", imagem: "assets/images/disco de lixa 3m.png" },
-  { id: 435, nome: "Feltro Reciclado BERWANGER", preco: 75.00, categoria: "Discos", imagem: "assets/images/disco flap acabamento.jpeg.png" },
+
   { id: 436, nome: "Folha Scotch Brite 240x130mm Fina", preco: 7.50, categoria: "Lixas e Cintas", imagem: "assets/images/Folha Scotch Brite 240mmx130mmm Fina Média Grossa.jpeg" },
   { id: 438, nome: "Folha Scotch Brite 240x130mm Média", preco: 7.50, categoria: "Lixas e Cintas", imagem: "assets/images/Folha Scotch Brite 240mmx130mmm Fina Média Grossa.jpeg" },
   { id: 439, nome: "Folha Scotch Brite 240x130mm Grossa", preco: 7.50, categoria: "Lixas e Cintas", imagem: "assets/images/Folha Scotch Brite 240mmx130mmm Fina Média Grossa.jpeg" },
-  { id: 437, nome: "Disco Flap 180x22MM GR 40 BERWANGER", preco: 15.50, categoria: "Discos", imagem: "assets/images/disco flap acabamento.jpeg.png" },
+  { id: 437, nome: "Disco Flap 180x22MM GR 40 BERWANGER", preco: 15.50, categoria: "Discos", imagem: "assets/images/disco de Flap 11x22MM´ BERWANGER.JPEG" },
 
   // Lixas e Cintas
   { id: 95, nome: "Roda PG Misto Scotch Brite 25x150x45 GR 180", preco: 55.00, categoria: "Rodas PGS", imagem: "assets/images/pg misto scoth brite.png" },
