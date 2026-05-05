@@ -131,7 +131,7 @@ const produtos = [
   { id: 424, nome: "Disco de Flap 115x22MM GR 80 BERWANGER", preco: 7.50, categoria: "Discos", imagem: "assets/images/disco de Flap 11x22MM´ BERWANGER.JPEG" },
   { id: 425, nome: "Disco de Flap 115x22,23 GR 40 BERWANGER", preco: 8.50, categoria: "Discos", imagem: "assets/images/disco de Flap 11x22,23MM KLINGSPOR.JPEG" },
   { id: 426, nome: "Disco de Flap 115x22,23 GR 60 BERWANGER", preco: 8.50, categoria: "Discos", imagem: "assets/images/disco de Flap 11x22,23MM KLINGSPOR.JPEG" },
-  { id: 427, nome: "Disco de Lixa 50x180 GR 50 BERWANGER", preco: 5.00, categoria: "Discos", imagem: "assets/images/disco flap acabamento.jpeg.png" },
+  { id: 427, nome: "Disco de Lixa 50x180 GR 50 BERWANGER", preco: 5.00, categoria: "Discos", imagem: "assets/images/Disco de Lixa 50x180 GR 50.jpeg" },
   { id: 428, nome: "Disco Flap Acabamento 115x22 Mmfinoazul BERWANGER", preco: 30.00, categoria: "Discos", imagem: "assets/images/disco flap acabamento.jpeg.png" },
   { id: 429, nome: "Disco de Lixa 3M GR 120", preco: 12.50, categoria: "Discos", imagem: "assets/images/disco de lixa 3m.png" },
   { id: 430, nome: "Disco de Lixa 3M GR 24", preco: 12.50, categoria: "Discos", imagem: "assets/images/disco de lixa 3m.png" },
