@@ -2,7 +2,8 @@
   "permissions": {
     "allow": [
       "Bash(Get-ChildItem -Path \"a:\\\\SITES\\\\SITES PRONTOS\\\\abcc\" -Recurse -Directory)",
-      "Bash(Select-Object -First 20)"
+      "Bash(Select-Object -First 20)",
+      "Bash(node -e ' *)"
     ]
   }
 }
