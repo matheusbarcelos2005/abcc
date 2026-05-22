@@ -319,7 +319,7 @@ const produtos = [
   { id: 116, nome: "Ts.48.200.32.4 - Roda Sisal 200x32 IMP 4", preco: 28.00, categoria: "Rodas de Algodão e Sisal", imagem: "assets/images/Roda Sisal Impregnação 4.jpg" },
   { id: 117, nome: "Ts.48.250.32.1 a - Roda Sisal 250x32 IMP 1 a", preco: 35.00, categoria: "Rodas de Algodão e Sisal", imagem: "assets/images/roda sisal impregnacao 1A.png" },
   { id: 118, nome: "Ts.48.250.32.2 - Roda Sisal 250x32 IMP 2", preco: 35.00, categoria: "Rodas de Algodão e Sisal", imagem: "assets/images/roda sisal impregnacao 2.png" },
-  { id: 119, nome: "Ts.48.250.32.3 a - Roda Sisal 250x32 IMP 3 a", preco: 37.50, categoria: "Rodas de Algodão e Sisal", imagem: "assets/images/roda sisal impregnacao 3A.png" },
+  { id: 119, nome: "Ts.48.250.32.3 a - Roda Sisal 250x32 IMP 3 a", preco: 37.50, categoria: "Rodas de Algodão e Sisal", imagem: "assets/images/T.S.48.250.32.3A - Roda Sisal 250x32 Impregnação 3A.jpg" },
   { id: 120, nome: "Ts.48.250.32.4 - Roda Sisal 250x32 IMP 4", preco: 52.50, categoria: "Rodas de Algodão e Sisal", imagem: "assets/images/Roda Sisal Impregnação 4.jpg" },
   { id: 121, nome: "Ts.48.250.32.8 - Roda Sisal 250x32 IMP 8", preco: 47.50, categoria: "Rodas de Algodão e Sisal", imagem: "assets/images/roda sisal impregnacao 8.jpeg.png" },
   { id: 122, nome: "T.S.48.250.50.CH.2 - Roda Sisal 250x50 CH Impregnação 2", preco: 35.00, categoria: "Rodas de Algodão e Sisal", imagem: "assets/images/T.S.48.250.50.CH.2 - Roda Sisal 250x50 CH Impregnação 2.jpeg" },
