@@ -1,11 +1,11 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Catálogo — ABC Abrasivos</title>
-    <meta name="description" content="Catálogo completo de abrasivos industriais: discos, lixas, rodas de polimento, escovas, EPIs e mais. Solicite orçamento pelo WhatsApp.">
-    <link rel="icon" href="assets/images/logo_favicon.png" type="image/png">
+    <title>CatÃ¡logo â€” ABC Abrasivos</title>
+    <meta name="description" content="CatÃ¡logo completo de abrasivos industriais: discos, lixas, rodas de polimento, escovas, EPIs e mais. Solicite orÃ§amento pelo WhatsApp.">
+    <link rel="icon" href="assets/images/site/logo_favicon.png" type="image/png">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
@@ -15,46 +15,46 @@
 </head>
 <body class="catalogo-page">
 
-<!-- ── NAVBAR ── -->
+<!-- â”€â”€ NAVBAR â”€â”€ -->
 <nav class="navbar navbar-expand-lg fixed-top" id="mainNavbar">
     <div class="container">
         <a class="navbar-brand" href="index.html">
-            <img src="assets/images/logo.jpeg" alt="ABC Abrasivos" class="rounded">
+            <img src="assets/images/site/logo.jpeg" alt="ABC Abrasivos" class="rounded">
         </a>
         <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-label="Menu">
             <i class="fa-solid fa-bars" style="color:#fff;font-size:1.2rem;"></i>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav mx-auto gap-1">
-                <li class="nav-item"><a class="nav-link" href="index.html">Início</a></li>
-                <li class="nav-item"><a class="nav-link active" href="catalogo.html">Catálogo</a></li>
+                <li class="nav-item"><a class="nav-link" href="index.html">InÃ­cio</a></li>
+                <li class="nav-item"><a class="nav-link active" href="catalogo.html">CatÃ¡logo</a></li>
                 <li class="nav-item"><a class="nav-link" href="index.html#features">Diferenciais</a></li>
                 <li class="nav-item"><a class="nav-link" href="index.html#sobre">Sobre</a></li>
                 <li class="nav-item"><a class="nav-link" href="index.html#contato">Contato</a></li>
             </ul>
             <button class="nav-cart-btn" data-bs-toggle="modal" data-bs-target="#budgetModal" id="headerBudgetBtn" type="button">
                 <i class="fa-solid fa-cart-shopping"></i>
-                Orçamento
+                OrÃ§amento
                 <span class="cart-count" id="cartCount">0</span>
             </button>
         </div>
     </div>
 </nav>
 
-<!-- ── PAGE HEADER ── -->
+<!-- â”€â”€ PAGE HEADER â”€â”€ -->
 <div class="cat-page-header">
     <div class="cat-page-header-bg"></div>
     <div class="container position-relative">
         <div class="row align-items-center">
             <div class="col-lg-6">
                 <div class="cat-page-breadcrumb">
-                    <a href="index.html">Início</a>
+                    <a href="index.html">InÃ­cio</a>
                     <i class="fa-solid fa-chevron-right"></i>
-                    <span>Catálogo</span>
+                    <span>CatÃ¡logo</span>
                 </div>
-                <h1 class="cat-page-title">Catálogo <span>Completo</span></h1>
+                <h1 class="cat-page-title">CatÃ¡logo <span>Completo</span></h1>
                 <p class="cat-page-desc">
-                    Encontre o abrasivo certo para cada aplicação. Adicione ao orçamento e envie pelo WhatsApp em segundos.
+                    Encontre o abrasivo certo para cada aplicaÃ§Ã£o. Adicione ao orÃ§amento e envie pelo WhatsApp em segundos.
                 </p>
             </div>
             <div class="col-lg-6 d-none d-lg-flex justify-content-end align-items-center gap-4">
@@ -64,7 +64,7 @@
                 </div>
                 <div class="cat-stat-divider"></div>
                 <div class="cat-stat">
-                    <span class="cat-stat-num" id="totalCategories">—</span>
+                    <span class="cat-stat-num" id="totalCategories">â€”</span>
                     <span class="cat-stat-label">Categorias</span>
                 </div>
                 <div class="cat-stat-divider"></div>
@@ -77,7 +77,7 @@
     </div>
 </div>
 
-<!-- ── MOBILE BAR (search + filtros button) ── -->
+<!-- â”€â”€ MOBILE BAR (search + filtros button) â”€â”€ -->
 <div class="cat-mobile-bar">
     <div class="cat-mobile-search">
         <i class="fa-solid fa-magnifying-glass"></i>
@@ -89,7 +89,7 @@
     </button>
 </div>
 
-<!-- ── FILTER DRAWER ── -->
+<!-- â”€â”€ FILTER DRAWER â”€â”€ -->
 <div class="filter-drawer-overlay" id="drawerOverlay"></div>
 <div class="filter-drawer" id="filterDrawer">
     <div class="drawer-handle"></div>
@@ -107,11 +107,11 @@
         <div class="drawer-section">
             <div class="drawer-section-title"><i class="fa-solid fa-arrow-down-a-z"></i> Ordenar por</div>
             <div class="drawer-sort-pills" id="drawerSort">
-                <span class="sort-pill active" data-sort="default">Padrão</span>
-                <span class="sort-pill" data-sort="name-az">Nome A–Z</span>
-                <span class="sort-pill" data-sort="name-za">Nome Z–A</span>
-                <span class="sort-pill" data-sort="price-asc">Menor preço</span>
-                <span class="sort-pill" data-sort="price-desc">Maior preço</span>
+                <span class="sort-pill active" data-sort="default">PadrÃ£o</span>
+                <span class="sort-pill" data-sort="name-az">Nome Aâ€“Z</span>
+                <span class="sort-pill" data-sort="name-za">Nome Zâ€“A</span>
+                <span class="sort-pill" data-sort="price-asc">Menor preÃ§o</span>
+                <span class="sort-pill" data-sort="price-desc">Maior preÃ§o</span>
             </div>
         </div>
         <!-- Destaque -->
@@ -132,7 +132,7 @@
     </div>
 </div>
 
-<!-- ── MAIN CONTENT ── -->
+<!-- â”€â”€ MAIN CONTENT â”€â”€ -->
 <main class="cat-main">
     <div class="container-fluid px-4 px-lg-5">
         <div class="row g-4">
@@ -154,11 +154,11 @@
                             <i class="fa-solid fa-sliders"></i> Ordenar
                         </div>
                         <select class="sidebar-select" id="sortSelect">
-                            <option value="default">Padrão</option>
-                            <option value="name-az">Nome A–Z</option>
-                            <option value="name-za">Nome Z–A</option>
-                            <option value="price-asc">Menor preço</option>
-                            <option value="price-desc">Maior preço</option>
+                            <option value="default">PadrÃ£o</option>
+                            <option value="name-az">Nome Aâ€“Z</option>
+                            <option value="name-za">Nome Zâ€“A</option>
+                            <option value="price-asc">Menor preÃ§o</option>
+                            <option value="price-desc">Maior preÃ§o</option>
                         </select>
                     </div>
 
@@ -220,13 +220,13 @@
     </div>
 </main>
 
-<!-- ── FOOTER (mini) ── -->
+<!-- â”€â”€ FOOTER (mini) â”€â”€ -->
 <footer class="cat-footer">
     <div class="container">
         <div class="d-flex flex-wrap align-items-center justify-content-between gap-3">
             <div class="d-flex align-items-center gap-3">
-                <img src="assets/images/logo.jpeg" alt="ABC Abrasivos" style="height:40px;border-radius:6px;">
-                <span style="color:var(--text-muted);font-size:0.82rem;">© 2025 ABC Abrasivos · Gravataí/RS</span>
+                <img src="assets/images/site/logo.jpeg" alt="ABC Abrasivos" style="height:40px;border-radius:6px;">
+                <span style="color:var(--text-muted);font-size:0.82rem;">Â© 2025 ABC Abrasivos Â· GravataÃ­/RS</span>
             </div>
             <div class="d-flex align-items-center gap-2">
                 <a href="index.html#contato" class="social-btn instagram" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
@@ -237,13 +237,13 @@
     </div>
 </footer>
 
-<!-- ── BUDGET MODAL ── -->
+<!-- â”€â”€ BUDGET MODAL â”€â”€ -->
 <div class="modal fade" id="budgetModal" tabindex="-1" aria-labelledby="budgetModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg modal-dialog-scrollable">
         <div class="modal-content">
             <div class="modal-header">
                 <h5 class="modal-title" id="budgetModalLabel">
-                    <i class="fa-solid fa-cart-shopping text-accent me-2"></i> Meu Orçamento
+                    <i class="fa-solid fa-cart-shopping text-accent me-2"></i> Meu OrÃ§amento
                 </h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
             </div>
@@ -259,15 +259,15 @@
                             <input type="text" class="form-control" id="customerCompany" placeholder="Empresa">
                         </div>
                         <div class="col-12">
-                            <label class="form-label">Observações</label>
-                            <textarea class="form-control" id="customerObs" rows="2" placeholder="Prazo, quantidade especial, dúvidas..."></textarea>
+                            <label class="form-label">ObservaÃ§Ãµes</label>
+                            <textarea class="form-control" id="customerObs" rows="2" placeholder="Prazo, quantidade especial, dÃºvidas..."></textarea>
                         </div>
                     </div>
                 </div>
                 <div id="cartItemsList">
                     <p class="text-center" style="color:var(--text-muted);padding:2rem 0;">
                         <i class="fa-solid fa-cart-shopping d-block mb-2" style="font-size:2rem;color:var(--text-dim);"></i>
-                        Seu orçamento está vazio.<br>Adicione produtos do catálogo.
+                        Seu orÃ§amento estÃ¡ vazio.<br>Adicione produtos do catÃ¡logo.
                     </p>
                 </div>
             </div>
@@ -280,7 +280,7 @@
                 </div>
                 <button class="btn-wa-send" id="sendWaBtn">
                     <i class="fa-brands fa-whatsapp" style="font-size:1.2rem;"></i>
-                    Enviar Orçamento pelo WhatsApp
+                    Enviar OrÃ§amento pelo WhatsApp
                 </button>
             </div>
         </div>
@@ -289,7 +289,7 @@
 
 <!-- Floating WA -->
 <div class="floating-actions">
-    <button class="fab fab-wa fab-budget" id="fabBudget" type="button" data-bs-toggle="modal" data-bs-target="#budgetModal" title="Meu orçamento">
+    <button class="fab fab-wa fab-budget" id="fabBudget" type="button" data-bs-toggle="modal" data-bs-target="#budgetModal" title="Meu orÃ§amento">
         <i class="fa-solid fa-cart-shopping"></i>
         <span class="cart-count fab-cart-count" id="fabCartCount">0</span>
     </button>
@@ -306,3 +306,4 @@
 <script src="js/catalogo.js?v=20260430-floating-cart"></script>
 </body>
 </html>
+
