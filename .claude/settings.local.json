@@ -1,7 +1,9 @@
 {
   "permissions": {
     "allow": [
-      "PowerShell(\\(Get-Content \"a:\\\\Programação\\\\_Sites prontos\\\\abcc\\\\js\\\\data.js\" -Encoding utf8\\) -replace ' Comtecalg ', ' ' | Set-Content \"a:\\\\Programação\\\\_Sites prontos\\\\abcc\\\\js\\\\data.js\" -Encoding utf8)"
+      "PowerShell(\\(Get-Content \"a:\\\\Programação\\\\_Sites prontos\\\\abcc\\\\js\\\\data.js\" -Encoding utf8\\) -replace ' Comtecalg ', ' ' | Set-Content \"a:\\\\Programação\\\\_Sites prontos\\\\abcc\\\\js\\\\data.js\" -Encoding utf8)",
+      "PowerShell(Select-String -Path \"a:\\\\Programa��o\\\\_Sites prontos\\\\abcc\\\\js\\\\data.js\" -Pattern \"comtecalg\" -CaseSensitive:$false)",
+      "PowerShell(Get-Content \"a:\\\\Programação\\\\_Sites prontos\\\\abcc\\\\js\\\\data.js\" -Encoding utf8 | Select-String -Pattern \"\\(?i\\)comtecalg\" | ForEach-Object { \"$\\($_.LineNumber\\): $\\($_.Line.Trim\\(\\)\\)\" })"
     ]
   }
 }
