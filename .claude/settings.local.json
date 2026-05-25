@@ -4,7 +4,9 @@
       "PowerShell(\\(Get-Content \"a:\\\\Programação\\\\_Sites prontos\\\\abcc\\\\js\\\\data.js\" -Encoding utf8\\) -replace ' Comtecalg ', ' ' | Set-Content \"a:\\\\Programação\\\\_Sites prontos\\\\abcc\\\\js\\\\data.js\" -Encoding utf8)",
       "PowerShell(Select-String -Path \"a:\\\\Programa��o\\\\_Sites prontos\\\\abcc\\\\js\\\\data.js\" -Pattern \"comtecalg\" -CaseSensitive:$false)",
       "PowerShell(Get-Content \"a:\\\\Programação\\\\_Sites prontos\\\\abcc\\\\js\\\\data.js\" -Encoding utf8 | Select-String -Pattern \"\\(?i\\)comtecalg\" | ForEach-Object { \"$\\($_.LineNumber\\): $\\($_.Line.Trim\\(\\)\\)\" })",
-      "PowerShell(\\(Get-Content \"a:\\\\Programação\\\\_Sites prontos\\\\abcc\\\\js\\\\data.js\" -Encoding utf8\\) -replace 'Sisalcomtecalg', 'Sisal' | Set-Content \"a:\\\\Programação\\\\_Sites prontos\\\\abcc\\\\js\\\\data.js\" -Encoding utf8)"
+      "PowerShell(\\(Get-Content \"a:\\\\Programação\\\\_Sites prontos\\\\abcc\\\\js\\\\data.js\" -Encoding utf8\\) -replace 'Sisalcomtecalg', 'Sisal' | Set-Content \"a:\\\\Programação\\\\_Sites prontos\\\\abcc\\\\js\\\\data.js\" -Encoding utf8)",
+      "PowerShell(Get-ChildItem -Path \"a:\\\\Programação\\\\_Sites prontos\\\\abcc\" -Recurse -Directory | Select-Object -First 20 | ForEach-Object { $_.FullName })",
+      "PowerShell(Get-ChildItem -Path \"a:\\\\Programação\\\\_Sites prontos\\\\abcc\\\\assets\\\\images\\\\Rodas de Algodão e Sisal\" | Select-Object Name | Where-Object { $_.Name -match \"\\(Sisal Reciclada|Ts\\\\.24\\\\.150\\)\" })"
     ]
   }
 }
