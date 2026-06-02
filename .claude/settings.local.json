@@ -6,7 +6,12 @@
       "PowerShell(Get-Content \"a:\\\\Programação\\\\_Sites prontos\\\\abcc\\\\js\\\\data.js\" -Encoding utf8 | Select-String -Pattern \"\\(?i\\)comtecalg\" | ForEach-Object { \"$\\($_.LineNumber\\): $\\($_.Line.Trim\\(\\)\\)\" })",
       "PowerShell(\\(Get-Content \"a:\\\\Programação\\\\_Sites prontos\\\\abcc\\\\js\\\\data.js\" -Encoding utf8\\) -replace 'Sisalcomtecalg', 'Sisal' | Set-Content \"a:\\\\Programação\\\\_Sites prontos\\\\abcc\\\\js\\\\data.js\" -Encoding utf8)",
       "PowerShell(Get-ChildItem -Path \"a:\\\\Programação\\\\_Sites prontos\\\\abcc\" -Recurse -Directory | Select-Object -First 20 | ForEach-Object { $_.FullName })",
-      "PowerShell(Get-ChildItem -Path \"a:\\\\Programação\\\\_Sites prontos\\\\abcc\\\\assets\\\\images\\\\Rodas de Algodão e Sisal\" | Select-Object Name | Where-Object { $_.Name -match \"\\(Sisal Reciclada|Ts\\\\.24\\\\.150\\)\" })"
+      "PowerShell(Get-ChildItem -Path \"a:\\\\Programação\\\\_Sites prontos\\\\abcc\\\\assets\\\\images\\\\Rodas de Algodão e Sisal\" | Select-Object Name | Where-Object { $_.Name -match \"\\(Sisal Reciclada|Ts\\\\.24\\\\.150\\)\" })",
+      "PowerShell(\\(Get-Item \"a:\\\\Programação\\\\_Sites prontos\\\\abcc\\\\assets\\\\images\\\\Rodas PGS\\\\Roda PG 25x150x45 GR 150.jpg\"\\).Length)",
+      "PowerShell(ls \"a:\\\\Programa��o\\\\_Sites prontos\\\\abcc\\\\assets\\\\images\\\\\")",
+      "PowerShell(ls \"a:\\\\Programação\\\\_Sites prontos\\\\abcc\\\\assets\\\\images\\\\Rodas de Algodão e Sisal\\\\\" | Where-Object { $_.Name -match \"Ls\\\\.23\" })",
+      "PowerShell(ls \"a:\\\\Programação\\\\_Sites prontos\\\\abcc\\\\assets\\\\images\\\\Rodas de Algodão e Sisal\\\\\" | Where-Object { $_.Name -match \"Ls\\\\.23|LS\\\\.23\" } | Select-Object Name, LastWriteTime, Length)",
+      "PowerShell(Get-ChildItem \"a:\\\\Programação\\\\_Sites prontos\\\\abcc\\\\assets\\\\images\\\\Rodas de Algodão e Sisal\" | Where-Object { $_.LastWriteTime -gt \\(Get-Date \"2026-06-01\"\\) } | Format-Table Name, LastWriteTime, Length -AutoSize)"
     ]
   }
 }
