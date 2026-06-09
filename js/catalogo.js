@@ -26,7 +26,7 @@ const TOKEN_SYNONYMS = {
 function matchTokens(productTokens, queryTokens) {
     return queryTokens.every(qt => {
         const synonyms = TOKEN_SYNONYMS[qt] || [];
-        return productTokens.some(pt => [qt,...synonyms].some(c => pt.includes(c) || c.includes(pt)));
+        return productTokens.some(pt => [qt,...synonyms].some(c => pt.includes(c) || (pt.length >= 3 && c.includes(pt))));
     });
 }
 
