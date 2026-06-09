@@ -90,6 +90,8 @@ function filterProducts() {
         case 'name-za':    result.sort((a,b) => b.nome.localeCompare(a.nome)); break;
         case 'price-asc':  result.sort((a,b) => a.preco - b.preco); break;
         case 'price-desc': result.sort((a,b) => b.preco - a.preco); break;
+        default:
+            if (currentCategory === 'Cintas') result.sort((a,b) => a.nome.localeCompare(b.nome));
     }
     return result;
 }
@@ -178,7 +180,9 @@ function renderProducts() {
     if (noResults) noResults.style.display = 'none';
     if (resultsInfo) resultsInfo.textContent = `${filtered.length} produto${filtered.length !== 1 ? 's' : ''}`;
 
-    grid.innerHTML = filtered.map(p => `
+    grid.innerHTML = filtered.map(p => {
+        const displayName = p.nome.replace(/GR (\d+)/g, 'GR $1');
+        return `
         <div class="product-card${p.destaque ? ' destaque' : ''}">
             <div class="product-number" aria-label="Produto ${p.numero} de ${produtos.length}">${p.numero}</div>
             <div class="product-img-wrap">
@@ -187,7 +191,7 @@ function renderProducts() {
             </div>
             <div class="product-body">
                 <div class="product-cat-tag">${p.categoria}</div>
-                <div class="product-name">${p.nome}</div>
+                <div class="product-name">${displayName}</div>
                 <div class="product-price">
                     <span class="currency">R$</span>${p.preco.toFixed(2).replace('.',',')}
                 </div>
@@ -201,7 +205,8 @@ function renderProducts() {
                 </button>
             </div>
         </div>
-    `).join('');
+    `;
+    }).join('');
 
     grid.querySelectorAll('.btn-add-cart').forEach(btn => {
         btn.addEventListener('click', () => {
