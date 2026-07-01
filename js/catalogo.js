@@ -184,7 +184,7 @@ function renderProducts() {
         const displayName = p.nome.replace(/GR (\d+)/g, 'GR $1');
         return `
         <div class="product-card${p.destaque ? ' destaque' : ''}">
-            <div class="product-number" aria-label="Produto ${p.numero} de ${produtos.length}">${p.numero}</div>
+            <div class="product-number" aria-label="Produto ${p.numero}">${p.numero}</div>
             <div class="product-img-wrap">
                 <img src="${p.imagem}" alt="${p.nome}" loading="lazy"
                      onerror="this.src='assets/images/logo_favicon.png'">
