@@ -29,9 +29,9 @@ const produtos = [
   { id: 19, nome: "Mangote de Raspa", preco: 25.00, categoria: "EPIs e Proteção", imagem: "assets/images/EPIs e Proteção/Mangote de Raspa.png" },
 
   // Rodas PGS
-  { id: 20, nome: "Roda PG Mista 100x50xM14 GR 240 BERWANGER", preco: 40.00, categoria: "Rodas PGS", imagem: "assets/images/Rodas PGS/Roda PG Mista 100x50xM14 GR 240 BERWANGER.png" },
-  { id: 21, nome: "Roda PG Mista 100x50xM14 GR 320 BERWANGER", preco: 40.00, categoria: "Rodas PGS", imagem: "assets/images/Rodas PGS/Roda PG Mista 100x50xM14 GR 320 BERWANGER.png" },
-  { id: 22, nome: "Roda PG Mista 100x50xM14 GR 80 BERWANGER", preco: 40.00, categoria: "Rodas PGS", imagem: "assets/images/Rodas PGS/Roda PG Mista 100x50xM14 GR 80 BERWANGER.png" },
+  { id: 20, nome: "Roda PG Mista 115x20xM14 GR 240 BERWANGER", preco: 40.00, categoria: "Rodas PGS", imagem: "assets/images/Rodas PGS/Roda PG Mista 100x50xM14 GR 240 BERWANGER.png" },
+  { id: 21, nome: "Roda PG Mista 115x20xM14 GR 320 BERWANGER", preco: 40.00, categoria: "Rodas PGS", imagem: "assets/images/Rodas PGS/Roda PG Mista 100x50xM14 GR 320 BERWANGER.png" },
+  { id: 22, nome: "Roda PG Mista 115x20xM14 GR 80 BERWANGER", preco: 40.00, categoria: "Rodas PGS", imagem: "assets/images/Rodas PGS/Roda PG Mista 100x50xM14 GR 80 BERWANGER.png" },
   { id: 23, nome: "Roda PG 40x250x85 GR 320", preco: 110.00, categoria: "Rodas PGS", imagem: "assets/images/Rodas PGS/Roda PG 40x250x85 GR 320.jpg", destaque: true },
   { id: 24, nome: "Roda PG 50x150x45 GR 320", preco: 65.00, categoria: "Rodas PGS", imagem: "assets/images/Rodas PGS/Roda PG 50x150x45 GR 320.jpeg" },
   { id: 25, nome: "Roda PG 50x250x85 GR 320", preco: 180.00, categoria: "Rodas PGS", imagem: "assets/images/Rodas PGS/Roda PG 50x250x85 GR 320.jpeg" },  { id: 132, nome: "Roda PG 50x150x45 GR 36", preco: 65.00, categoria: "Rodas PGS", imagem: "assets/images/Rodas PGS/Roda PG 50x150x45 Grãos 36, 60, 80, 100, 120, 150, 180, 220, 240, 280, 320, 400, 600 e 800.jpeg" },
@@ -67,7 +67,7 @@ const produtos = [
   { id: 55, nome: "Roda PG Mista 100x50xM14 GR 240 BERWANGER", preco: 52.50, categoria: "Rodas PGS", imagem: "assets/images/Rodas PGS/Roda PG Mista 100x50xM14 GR 240 BERWANGER.png" },
   { id: 56, nome: "Roda PG Mista 100x50xM14 GR 320 BERWANGER", preco: 52.50, categoria: "Rodas PGS", imagem: "assets/images/Rodas PGS/Roda PG Mista 100x50xM14 GR 320 BERWANGER.png" },
   { id: 57, nome: "Roda PG Mista 100x50xM14 GR 80 BERWANGER", preco: 52.50, categoria: "Rodas PGS", imagem: "assets/images/Rodas PGS/Roda PG Mista 100x50xM14 GR 80 BERWANGER.png" },
-  { id: 58, nome: "Roda PG Mista 100x50xM14 GR 180 BERWANGER", preco: 40.00, categoria: "Rodas PGS", imagem: "assets/images/Rodas PGS/Roda PG Mista 100x50xM14 GR 180 BERWANGER.png" },
+  { id: 58, nome: "Roda PG Mista 115x20xM14 GR 180 BERWANGER", preco: 40.00, categoria: "Rodas PGS", imagem: "assets/images/Rodas PGS/Roda PG Mista 100x50xM14 GR 180 BERWANGER.png" },
   { id: 59, nome: "Roda PG 25x150x25 GR 100", preco: 52.50, categoria: "Rodas PGS", imagem: "assets/images/Rodas PGS/Roda PG 25x150x25 GR 100.jpeg" },
   { id: 60, nome: "Roda PG 25x150x45 GR 100", preco: 40.00, categoria: "Rodas PGS", imagem: "assets/images/Rodas PGS/Roda PG 25x150x45 GR 100.jpg" },
   { id: 61, nome: "Roda PG 25x250x85 GR 100", preco: 105.00, categoria: "Rodas PGS", imagem: "assets/images/Rodas PGS/Roda PG 25x250x85 GR 100.jpeg" },
